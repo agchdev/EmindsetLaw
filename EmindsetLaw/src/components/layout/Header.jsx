@@ -21,7 +21,7 @@ const Header = () => {
   return (
     <>
 
-      <header>
+      <header className='fixed '>
         {/* MOVIL */}
         <div className="flex justify-between items-center">
           <div className="hidden">
@@ -52,14 +52,15 @@ const Header = () => {
             {
               links.map((link, index) => (
                 <>
-                  <div 
+                  <a 
+                    href=""
                     key={index}
                     className={`link-animate delay-${index * 200}ms px-3 flex justify-between`}
                     style={{ animationDelay: `${index * 200}ms` }}
                   >
-                    <a href="">{link}</a>
+                    <p href="">{link}</p>
                     <svg width={24} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" focusable="false" fill='white' ><g color="black, rgb(253, 251, 245))" weight="light"><path d="M220.24,132.24l-72,72a6,6,0,0,1-8.48-8.48L201.51,134H40a6,6,0,0,1,0-12H201.51L139.76,60.24a6,6,0,0,1,8.48-8.48l72,72A6,6,0,0,1,220.24,132.24Z"></path></g></svg>
-                  </div>
+                  </a>
                   <div className='h-[.2px] bg-white/50 w-[100%]'></div>
                 </>
               ))
