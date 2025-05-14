@@ -21,7 +21,7 @@ const Header = () => {
   return (
     <>
 
-      <header className='fixed '>
+      <header className='fixed top-0 bg-white'>
         {/* MOVIL */}
         <div className="flex justify-between items-center">
           <div className="hidden">

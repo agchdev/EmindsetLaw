@@ -1,10 +1,12 @@
 import React from 'react'
-import img from '../../assets/espacio2.JPG'
-
+import img from "../../assets/espacio2.JPG";
 const Banner = () => {
   return (
-    <div className={`bg-[url(${img})] h-[100vh] w-[100%] bg-cover bg-center border`}>
-      sfsf
+    <div 
+      className="h-[100vh] w-[100%] mt-22 bg-cover bg-center "
+      style={{ backgroundImage: `url(${img})` }}
+    >
+
     </div>
   )
 }
