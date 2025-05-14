@@ -21,22 +21,22 @@ const Header = () => {
   return (
     <>
 
-      <header className='fixed top-0 bg-white'>
+      <header className='fixed top-0 z-100 shadow-xl'>
         {/* MOVIL */}
-        <div className="flex justify-between items-center">
+        <div className="flex justify-between items-center bg-white">
           <div className="hidden">
             <a href="">Quienes somos</a>
             <a href="">Soluciones</a>
           </div>
           <div
             ref={menu}
-            className="w-[20%] m-auto relative"
+            className="w-[20%] m-auto relative "
             onClick={() => {
               toggleMenu()
               menuMovil.current.classList.add('menu')
             }}
           >
-            <img className='absolute' onClick={(e) => e.target.classList.toggle('click-logo')} src={logo} alt="" />
+            <img className='absolute ' onClick={(e) => e.target.classList.toggle('click-logo')} src={logo} alt="" />
             <img src={logo} alt="" />
           </div>
           <div className="hidden">
