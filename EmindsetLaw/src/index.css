@@ -92,6 +92,25 @@
   animation-range: entry 0% exit 100%;
 }
 
+/* texto Reconocimientos */
+
+@keyframes slide-down-rec {
+  from {
+    transform: translateY(0px);
+    opacity: 0.3;
+  }
+  to {
+    transform: translateY(140px);
+    opacity: 1;
+  }
+}
+
+.scroll-text-rec {
+  animation: slide-down-rec linear;
+  animation-timeline: scroll();
+  animation-range: entry-crossing 88% exit 100%;
+}
+
 /* Img historia */
 
 @keyframes img-slide {
@@ -108,7 +127,7 @@
 .scroll-img {
   animation: img-slide linear;
   animation-timeline: scroll();
-  animation-range: entry 0% exit 100%;
+  animation-range: entry 0% exit 80%;
 }
 
 /* text izq historia */
@@ -127,7 +146,7 @@
 .scroll-text-izq {
   animation: text-izq-slide linear;
   animation-timeline: scroll();
-  animation-range: entry 0% exit 100%;
+  animation-range: entry 0% exit 90%;
 }
 
 /* text der historia */
@@ -146,5 +165,5 @@
 .scroll-text-der {
   animation: text-der-slide linear;
   animation-timeline: scroll();
-  animation-range: entry 0% exit 100%;
+  animation-range: entry 0% exit 90%;
 }
