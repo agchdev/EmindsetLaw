@@ -91,3 +91,60 @@
   animation-timeline: scroll();
   animation-range: entry 0% exit 100%;
 }
+
+/* Img historia */
+
+@keyframes img-slide {
+  from {
+    transform: translateX(-120px);
+    opacity: 0.3;
+  }
+  to {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+
+.scroll-img {
+  animation: img-slide linear;
+  animation-timeline: scroll();
+  animation-range: entry 0% exit 100%;
+}
+
+/* text izq historia */
+
+@keyframes text-izq-slide {
+  from {
+    transform: translateX(-120px);
+    opacity: 0.3;
+  }
+  to {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+
+.scroll-text-izq {
+  animation: text-izq-slide linear;
+  animation-timeline: scroll();
+  animation-range: entry 0% exit 100%;
+}
+
+/* text der historia */
+
+@keyframes text-der-slide {
+  from {
+    transform: translateX(220px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+
+.scroll-text-der {
+  animation: text-der-slide linear;
+  animation-timeline: scroll();
+  animation-range: entry 0% exit 100%;
+}

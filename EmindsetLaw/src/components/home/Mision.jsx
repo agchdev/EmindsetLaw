@@ -29,7 +29,7 @@ const Mision = () => {
         <div className='text-center'>
           <p
             onClick={onClick}
-            className={`link-animate text-lg text-black/70`}
+            className='link-animate text-lg text-black/70 h-[200px] flex justify-center items-center'
             key={index}
           >
             {links[index]}
