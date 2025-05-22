@@ -7,7 +7,6 @@ const About = () => {
         <div className="container mx-auto px-6">
             <div className="flex flex-col lg:flex-row items-center">
                 <div className="lg:w-1/2 mb-12 lg:mb-0 lg:pr-12 animate-fade-in">
-                    <span className="inline-block text-sm font-semibold text-primary mb-4">LA VANGUARDIA LEGAL</span>
                     <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-6 leading-tight">
                         <span className="underline-animation">Emindset Law</span> ayuda a la empresa moderna
                     </h2>

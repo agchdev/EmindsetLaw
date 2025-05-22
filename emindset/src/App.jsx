@@ -6,6 +6,7 @@ import Blog from './pages/Blog';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import BackToTop from './components/BackToTop';
+import Blogs from './pages/Blogs';
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/reconocimientos" element={<Reconocimientos />} />
             <Route path="/quienes-somos" element={<QuienesSomos />} />
-            <Route path="/blog" element={<Blog />} />
+            <Route path="/blog" element={<Blogs />} />
           </Routes>
         </main>
         <Footer />

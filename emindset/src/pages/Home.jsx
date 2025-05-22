@@ -14,7 +14,6 @@ const Home = () => {
     <div>
       <Hero />
       <About />
-      <ServicesGrid />
       <Services />
       <Mision />
       <Stats />

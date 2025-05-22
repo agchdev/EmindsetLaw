@@ -1,13 +1,13 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBalanceScale, faHandshake, faBuilding, faLaptopCode, faQuoteLeft, faQuoteRight, faUsers, faBriefcase, faGraduationCap } from '@fortawesome/free-solid-svg-icons';
+import { faBalanceScale, faHandshake, faBuilding, faLaptopCode, faQuoteLeft, faQuoteRight } from '@fortawesome/free-solid-svg-icons';
 import teamMember1 from "../assets/img/hero.jpeg"; // Placeholder - reemplazar con imágenes reales
 
 // Componente para la sección de servicios en grid
 const ServiceCard = ({ icon, title, description, delay, isVisible }) => {
   return (
     <div 
-      className={`bg-[#003673] rounded-md shadow-md overflow-hidden transition-all duration-1000 transform hover:shadow-lg group ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}
+      className={`bg-[#003673] rounded-md shadow-md overflow-hidden transition-all duration-1000 transform hover:shadow-lg group ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'} `}
       style={{ transitionDelay: `${delay}ms` }}
     >
       <div className="p-8 relative">
@@ -196,7 +196,7 @@ const QuienesSomos = () => {
   ];
 
   return (
-    <div className="pt-24 bg-white">
+    <div className="pt-24 bg-dark">
       {/* Hero section */}
       <section className="relative py-20 bg-gradient-to-r from-[#00b1ed] to-[#003673] text-white overflow-hidden">
         <div className="absolute inset-0 opacity-20">
