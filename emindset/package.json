@@ -20,6 +20,7 @@
     "cors": "^2.8.5",
     "dotenv": "^16.5.0",
     "express": "^5.1.0",
+    "framer-motion": "^12.12.2",
     "linkedin-api-client": "^0.3.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",

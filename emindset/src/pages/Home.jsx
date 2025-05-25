@@ -8,6 +8,7 @@ import Premios from '../components/Premios';
 import CTA from '../components/CTA';
 import News from '../components/News';
 import Contact from '../components/Contact';
+import Testimonials from '../components/Testimonials';
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
       <Services />
       <Mision />
       <Stats />
+      <Testimonials />
       <CTA />
       <Premios />
       <News />
