@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCheckCircle, faBolt, faArrowRight } from '@fortawesome/free-solid-svg-icons';
+import aboutImg from '../assets/img/espacio5.JPG';
 
 const About = () => {
   return (
@@ -41,7 +42,7 @@ const About = () => {
                 <div className="lg:w-1/2 relative animate-fade-in" style={{animationDelay: '0.2s'}}>
                     <div className="relative z-10 card-hover">
                         <img
-                          src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" 
+                          src={aboutImg} 
                           alt="Equipo de abogados en oficina moderna" 
                           className="w-full h-auto shadow-xl"
                         />

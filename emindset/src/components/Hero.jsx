@@ -1,25 +1,41 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight, faPlayCircle, faChevronDown } from '@fortawesome/free-solid-svg-icons';
-import heroImage from '../assets/img/hero.jpeg';
-
+import heroVideo from '../assets/video.mp4';
+import logoEmindset from '../assets/img/logoEmindset.png';
 const Hero = () => {
   return (
     <section id="hero" className="relative overflow-hidden">
       <div className="absolute inset-0">
-        <div className="absolute inset-0 bg-black"></div>
-        <img src={heroImage} 
+        <video 
+          autoPlay 
+          muted 
+          loop 
+          className="absolute inset-0 w-full h-full object-cover z-0"
+        >
+          <source src={heroVideo} type="video/mp4" />
+        </video>
+        {/* Capa base de oscurecimiento */}
+        <div className="absolute inset-0 bg-black opacity-10 z-1"></div>
+        {/* Capa adicional para mejorar visibilidad del texto */}
+        <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-black/70 z-2"></div>
+        {/* <img src={heroImage} 
              alt="Oficina moderna" 
-             className="w-full h-full object-cover bg-red-500 opacity-[0.5]" />
+              /> */}
       </div>
-      <div className="relative pt-20 pb-32 md:pt-28 md:pb-40 text-gray-800">
+      <div className="relative pt-20 pb-32 md:pt-28 md:pb-40 text-gray-800 z-20">
         <div className="container mx-auto px-6">
           <div className="max-w-2xl animate-fade-in" role="region" aria-label="Sección Hero - Bienvenida">
             <h1 className="sr-only">Bienvenidos a Emindset</h1>
             
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-8 leading-tight text-white">
-              <span className="text-gradient">EMINDSET</span><br />
-              <span className="underline-animation">LAW</span>
+            <h1 className="mb-8 leading-tight text-white">
+              <div className="flex justify-start items-center">
+                <img 
+                  src={logoEmindset} 
+                  alt="Emindset Law Logo" 
+                  className="w-auto h-20 md:h-28 lg:h-32 animate-fade-in"
+                />
+              </div>
             </h1>
             <p className="text-lg md:text-xl mb-10 text-white/90 max-w-lg">
               Referentes en derecho mercantil, real estate y nuevas tecnologías.<br />

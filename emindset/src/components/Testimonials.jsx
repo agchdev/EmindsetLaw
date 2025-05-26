@@ -38,7 +38,7 @@ const Testimonials = () => {
           className="text-center mb-16"
         >
           <span className="inline-block text-sm font-semibold text-gray-700 mb-4">TESTIMONIOS</span>
-          <h2 className="text-3xl md:text-4xl text-gray-700 font-bold mb-4">Kind words from <span className="text-primary">satisfied clients</span></h2>
+          <h2 className="text-3xl md:text-4xl text-gray-700 font-bold mb-4">Algunas palabras de <span className="text-primary">clientes satisfechos</span></h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">Descubre lo que nuestros clientes dicen sobre nuestra dedicación y excelencia en el servicio legal.</p>
         </div>
 

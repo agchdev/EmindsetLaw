@@ -1,0 +1,26 @@
+{
+  "short_name": "Emindset Law",
+  "name": "Emindset Law | Abogados especialistas en Derecho Mercantil, Real Estate y Nuevas Tecnologías",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#00b1ed",
+  "background_color": "#ffffff",
+  "description": "Bufete de abogados especializado en derecho mercantil, real estate, nuevas tecnologías y fiscalidad. Soluciones legales ágiles e innovadoras para empresas modernas."
+}
