@@ -58,11 +58,6 @@ const Hero = () => {
           </svg>
         </div>
       </div>
-      {/* Floating elements */}
-      <div className="absolute top-1/4 left-10 w-10 h-10 rounded-full bg-primary/5 floating shadow-sm" style={{animationDelay: '0.2s'}}></div>
-      <div className="absolute top-1/3 right-20 w-14 h-14 rounded-full bg-primary/10 floating shadow-md" style={{animationDelay: '0.4s'}}></div>
-      <div className="absolute bottom-1/4 left-1/4 w-8 h-8 rounded-full bg-primary/15 floating" style={{animationDelay: '0.6s'}}></div>
-      <div className="absolute bottom-32 right-1/3 w-6 h-6 rounded-full bg-primary/20 floating" style={{animationDelay: '0.8s'}}></div>
       {/* Animated scroll indicator */}
       <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce z-30">
         <a href="#about" className="text-primary hover:text-primary-dark transition-colors duration-300">

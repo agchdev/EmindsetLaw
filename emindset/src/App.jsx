@@ -1,11 +1,14 @@
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import Home from './pages/Home';
 import Reconocimientos from './pages/Reconocimientos';
-import QuienesSomos from './pages/QuienesSomos';
+import Historia from './pages/Historia';
 import Blog from './pages/Blog';
+import Contacto from './pages/Contacto';
+import PoliticaPrivacidad from './pages/PoliticaPrivacidad';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import BackToTop from './components/BackToTop';
+import WhatsAppButton from './components/WhatsAppButton';
 import Blogs from './pages/Blogs';
 import SEO from './seo/SEO';
 
@@ -17,9 +20,11 @@ const SEOHandler = () => {
   // Determinar la pu00e1gina actual basada en la ruta
   let currentPage = 'home';
   if (path === '/') currentPage = 'home';
-  else if (path === '/quienes-somos') currentPage = 'about';
+  else if (path === '/historia') currentPage = 'about';
   else if (path === '/reconocimientos') currentPage = 'services';
   else if (path === '/blog') currentPage = 'blog';
+  else if (path === '/contacto') currentPage = 'contact';
+  else if (path === '/politica-privacidad') currentPage = 'privacy';
   
   return <SEO page={currentPage} />;
 };
@@ -35,12 +40,15 @@ function AppContent() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/reconocimientos" element={<Reconocimientos />} />
-            <Route path="/quienes-somos" element={<QuienesSomos />} />
+            <Route path="/historia" element={<Historia />} />
             <Route path="/blog" element={<Blogs />} />
+            <Route path="/contacto" element={<Contacto />} />
+            <Route path="/politica-privacidad" element={<PoliticaPrivacidad />} />
           </Routes>
         </main>
         <Footer />
         <BackToTop />
+        <WhatsAppButton />
       </div>
     </>
   );

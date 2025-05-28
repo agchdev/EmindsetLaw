@@ -22,10 +22,6 @@ const CTA = () => {
           </div>
         </div>
       </div>
-      
-      {/* Floating elements */}
-      <div className="absolute top-20 left-10 w-6 h-6 rounded-full bg-white/10 floating" style={{animationDelay: '0.2s'}}></div>
-      <div className="absolute bottom-20 right-20 w-10 h-10 rounded-full bg-primary-light/20 floating" style={{animationDelay: '0.4s'}}></div>
     </section>
   );
 };

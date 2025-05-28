@@ -70,8 +70,8 @@ const Contact = () => {
                   <FontAwesomeIcon icon={faMapMarkerAlt} className="text-primary text-xl" />
                 </div>
                 <div>
-                  <h4 className="font-bold text-gray-800 mb-1">Oficina Central</h4>
-                  <p className="text-gray-600">Calle Legal 123, 28001 Madrid</p>
+                  <h4 className="font-bold text-gray-800 mb-1">Andorra</h4>
+                  <p className="text-gray-600">Av. Prat de la Creu 59-65, AD500</p>
                 </div>
               </div>
               
@@ -81,7 +81,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-bold text-gray-800 mb-1">Teléfono</h4>
-                  <p className="text-gray-600">+34 912 345 678</p>
+                  <p className="text-gray-600">+376 678 882</p>
                 </div>
               </div>
               
@@ -109,13 +109,10 @@ const Contact = () => {
             <div className="mt-8">
               <h4 className="font-bold text-gray-800 mb-4">Síguenos</h4>
               <div className="flex space-x-4">
-                <a href="#" className="w-10 h-10 bg-gray-100 rounded-full flex items-center justify-center text-gray-700 hover:bg-primary hover:text-white transition-colors duration-300">
+                <a href="https://es.linkedin.com/company/emindset-law-firm" target="_blank" rel="noopener noreferrer" className="bg-primary/10 p-3 rounded-full text-primary hover:bg-primary hover:text-white transition-all duration-300">
                   <FontAwesomeIcon icon={faLinkedinIn} />
                 </a>
-                <a href="#" className="w-10 h-10 bg-gray-100 rounded-full flex items-center justify-center text-gray-700 hover:bg-primary hover:text-white transition-colors duration-300">
-                  <FontAwesomeIcon icon={faTwitter} />
-                </a>
-                <a href="#" className="w-10 h-10 bg-gray-100 rounded-full flex items-center justify-center text-gray-700 hover:bg-primary hover:text-white transition-colors duration-300">
+                <a href="https://www.instagram.com/emindsetlaw/" target="_blank" rel="noopener noreferrer" className="bg-primary/10 p-3 rounded-full text-primary hover:bg-primary hover:text-white transition-all duration-300">
                   <FontAwesomeIcon icon={faInstagram} />
                 </a>
               </div>

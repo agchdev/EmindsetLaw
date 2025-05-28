@@ -15,7 +15,7 @@ const Footer = () => {
             <div className="space-y-2">
               <p className="flex items-center">
                 <FontAwesomeIcon icon={faPhone} className="mr-2" />
-                +34 912 345 678
+                +376 678 882
               </p>
               <p className="flex items-center">
                 <FontAwesomeIcon icon={faEnvelope} className="mr-2" />
@@ -23,7 +23,7 @@ const Footer = () => {
               </p>
               <p className="flex items-center">
                 <FontAwesomeIcon icon={faMapMarkerAlt} className="mr-2" />
-                Calle Gran Vía 123, Madrid
+                Av. Prat de la Creu 59-65, AD500 Andorra
               </p>
             </div>
           </div>
@@ -38,54 +38,70 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <a href="/#about" className="hover:text-secondary transition-colors">
-                  Nosotros
-                </a>
+                <Link to="/historia" className="hover:text-secondary transition-colors">
+                  Historia
+                </Link>
               </li>
               <li>
-                <a href="/#services" className="hover:text-secondary transition-colors">
-                  Servicios
-                </a>
+                <Link to="/reconocimientos" className="hover:text-secondary transition-colors">
+                  Reconocimientos
+                </Link>
               </li>
               <li>
-                <a href="/#news" className="hover:text-secondary transition-colors">
-                  Noticias
-                </a>
+                <Link to="/blog" className="hover:text-secondary transition-colors">
+                  Blog
+                </Link>
               </li>
               <li>
-                <a href="/#contact" className="hover:text-secondary transition-colors">
+                <Link to="/contacto" className="hover:text-secondary transition-colors">
                   Contacto
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
 
           {/* Columna 3: Redes sociales */}
           <div>
-            <h3 className="text-xl font-bold mb-4">Síguenos</h3>
-            <div className="flex space-x-4">
-              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="hover:text-secondary transition-colors">
-                <FontAwesomeIcon icon={faFacebook} size="lg" />
-              </a>
-              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="hover:text-secondary transition-colors">
-                <FontAwesomeIcon icon={faTwitter} size="lg" />
-              </a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="hover:text-secondary transition-colors">
-                <FontAwesomeIcon icon={faLinkedin} size="lg" />
-              </a>
-              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="hover:text-secondary transition-colors">
-                <FontAwesomeIcon icon={faInstagram} size="lg" />
-              </a>
-            </div>
-            <div className="mt-4">
-              <p>Horario de atención:</p>
-              <p>Lunes a Viernes: 9:00 - 18:00</p>
+            <h3 className="text-xl font-bold mb-4">Nuestras Oficinas</h3>
+            <div className="space-y-3">
+              <div>
+                <p className="font-medium">Andorra</p>
+                <p className="text-sm">Av. Prat de la Creu 59-65, AD500</p>
+                <p className="text-sm">+376 678 882</p>
+              </div>
+              <div>
+                <p className="font-medium">Barcelona</p>
+                <p className="text-sm">Rambla Cataluña 88, 08008</p>
+                <p className="text-sm">+34 932 123 456</p>
+              </div>
+              <div>
+                <p className="font-medium">Toulouse</p>
+                <p className="text-sm">63 rue du Colombier, 31670 Labege</p>
+                <p className="text-sm">+33 534 123 456</p>
+              </div>
             </div>
           </div>
         </div>
 
         <div className="border-t border-gray-100 mt-8 pt-8 text-center">
-          <p>&copy; {new Date().getFullYear()} EmindsetLaw. Todos los derechos reservados.</p>
+          <div className="flex justify-center space-x-6 mb-4">
+            <a href="https://es.linkedin.com/company/emindset-law-firm" target="_blank" rel="noopener noreferrer" className="hover:text-[#64d2e5] transition-colors">
+              <FontAwesomeIcon icon={faLinkedin} size="lg" />
+            </a>
+            <a href="https://www.instagram.com/emindsetlaw/" target="_blank" rel="noopener noreferrer" className="hover:text-[#64d2e5] transition-colors">
+              <FontAwesomeIcon icon={faInstagram} size="lg" />
+            </a>
+          </div>
+          <p className="mb-2">&copy; {new Date().getFullYear()} EmindsetLaw. Todos los derechos reservados.</p>
+          <div className="flex justify-center space-x-4">
+            <Link to="/politica-privacidad" className="text-sm hover:text-[#64d2e5] transition-colors">
+              Política de Privacidad
+            </Link>
+            <span className="text-sm">|</span>
+            <Link to="/aviso-legal" className="text-sm hover:text-[#64d2e5] transition-colors">
+              Aviso Legal
+            </Link>
+          </div>
         </div>
       </div>
     </footer>

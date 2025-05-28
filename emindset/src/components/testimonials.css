@@ -1,0 +1,68 @@
+/* Testimonial animations */
+@keyframes slideInFromRight {
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(0); }
+}
+
+@keyframes slideInFromLeft {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(0); }
+}
+
+@keyframes slideOutToLeft {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-100%); }
+}
+
+@keyframes slideOutToRight {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(100%); }
+}
+
+.slide-in-right {
+  animation: slideInFromRight 0.5s forwards;
+}
+
+.slide-in-left {
+  animation: slideInFromLeft 0.5s forwards;
+}
+
+.slide-out-left {
+  animation: slideOutToLeft 0.5s forwards;
+}
+
+.slide-out-right {
+  animation: slideOutToRight 0.5s forwards;
+}
+
+.testimonial-container {
+  position: relative;
+  height: 300px; /* Increased fixed height to accommodate all testimonials */
+  width: 100%;
+  overflow: hidden;
+}
+
+.testimonial-card {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; /* Make all cards take the full height of the container */
+  display: flex;
+  flex-direction: column;
+}
+
+.testimonial-content {
+  flex-grow: 1; /* Allow the content to grow and fill available space */
+  display: flex;
+  flex-direction: column;
+}
+
+.testimonial-text {
+  flex-grow: 1; /* Make the text area expand to fill available space */
+  margin-bottom: 1.5rem;
+}
+
+.testimonial-author {
+  margin-top: auto; /* Push the author info to the bottom */
+}

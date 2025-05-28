@@ -109,5 +109,11 @@ export const pageMetadata = {
     description: "Servicios legales especializados para el establecimiento en Andorra, residencia fiscal, inversiu00f3n en real Estate, y asesoramiento en ventajas fiscales del Principado.",
     canonicalUrl: "/services/andorra",
     ogImage: "/og-andorra.jpg"
+  },
+  privacy: {
+    title: "Política de Privacidad | Emindset Law",
+    description: "Consulta nuestra política de privacidad y protección de datos. Información sobre cómo recopilamos, utilizamos y protegemos tus datos personales.",
+    canonicalUrl: "/politica-privacidad",
+    ogImage: "/og-privacy.jpg"
   }
 };

@@ -1,5 +1,8 @@
 import React, { useState, useEffect, useRef } from 'react'
-import premio1 from "../assets/img/hero.jpeg"; // Usando temporalmente la imagen del hero como placeholder
+import prem1 from "../assets/img/prem1.jpg";
+import prem2 from "../assets/img/prem2.jpg";
+import prem3 from "../assets/img/prem3.jpg";
+import prem4 from "../assets/img/prem4.png";
 
 const PremioCard = ({ title, year, description, image, delay, isVisible }) => (
   <div 
@@ -80,24 +83,31 @@ const Premios = () => {
   const premios = [
     {
       id: 1,
-      title: "Mejor Despacho en Derecho Mercantil",
+      title: "Mejor Despacho en Derecho Mercantil de España 2025 (Premios De Ley)",
       year: "2025",
       description: "Reconocimiento otorgado por los Premios De Ley a nuestra labor en el ámbito del Derecho Mercantil y el compromiso con la innovación legal para empresas.",
-      image: premio1
+      image: prem1
     },
     {
       id: 2,
-      title: "Innovación en Servicios Legales",
+      title: "CEO del Año en el Sector Legal 2024-2025 (Premios La Razón y Foment del Treball)",
       year: "2024",
-      description: "Premio a la innovación en el desarrollo de soluciones legales para empresas y particulares que reconoce nuestra visión de futuro.",
-      image: premio1
+      description: "Reconocimiento al liderazgo en asesoramiento empresarial y la capacidad de adaptación en tiempos de cambio e incertidumbre económica.",
+      image: prem2
     },
     {
       id: 3,
-      title: "Excelencia en Atención al Cliente",
-      year: "2023",
-      description: "Reconocimiento a nuestro compromiso con la atención personalizada y cercana, valorando las necesidades específicas de cada cliente.",
-      image: premio1
+      title: "Top Legal Strategist to Look Out For in 2025",
+      year: "2025",
+      description: "Reconocimiento a nuestra visión estratégica y capacidad de transformar desafíos en oportunidades en el ámbito legal.",
+      image: prem3
+    },
+    {
+      id: 4,
+      title: "Corporate Law Expert of the Year in Andorra 2024-2025",
+      year: "2024",
+      description: "Reconocimiento a nuestra excelencia en el ámbito del derecho corporativo en Andorra, destacando nuestro compromiso con la calidad y la innovación.",
+      image: prem4
     }
   ];
 

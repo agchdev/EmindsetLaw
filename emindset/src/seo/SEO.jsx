@@ -17,6 +17,8 @@ const SEO = ({ page = 'home', title, description, image, url }) => {
   
   // Usar valores personalizados si se proporcionan, o los valores predeterminados
   const metaTitle = title || pageData.title;
+  // Siempre añadir EmindsetLaw al título de la página
+  const formattedTitle = `${metaTitle} | EmindsetLaw`;
   const metaDescription = description || pageData.description;
   const metaImage = image || pageData.ogImage;
   const canonicalUrl = url || pageData.canonicalUrl;
@@ -30,12 +32,13 @@ const SEO = ({ page = 'home', title, description, image, url }) => {
     <Helmet>
       {/* Etiquetas básicas */}
       <html lang={siteMetadata.language} />
-      <title>{metaTitle}</title>
+      <title>{formattedTitle}</title>
       <meta name="description" content={metaDescription} />
+      <link rel="icon" href="/favicon.png" />
+      <link rel="apple-touch-icon" href="/favicon.png" />
       <link rel="canonical" href={fullCanonicalUrl} />
       
-      {/* Etiquetas de favicon y tema */}
-      <link rel="icon" href="/favicon.ico" />
+      {/* Etiquetas de favicon y tema */} 
       <meta name="theme-color" content={siteMetadata.themeColor} />
       
       {/* Etiquetas Open Graph para compartir en redes sociales */}

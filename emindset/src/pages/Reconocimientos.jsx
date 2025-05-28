@@ -1,13 +1,16 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faQuoteLeft, faQuoteRight, faExternalLinkAlt, faPlay } from '@fortawesome/free-solid-svg-icons';
-import premio1 from "../assets/img/hero.jpeg"; // Placeholder - reemplazar con imágenes reales
+import prem1 from "../assets/img/prem1.jpg";
+import prem2 from "../assets/img/prem2.jpg";
+import prem3 from "../assets/img/prem3.jpg";
+import prem4 from "../assets/img/prem4.png";
 
 const VideoModal = ({ videoUrl, isOpen, onClose }) => {
   if (!isOpen) return null;
   
   return (
-    <div className="fixed inset-0 bg-black/80 z-50 flex items-center justify-center p-4">
+    <div className="fixed inset-0 bg-dark z-50 flex items-center justify-center p-4">
       <div className="relative bg-white rounded-lg w-full max-w-4xl">
         <button 
           onClick={onClose}
@@ -158,7 +161,7 @@ const Reconocimientos = () => {
       id: 1,
       titulo: "Mejor Despacho en Derecho Mercantil de España 2025 (Premios De Ley)",
       descripcion: "Reconocimiento otorgado por los Premios De Ley a nuestra labor en el ámbito del Derecho Mercantil y el compromiso con la innovación legal para empresas.",
-      imagen: premio1,
+      imagen: prem1,
       enlaces: [
         { 
           nombre: "El Suplemento", 
@@ -178,7 +181,7 @@ const Reconocimientos = () => {
       id: 2,
       titulo: "CEO del Año en el Sector Legal 2024-2025 (Premios La Razón y Foment del Treball)",
       descripcion: "Reconocimiento al liderazgo en asesoramiento empresarial y la capacidad de adaptación en tiempos de cambio e incertidumbre económica.",
-      imagen: premio1,
+      imagen: prem2,
       enlaces: [
         { 
           nombre: "La Razón", 
@@ -198,7 +201,7 @@ const Reconocimientos = () => {
       id: 3,
       titulo: "Top Legal Strategist to Look Out For in 2025",
       descripcion: "Reconocimiento a nuestra visión estratégica y capacidad de transformar desafíos en oportunidades en el ámbito legal.",
-      imagen: premio1,
+      imagen: prem3,
       enlaces: [
         { 
           nombre: "Insights Success Magazine", 
@@ -210,7 +213,7 @@ const Reconocimientos = () => {
       id: 4,
       titulo: "Corporate Law Expert of the Year in Andorra 2024-2025",
       descripcion: "Reconocimiento a nuestra excelencia en el ámbito del derecho corporativo en Andorra, destacando nuestro compromiso con la calidad y la innovación.",
-      imagen: premio1,
+      imagen: prem4,
       enlaces: [
         { 
           nombre: "Certificado", 
@@ -269,7 +272,7 @@ const Reconocimientos = () => {
             </p>
             <div className="flex flex-wrap justify-center gap-6">
               <a 
-                href="#contact" 
+                href="/contacto" 
                 className="btn-hover inline-flex items-center justify-center bg-[#00b1ed] text-white font-medium px-7 py-3 rounded-full hover:bg-[#003673] transition-all duration-300 shadow-sm hover:shadow-md"
               >
                 Contactar ahora

@@ -26,7 +26,7 @@ const ServiceCard = ({ icon, title, description, delay, isVisible }) => {
 // Componente para la sección de cita
 const Quote = ({ isVisible }) => {
   return (
-    <section className="py-20 bg-[#003673] text-white relative overflow-hidden">
+    <section className="py-20 bg-black/80 text-white relative overflow-hidden">
       <div className="absolute inset-0 opacity-5">
         <div className="absolute top-0 right-0 w-96 h-96 border border-white rounded-full"></div>
         <div className="absolute bottom-0 left-0 w-80 h-80 border border-white rounded-full"></div>
