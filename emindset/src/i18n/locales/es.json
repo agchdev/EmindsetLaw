@@ -1,0 +1,180 @@
+{
+  "navigation": {
+    "history": "Historia",
+    "recognitions": "Reconocimientos",
+    "blog": "Blog",
+    "contact": "Contactar",
+    "home": "Inicio",
+    "about": "Quiénes somos",
+    "services": "Servicios",
+    "privacy": "Política de Privacidad",
+    "legal": "Aviso Legal",
+    "select_language": "Seleccionar idioma",
+    "toggle_menu": "Alternar menú",
+    "menu": "Menú",
+    "menu_navigation": "Menú de navegación",
+    "close_menu": "Cerrar menú",
+    "open_menu": "Abrir menú"
+  },
+  "hero": {
+    "title": "Bienvenidos a Emindset",
+    "subtitle": "Referentes en derecho mercantil, real estate y nuevas tecnologías.",
+    "description": "Soluciones ágiles, innovadoras y a tu medida.",
+    "cta": {
+      "budget": "PIDE PRESUPUESTO",
+      "about": "CONÓCENOS"
+    }
+  },
+  "about": {
+    "title": "Emindset Law ayuda a la empresa moderna",
+    "description": "Simplificamos y resolvemos tus retos legales de una forma global, ágil e innovadora. Nuestro equipo combina experiencia tradicional con un enfoque moderno para ofrecer soluciones efectivas.",
+    "practical": {
+      "title": "Enfoque práctico",
+      "description": "Soluciones reales para problemas reales"
+    },
+    "speed": {
+      "title": "Rapidez",
+      "description": "Respuestas ágiles cuando más las necesitas"
+    },
+    "cta": "QUIÉNES SOMOS",
+    "experience": {
+      "years": "15+",
+      "text": "Años de",
+      "title": "Experiencia"
+    },
+    "image_alt": "Equipo de abogados en oficina moderna"
+  },
+  "footer": {
+    "company": {
+      "name": "EmindsetLaw",
+      "description": "Ofrecemos servicios legales de alta calidad para empresas y particulares."
+    },
+    "contact_info": "Información de contacto",
+    "quick_links": "Enlaces rápidos",
+    "offices": {
+      "title": "Nuestras Oficinas",
+      "andorra": "Andorra",
+      "barcelona": "Barcelona",
+      "toulouse": "Toulouse"
+    },
+    "copyright": "Todos los derechos reservados."
+  },
+  "contact_section": {
+    "now": "Contactar ahora",
+    "help": "¿Necesitas ayuda inmediata?",
+    "language": "Seleccionar idioma",
+    "form": {
+      "name": "Nombre",
+      "email": "Email",
+      "phone": "Teléfono",
+      "subject": "Asunto",
+      "message": "Mensaje",
+      "send": "Enviar mensaje",
+      "privacy": "Acepto la política de privacidad"
+    }
+  },
+  "services": {
+    "title": "Nuestros servicios",
+    "subtitle": "Soluciones legales completas para tu negocio",
+    "corporate": {
+      "title": "Derecho Corporativo",
+      "description": "Asesoramiento integral en operaciones societarias y mercantiles"
+    },
+    "realestate": {
+      "title": "Real Estate",
+      "description": "Gestión de operaciones inmobiliarias nacionales e internacionales"
+    },
+    "tech": {
+      "title": "Nuevas Tecnologías",
+      "description": "Soluciones legales para empresas tecnológicas y startups"
+    },
+    "tax": {
+      "title": "Fiscalidad",
+      "description": "Optimización fiscal y planificación patrimonial internacional"
+    }
+  },
+  "languages": {
+    "es": "Español",
+    "fr": "Français",
+    "ca": "Català",
+    "en": "English"
+  },
+  "common": {
+    "logo_alt": "Emindset Law Logo"
+  },
+  "testimonials": {
+    "1": {
+      "name": "Marc Taló",
+      "position": "CEO de Grup Bomosa",
+      "text": "Un servei excel·lent i molt professional. Estem molt contents amb la seva atenció i resultats."
+    },
+    "2": {
+      "name": "Fernando Mas",
+      "position": "CEO de MP Gestió",
+      "text": "Sens dubte un equip d'advocats molt professionals i atents, amb un molt alt nivell resolutiu i disposats en tot moment en ajudar-te i assessorar-te en qualsevol dubte legal, ja són anys els que compto amb la seva ajuda i sempre amb un grau de satisfacció d'alt nivell"
+    },
+    "3": {
+      "name": "Rafael Rabat",
+      "position": "CEO de Norz Patrimonia",
+      "text": "Portem temps treballant amb l'equip d'Emindset Law i n'avalo la qualitat i professionalitat"
+    },
+    "4": {
+      "name": "Sergi Martin",
+      "position": "CEO de Altment Capital",
+      "text": "Emindset combina confiança i rigorositat a parts iguals. Amb una alta professionalitat, el seu equip ofereix solucions legals precises i eficaces, sempre amb un tracte empàtic i proper que porten a una atenció personalitzada. I tot, amb un aire fresc en la manera de treballar, amb una visió moderna i proactiva del dret."
+    },
+    "goto": "Ir al testimonio {{number}}"
+  },
+  "mission": {
+    "title": "Nuestra filosofía",
+    "subtitle": "Misión y Valores",
+    "description": "Nuestro compromiso es resolver tus retos legales con un enfoque moderno y eficiente.",
+    "statement1": "Cuando te juegas algo importante, no estás tranquilo. Sabes que un paso en falso puede salir caro.",
+    "statement2": "En Emindset Law te entendemos. Sabemos lo que se siente. Por eso llegamos con soluciones antes de que aparezca el problema. Porque el peor conflicto es el que se podría haber evitado.",
+    "statement3": "Y más vale un buen acuerdo que mil batallas. Porque tú no estás para perder ninguna.",
+    "statement4": "No apagamos fuegos, los evitamos. Prevenir, ayudar y proteger: ese es nuestro verdadero oficio. Te cuidamos como si tu negocio fuera nuestro. Porque esto no va de leyes. Va de ti. Y de proteger lo que tanto te ha costado construir.",
+    "viewMission": "Ver misión {{number}}",
+    "cta": "CONOCE NUESTROS VALORES"
+  },
+  "cta_section": {
+    "title": "¿Necesitas asesoramiento?",
+    "subtitle": "Solicita un presupuesto sin compromiso",
+    "description": "Nuestro equipo se pondrá en contacto contigo en menos de 24 horas para analizar tu caso.",
+    "button": "PIDE PRESUPUESTO",
+    "call": "LLÁMANOS"
+  },
+  "contact": {
+    "title": "Contacto",
+    "subtitle": "Hablemos sobre tu caso",
+    "description": "Estamos aquí para ayudarte. Completa el formulario y nos pondremos en contacto contigo lo antes posible.",
+    "address": {
+      "title": "Andorra",
+      "line1": "Av. Prat de la Creu 59-65, AD500"
+    },
+    "phone": {
+      "title": "Teléfono",
+      "number": "+376 678 882"
+    },
+    "email": {
+      "title": "Email",
+      "address": "info@emindsetlaw.com"
+    },
+    "hours": {
+      "title": "Horario",
+      "schedule": "Lunes a Viernes: 9:00 - 19:00"
+    },
+    "form": {
+      "title": "Envíanos un mensaje",
+      "name": "Nombre completo",
+      "email": "Email",
+      "phone": "Teléfono",
+      "service": "Servicio de interés",
+      "message": "Mensaje",
+      "select": "Selecciona un servicio",
+      "other": "Otro",
+      "privacy": "Acepto la política de privacidad y el tratamiento de mis datos",
+      "submit": "ENVIAR MENSAJE",
+      "success": "Su mensaje ha sido enviado correctamente. Nos pondremos en contacto con usted lo antes posible."
+    }
+  }
+}

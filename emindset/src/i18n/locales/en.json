@@ -1,0 +1,171 @@
+{
+  "navigation": {
+    "history": "History",
+    "recognitions": "Awards",
+    "blog": "Blog",
+    "contact": "Contact",
+    "home": "Home",
+    "about": "About us",
+    "services": "Services",
+    "privacy": "Privacy Policy",
+    "legal": "Legal Notice",
+    "select_language": "Select language",
+    "toggle_menu": "Toggle menu",
+    "menu": "Menu",
+    "menu_navigation": "Navigation menu",
+    "close_menu": "Close menu",
+    "open_menu": "Open menu"
+  },
+  "hero": {
+    "title": "Welcome to Emindset",
+    "subtitle": "Leaders in business law, real estate and new technologies.",
+    "description": "Agile, innovative and tailored solutions.",
+    "cta": {
+      "budget": "GET A QUOTE",
+      "about": "ABOUT US"
+    }
+  },
+  "about": {
+    "title": "Emindset Law helps modern businesses",
+    "description": "We simplify and solve your legal challenges in a global, agile and innovative way. Our team combines traditional expertise with a modern approach to deliver effective solutions.",
+    "practical": {
+      "title": "Practical approach",
+      "description": "Real solutions for real problems"
+    },
+    "speed": {
+      "title": "Speed",
+      "description": "Agile responses when you need them most"
+    },
+    "cta": "ABOUT US",
+    "experience": {
+      "years": "15+",
+      "text": "Years of",
+      "title": "Experience"
+    },
+    "image_alt": "Team of lawyers in a modern office"
+  },
+  "footer": {
+    "company": {
+      "name": "EmindsetLaw",
+      "description": "We offer high-quality legal services for companies and individuals."
+    },
+    "contact_info": "Contact information",
+    "quick_links": "Quick links",
+    "offices": {
+      "title": "Our Offices",
+      "andorra": "Andorra",
+      "barcelona": "Barcelona",
+      "toulouse": "Toulouse"
+    },
+    "copyright": "All rights reserved."
+  },
+  "contact_section": {
+    "title": "Contact",
+    "subtitle": "Let's discuss your case",
+    "description": "We're here to help. Fill out the form and we'll get back to you as soon as possible.",
+    "now": "Contact now",
+    "help": "Need immediate help?",
+    "language": "Select language",
+    "address": {
+      "title": "Andorra",
+      "line1": "Av. Prat de la Creu 59-65, AD500"
+    },
+    "phone": {
+      "title": "Phone",
+      "number": "+376 678 882"
+    },
+    "email": {
+      "title": "Email",
+      "address": "info@emindsetlaw.com"
+    },
+    "hours": {
+      "title": "Hours",
+      "schedule": "Monday to Friday: 9:00 - 19:00"
+    },
+    "form": {
+      "title": "Send us a message",
+      "name": "Full name",
+      "email": "Email",
+      "phone": "Phone",
+      "subject": "Subject",
+      "message": "Message",
+      "service": "Service of interest",
+      "select": "Select a service",
+      "other": "Other",
+      "send": "Send message",
+      "privacy": "I accept the privacy policy and the processing of my data",
+      "submit": "SEND MESSAGE",
+      "success": "Your message has been sent successfully. We will contact you as soon as possible."
+    }
+  },
+  "services": {
+    "title": "Our services",
+    "subtitle": "Complete legal solutions for your business",
+    "corporate": {
+      "title": "Corporate Law",
+      "description": "Comprehensive advice on corporate and commercial operations"
+    },
+    "realestate": {
+      "title": "Real Estate",
+      "description": "Management of national and international real estate operations"
+    },
+    "tech": {
+      "title": "New Technologies",
+      "description": "Legal solutions for technology companies and startups"
+    },
+    "tax": {
+      "title": "Taxation",
+      "description": "Tax optimization and international wealth planning"
+    }
+  },
+  "languages": {
+    "es": "Español",
+    "fr": "Français",
+    "ca": "Català",
+    "en": "English"
+  },
+  "common": {
+    "logo_alt": "Emindset Law Logo"
+  },
+  "testimonials": {
+    "1": {
+      "name": "Marc Taló",
+      "position": "CEO of Grup Bomosa",
+      "text": "An excellent and very professional service. We are very happy with their attention and results."
+    },
+    "2": {
+      "name": "Fernando Mas",
+      "position": "CEO of MP Gestió",
+      "text": "Without a doubt, a team of highly professional and attentive lawyers, with a very high level of resolution and willing to help and advise you on any legal question at all times. I have been counting on their help for years and always with a high level of satisfaction."
+    },
+    "3": {
+      "name": "Rafael Rabat",
+      "position": "CEO of Norz Patrimonia",
+      "text": "We have been working with the Emindset Law team for some time and I vouch for their quality and professionalism."
+    },
+    "4": {
+      "name": "Sergi Martin",
+      "position": "CEO of Altment Capital",
+      "text": "Emindset combines trust and rigor in equal parts. With high professionalism, their team offers precise and effective legal solutions, always with empathetic and approachable treatment that leads to personalized attention. And all this with a fresh approach to work, with a modern and proactive vision of law."
+    },
+    "goto": "Go to testimony {{number}}"
+  },
+  "mission": {
+    "title": "Our philosophy",
+    "subtitle": "Mission and Values",
+    "description": "Our commitment is to solve your legal challenges with a modern and efficient approach.",
+    "statement1": "When something important is at stake, you are not at peace. You know a false step can be costly.",
+    "statement2": "At Emindset Law we understand you. We know how it feels. That's why we arrive with solutions before the problem appears. Because the worst conflict is the one that could have been avoided.",
+    "statement3": "And a good agreement is worth more than a thousand battles. Because you are not here to lose any.",
+    "statement4": "We don't put out fires, we prevent them. Preventing, helping, and protecting: that is our real job. We take care of you as if your business were our own. Because this is not about laws. It's about you. And about protecting what has cost you so much to build.",
+    "viewMission": "View mission {{number}}",
+    "cta": "LEARN ABOUT OUR VALUES"
+  },
+  "cta_section": {
+    "title": "Need advice?",
+    "subtitle": "Request a no-obligation quote",
+    "description": "Our team will contact you within 24 hours to analyze your case.",
+    "button": "GET A QUOTE",
+    "call": "CALL US"
+  }
+}

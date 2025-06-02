@@ -1,8 +1,10 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
+import { useTranslation } from 'react-i18next';
 
 const Mision = () => {
+  const { t } = useTranslation();
   const [index, setIndex] = useState(0);
   const [isAnimating, setIsAnimating] = useState(false);
   const [isVisible, setIsVisible] = useState(false);
@@ -11,19 +13,19 @@ const Mision = () => {
   const misionStatements = [
     {
       id: 1,
-      text: 'Cuando te juegas algo importante, no estás tranquilo. Sabes que un paso en falso puede salir caro.'
+      text: t('mission.statement1')
     },
     {
       id: 2,
-      text: 'En Emindset Law te entendemos. Sabemos lo que se siente. Por eso llegamos con soluciones antes de que aparezca el problema. Porque el peor conflicto es el que se podría haber evitado.'
+      text: t('mission.statement2')
     },
     {
       id: 3,
-      text: 'Y más vale un buen acuerdo que mil batallas. Porque tú no estás para perder ninguna.'
+      text: t('mission.statement3')
     },
     {
       id: 4,
-      text: 'No apagamos fuegos, los evitamos. Prevenir, ayudar y proteger: ese es nuestro verdadero oficio. Te cuidamos como si tu negocio fuera nuestro. Porque esto no va de leyes. Va de ti. Y de proteger lo que tanto te ha costado construir.'
+      text: t('mission.statement4')
     }
   ];
 
@@ -79,10 +81,10 @@ const Mision = () => {
       
       <div className="max-w-5xl mx-auto relative z-10">
         <div className={`mb-10 text-center transform transition-all duration-1000 ease-out ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
-          <span className="inline-block text-sm font-semibold text-primary mb-2">NUESTRA FILOSOFÍA</span>
-          <h2 className="text-2xl font-bold text-gray-800 mb-2">Misión y Valores</h2>
+          <span className="inline-block text-sm font-semibold text-primary mb-2">{t('mission.title').toUpperCase()}</span>
+          <h2 className="text-2xl font-bold text-gray-800 mb-2">{t('mission.subtitle')}</h2>
           <div className="w-10 h-1 bg-primary mx-auto mt-2 mb-3"></div>
-          <p className="text-sm text-gray-600 max-w-xl mx-auto">Nuestro compromiso es resolver tus retos legales con un enfoque moderno y eficiente.</p>
+          <p className="text-sm text-gray-600 max-w-xl mx-auto">{t('mission.description')}</p>
         </div>
         
         <div className="relative min-h-[160px] md:min-h-[140px] flex items-center justify-center mb-8">
@@ -110,7 +112,7 @@ const Mision = () => {
                 ? 'bg-primary w-8 h-2' 
                 : 'bg-gray-200 hover:bg-gray-300 w-3 h-3'}`}
               onClick={() => handleSelection(i)}
-              aria-label={`Ver misión ${i + 1}`}
+              aria-label={t('mission.viewMission', { number: i + 1 })}
             />
           ))}
         </div>
@@ -120,7 +122,7 @@ const Mision = () => {
             href="#contact" 
             className="btn-hover inline-flex items-center justify-center bg-primary text-white font-medium px-5 py-3 rounded-full hover:bg-primary-dark transition-all duration-300 shadow-sm hover:shadow-md text-sm"
           >
-            CONOCE NUESTROS VALORES <FontAwesomeIcon icon={faArrowRight} className="ml-2 transition-transform duration-300 group-hover:translate-x-1" />
+            {t('mission.cta')} <FontAwesomeIcon icon={faArrowRight} className="ml-2 transition-transform duration-300 group-hover:translate-x-1" />
           </a>
         </div>
       </div>

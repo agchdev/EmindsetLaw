@@ -1,0 +1,171 @@
+{
+  "navigation": {
+    "history": "Histoire",
+    "recognitions": "Reconnaissances",
+    "blog": "Blog",
+    "contact": "Contacter",
+    "home": "Accueil",
+    "about": "Qui sommes-nous",
+    "services": "Services",
+    "privacy": "Politique de Confidentialité",
+    "legal": "Mentions Légales",
+    "select_language": "Sélectionner la langue",
+    "toggle_menu": "Basculer le menu",
+    "menu": "Menu",
+    "menu_navigation": "Menu de navigation",
+    "close_menu": "Fermer le menu",
+    "open_menu": "Ouvrir le menu"
+  },
+  "hero": {
+    "title": "Bienvenue à Emindset",
+    "subtitle": "Référents en droit commercial, immobilier et nouvelles technologies.",
+    "description": "Solutions agiles, innovantes et sur mesure.",
+    "cta": {
+      "budget": "DEMANDER UN DEVIS",
+      "about": "NOUS CONNAÎRE"
+    }
+  },
+  "about": {
+    "title": "Emindset Law aide l'entreprise moderne",
+    "description": "Nous simplifions et résolvons vos défis juridiques de manière globale, agile et innovante. Notre équipe combine expertise traditionnelle et approche moderne pour offrir des solutions efficaces.",
+    "practical": {
+      "title": "Approche pratique",
+      "description": "Solutions réelles pour des problèmes réels"
+    },
+    "speed": {
+      "title": "Rapidité",
+      "description": "Réponses agiles quand vous en avez le plus besoin"
+    },
+    "cta": "QUI SOMMES-NOUS",
+    "experience": {
+      "years": "15+",
+      "text": "Années d'",
+      "title": "Expérience"
+    },
+    "image_alt": "Équipe d'avocats dans un bureau moderne"
+  },
+  "footer": {
+    "company": {
+      "name": "EmindsetLaw",
+      "description": "Nous offrons des services juridiques de haute qualité pour les entreprises et les particuliers."
+    },
+    "contact_info": "Coordonnées",
+    "quick_links": "Liens rapides",
+    "offices": {
+      "title": "Nos Bureaux",
+      "andorra": "Andorre",
+      "barcelona": "Barcelone",
+      "toulouse": "Toulouse"
+    },
+    "copyright": "Tous droits réservés."
+  },
+  "contact_section": {
+    "title": "Contact",
+    "subtitle": "Parlons de votre cas",
+    "description": "Nous sommes là pour vous aider. Remplissez le formulaire et nous vous répondrons dans les plus brefs délais.",
+    "now": "Contacter maintenant",
+    "help": "Besoin d'aide immédiate?",
+    "language": "Sélectionner la langue",
+    "address": {
+      "title": "Andorre",
+      "line1": "Av. Prat de la Creu 59-65, AD500"
+    },
+    "phone": {
+      "title": "Téléphone",
+      "number": "+376 678 882"
+    },
+    "email": {
+      "title": "Email",
+      "address": "info@emindsetlaw.com"
+    },
+    "hours": {
+      "title": "Horaires",
+      "schedule": "Lundi à Vendredi: 9:00 - 19:00"
+    },
+    "form": {
+      "title": "Envoyez-nous un message",
+      "name": "Nom complet",
+      "email": "Email",
+      "phone": "Téléphone",
+      "subject": "Sujet",
+      "message": "Message",
+      "service": "Service d'intérêt",
+      "select": "Sélectionnez un service",
+      "other": "Autre",
+      "send": "Envoyer le message",
+      "privacy": "J'accepte la politique de confidentialité et le traitement de mes données",
+      "submit": "ENVOYER LE MESSAGE",
+      "success": "Votre message a été envoyé avec succès. Nous vous contacterons dans les plus brefs délais."
+    }
+  },
+  "services": {
+    "title": "Nos services",
+    "subtitle": "Solutions juridiques complètes pour votre entreprise",
+    "corporate": {
+      "title": "Droit des Affaires",
+      "description": "Conseil complet sur les opérations sociétaires et commerciales"
+    },
+    "realestate": {
+      "title": "Immobilier",
+      "description": "Gestion des opérations immobilières nationales et internationales"
+    },
+    "tech": {
+      "title": "Nouvelles Technologies",
+      "description": "Solutions juridiques pour les entreprises technologiques et les startups"
+    },
+    "tax": {
+      "title": "Fiscalité",
+      "description": "Optimisation fiscale et planification patrimoniale internationale"
+    }
+  },
+  "languages": {
+    "es": "Español",
+    "fr": "Français",
+    "ca": "Català",
+    "en": "English"
+  },
+  "common": {
+    "logo_alt": "Logo Emindset Law"
+  },
+  "testimonials": {
+    "1": {
+      "name": "Marc Taló",
+      "position": "PDG de Grup Bomosa",
+      "text": "Un service excellent et très professionnel. Nous sommes très satisfaits de leur attention et de leurs résultats."
+    },
+    "2": {
+      "name": "Fernando Mas",
+      "position": "PDG de MP Gestió",
+      "text": "Une équipe d'avocats sans aucun doute très professionnelle et attentive, avec un très haut niveau de résolution et prête à vous aider et vous conseiller sur toute question juridique à tout moment. Je compte sur leur aide depuis des années et toujours avec un haut niveau de satisfaction."
+    },
+    "3": {
+      "name": "Rafael Rabat",
+      "position": "PDG de Norz Patrimonia",
+      "text": "Nous travaillons avec l'équipe d'Emindset Law depuis un certain temps et je peux garantir leur qualité et leur professionnalisme."
+    },
+    "4": {
+      "name": "Sergi Martin",
+      "position": "PDG de Altment Capital",
+      "text": "Emindset allie confiance et rigueur à parts égales. Avec un grand professionnalisme, son équipe offre des solutions juridiques précises et efficaces, toujours avec un traitement empathique et proche qui conduit à une attention personnalisée. Et tout cela avec une approche fraîche du travail, avec une vision moderne et proactive du droit."
+    },
+    "goto": "Aller au témoignage {{number}}"
+  },
+  "mission": {
+    "title": "Notre philosophie",
+    "subtitle": "Mission et Valeurs",
+    "description": "Notre engagement est de résoudre vos défis juridiques avec une approche moderne et efficace.",
+    "statement1": "Quand vous jouez quelque chose d'important, vous n'êtes pas tranquille. Vous savez qu'un faux pas peut coûter cher.",
+    "statement2": "Chez Emindset Law, nous vous comprenons. Nous savons ce que vous ressentez. C'est pourquoi nous arrivons avec des solutions avant que le problème n'apparaisse. Parce que le pire conflit est celui qui aurait pu être évité.",
+    "statement3": "Et mieux vaut un bon accord que mille batailles. Parce que vous n'êtes pas là pour en perdre une seule.",
+    "statement4": "Nous n'éteignons pas les incendies, nous les évitons. Prévenir, aider et protéger : c'est notre véritable travail. Nous prenons soin de vous comme si votre entreprise était la nôtre. Parce qu'il ne s'agit pas de lois. Il s'agit de vous. Et de protéger ce qui vous a coûté tant à construire.",
+    "viewMission": "Voir la mission {{number}}",
+    "cta": "DÉCOUVREZ NOS VALEURS"
+  },
+  "cta_section": {
+    "title": "Besoin de conseils?",
+    "subtitle": "Demandez un devis sans engagement",
+    "description": "Notre équipe vous contactera dans les 24 heures pour analyser votre cas.",
+    "button": "DEMANDER UN DEVIS",
+    "call": "APPELEZ-NOUS"
+  }
+}

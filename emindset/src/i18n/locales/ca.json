@@ -1,0 +1,172 @@
+{
+  "navigation": {
+    "history": "Història",
+    "recognitions": "Reconeixements",
+    "blog": "Blog",
+    "contact": "Contactar",
+    "home": "Inici",
+    "about": "Qui som",
+    "services": "Serveis",
+    "privacy": "Política de Privacitat",
+    "legal": "Avís Legal",
+    "select_language": "Seleccionar idioma",
+    "toggle_menu": "Alternar menú",
+    "menu": "Menú",
+    "menu_navigation": "Menú de navegació",
+    "close_menu": "Tancar menú",
+    "open_menu": "Obrir menú"
+  },
+  "hero": {
+    "title": "Benvinguts a Emindset",
+    "subtitle": "Referents en dret mercantil, real estate i noves tecnologies.",
+    "description": "Solucions àgils, innovadores i a la teva mida.",
+    "cta": {
+      "budget": "DEMANA PRESSUPOST",
+      "about": "CONEIX-NOS"
+    }
+  },
+  "about": {
+    "title": "Emindset Law ajuda a l'empresa moderna",
+    "description": "Simplifiquem i resolem els teus reptes legals d'una forma global, àgil i innovadora. El nostre equip combina experiència tradicional amb un enfocament modern per oferir solucions efectives.",
+    "practical": {
+      "title": "Enfocament pràctic",
+      "description": "Solucions reals per a problemes reals"
+    },
+    "speed": {
+      "title": "Rapidesa",
+      "description": "Respostes àgils quan més les necessites"
+    },
+    "cta": "QUI SOM",
+    "experience": {
+      "years": "15+",
+      "text": "Anys d'",
+      "title": "Experiència"
+    },
+    "image_alt": "Equip d'advocats a oficina moderna"
+  },
+  "footer": {
+    "company": {
+      "name": "EmindsetLaw",
+      "description": "Oferim serveis legals d'alta qualitat per a empreses i particulars."
+    },
+    "contact_info": "Informació de contacte",
+    "quick_links": "Enllaços ràpids",
+    "offices": {
+      "title": "Les nostres Oficines",
+      "andorra": "Andorra",
+      "barcelona": "Barcelona",
+      "toulouse": "Toulouse"
+    },
+    "copyright": "Tots els drets reservats."
+  },
+  "contact_section": {
+    "title": "Contacte",
+    "subtitle": "Parlem sobre el teu cas",
+    "description": "Estem aquí per ajudar-te. Completa el formulari i ens posarem en contacte amb tu el més aviat possible.",
+    "now": "Contactar ara",
+    "help": "Necessites ajuda immediata?",
+    "language": "Seleccionar idioma",
+    "address": {
+      "title": "Andorra",
+      "line1": "Av. Prat de la Creu 59-65, AD500"
+    },
+    "phone": {
+      "title": "Telèfon",
+      "number": "+376 678 882"
+    },
+    "email": {
+      "title": "Email",
+      "address": "info@emindsetlaw.com"
+    },
+    "hours": {
+      "title": "Horari",
+      "schedule": "Dilluns a Divendres: 9:00 - 19:00"
+    },
+    "form": {
+      "title": "Envia'ns un missatge",
+      "name": "Nom complet",
+      "email": "Email",
+      "phone": "Telèfon",
+      "subject": "Assumpte",
+      "message": "Missatge",
+      "service": "Servei d'interès",
+      "select": "Selecciona un servei",
+      "other": "Altre",
+      "send": "Enviar missatge",
+      "privacy": "Accepto la política de privacitat i el tractament de les meves dades",
+      "submit": "ENVIAR MISSATGE",
+      "success": "El teu missatge ha estat enviat correctament. Ens posarem en contacte amb tu el més aviat possible."
+    }
+  },
+  "services": {
+    "title": "Els nostres serveis",
+    "subtitle": "Solucions legals completes per al teu negoci",
+    "corporate": {
+      "title": "Dret Corporatiu",
+      "description": "Assessorament integral en operacions societàries i mercantils"
+    },
+    "realestate": {
+      "title": "Real Estate",
+      "description": "Gestió d'operacions immobiliàries nacionals i internacionals"
+    },
+    "tech": {
+      "title": "Noves Tecnologies",
+      "description": "Solucions legals per a empreses tecnològiques i startups"
+    },
+    "tax": {
+      "title": "Fiscalitat",
+      "description": "Optimització fiscal i planificació patrimonial internacional"
+    }
+  },
+  "languages": {
+    "es": "Español",
+    "fr": "Français",
+    "ca": "Català",
+    "en": "English"
+  },
+  "common": {
+    "logo_alt": "Emindset Law Logo"
+  },
+  "testimonials": {
+    "1": {
+      "name": "Marc Taló",
+      "position": "CEO de Grup Bomosa",
+      "text": "Un servei excel·lent i molt professional. Estem molt contents amb la seva atenció i resultats."
+    },
+    "2": {
+      "name": "Fernando Mas",
+      "position": "CEO de MP Gestió",
+      "text": "Sens dubte un equip d'advocats molt professionals i atents, amb un molt alt nivell resolutiu i disposats en tot moment en ajudar-te i assessorar-te en qualsevol dubte legal, ja són anys els que compto amb la seva ajuda i sempre amb un grau de satisfacció d'alt nivell"
+    },
+    "3": {
+      "name": "Rafael Rabat",
+      "position": "CEO de Norz Patrimonia",
+      "text": "Portem temps treballant amb l'equip d'Emindset Law i n'avalo la qualitat i professionalitat"
+    },
+    "4": {
+      "name": "Sergi Martin",
+      "position": "CEO de Altment Capital",
+      "text": "Emindset combina confiança i rigorositat a parts iguals. Amb una alta professionalitat, el seu equip ofereix solucions legals precises i eficaces, sempre amb un tracte empàtic i proper que porten a una atenció personalitzada. I tot, amb un aire fresc en la manera de treballar, amb una visió moderna i proactiva del dret."
+    },
+    "goto": "Anar al testimoni {{number}}"
+  },
+  "mission": {
+    "title": "La nostra filosofia",
+    "subtitle": "Missió i Valors",
+    "description": "El nostre compromís és resoldre els teus reptes legals amb un enfocament modern i eficient.",
+    "statement1": "Quan et jugues quelcom important, no estàs tranquil. Saps que un pas en fals pot sortir car.",
+    "statement2": "A Emindset Law t'entenem. Sabem el que se sent. Per això arribem amb solucions abans que aparegui el problema. Perquè el pitjor conflicte és el que es podria haver evitat.",
+    "statement3": "I més val un bon acord que mil batalles. Perquè tu no estàs per perdre cap.",
+    "statement4": "No apaguem focs, els evitem. Prevenir, ajudar i protegir: aquesta és la nostra veritable feina. Et cuidem com si el teu negoci fos el nostre. Perquè això no va de lleis. Va de tu. I de protegir allò que tant t'ha costat construir.",
+    "viewMission": "Veure missió {{number}}",
+    "cta": "CONEIX ELS NOSTRES VALORS"
+  },
+  "cta_section": {
+    "title": "Necessites assessorament?",
+    "subtitle": "Sol·licita un pressupost sense compromís",
+    "description": "El nostre equip es posarà en contacte amb tu en menys de 24 hores per analitzar el teu cas.",
+    "button": "DEMANA PRESSUPOST",
+    "call": "TRUCA'NS"
+  }
+
+}

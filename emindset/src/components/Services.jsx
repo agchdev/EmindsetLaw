@@ -1,8 +1,10 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBalanceScale, faMicrochip, faChevronLeft, faChevronRight, faLightbulb, faShield, faChartLine, faGlobe } from '@fortawesome/free-solid-svg-icons';
 import { useRef, useState, useEffect } from 'react';
+import { useTranslation } from 'react-i18next';
 
 const Services = () => {
+  const { t } = useTranslation();
   const scrollContainerRef = useRef(null);
   const [showLeftArrow, setShowLeftArrow] = useState(false);
   const [showRightArrow, setShowRightArrow] = useState(true);
@@ -41,9 +43,9 @@ const Services = () => {
     <section id="services" className="py-20 bg-gray-100">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16 animate-fade-in">
-          <span className="inline-block text-sm font-semibold text-primary mb-4">NUESTRAS ÁREAS</span>
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Especialización Legal</h2>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">Ofrecemos soluciones legales integrales en las áreas más demandadas del derecho empresarial moderno.</p>
+          <span className="inline-block text-sm font-semibold text-primary mb-4">{t('services.title').toUpperCase()}</span>
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">{t('services.subtitle')}</h2>
+          <p className="text-lg text-gray-600 max-w-2xl mx-auto">{t('services.corporate.description')}</p>
         </div>
 
         <div className="relative">
@@ -67,8 +69,8 @@ const Services = () => {
               <div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center mb-4 group-hover:bg-primary transition-colors duration-300">
                 <FontAwesomeIcon icon={faBalanceScale} className="service-icon text-2xl text-primary group-hover:text-white" />
               </div>
-              <h3 className="text-lg font-bold text-gray-800 mb-2">Mercantil & Societario</h3>
-              <p className="text-gray-600 w-[300px] text-sm mb-4">Asesoramiento integral en constitución de empresas, pactos de socios, fusiones y adquisiciones, y reestructuraciones corporativas.</p>
+              <h3 className="text-lg font-bold text-gray-800 mb-2">{t('services.corporate.title')}</h3>
+              <p className="text-gray-600 w-[300px] text-sm mb-4">{t('services.corporate.description')}</p>
               {/* <a href="#" className="inline-flex items-center text-primary font-medium group-hover:text-primary-dark transition-colors duration-300">
               Leer más <FontAwesomeIcon icon={faArrowRight} className="ml-2 transition-transform duration-300 group-hover:translate-x-1" />
             </a> */}
@@ -79,8 +81,8 @@ const Services = () => {
               <div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center mb-4 group-hover:bg-primary transition-colors duration-300">
                 <FontAwesomeIcon icon={faLightbulb} className="service-icon text-2xl text-primary group-hover:text-white" />
               </div>
-              <h3 className="text-lg font-bold text-gray-800 mb-2">Nuevas Tecnologías</h3>
-              <p className="text-gray-600 w-[300px] text-sm mb-4">Asesoramiento legal en comercio electrónico, blockchain, contratos tecnológicos y regulación de plataformas digitales.</p>
+              <h3 className="text-lg font-bold text-gray-800 mb-2">{t('services.tech.title')}</h3>
+              <p className="text-gray-600 w-[300px] text-sm mb-4">{t('services.tech.description')}</p>
               {/* <a href="#" className="inline-flex items-center text-primary font-medium group-hover:text-primary-dark transition-colors duration-300">
               Leer más <FontAwesomeIcon icon={faArrowRight} className="ml-2 transition-transform duration-300 group-hover:translate-x-1" />
             </a> */}
@@ -103,8 +105,8 @@ const Services = () => {
               <div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center mb-4 group-hover:bg-primary transition-colors duration-300">
                 <FontAwesomeIcon icon={faGlobe} className="service-icon text-2xl text-primary group-hover:text-white" />
               </div>
-              <h3 className="text-lg font-bold text-gray-800 mb-2">Residencia en Andorra</h3>
-              <p className="text-gray-600 w-[300px] text-sm mb-4">Servicios legales especializados para  el establecimiento en Andorra, residencia fiscal, inversión en real Estate, y asesoramiento en ventajas fiscales del Principado</p>
+              <h3 className="text-lg font-bold text-gray-800 mb-2">{t('services.realestate.title')}</h3>
+              <p className="text-gray-600 w-[300px] text-sm mb-4">{t('services.realestate.description')}</p>
               {/* <a href="#" className="inline-flex items-center text-primary font-medium group-hover:text-primary-dark transition-colors duration-300">
               Leer más <FontAwesomeIcon icon={faArrowRight} className="ml-2 transition-transform duration-300 group-hover:translate-x-1" />
             </a> */}
@@ -115,8 +117,8 @@ const Services = () => {
               <div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center mb-4 group-hover:bg-primary transition-colors duration-300">
                 <FontAwesomeIcon icon={faShield} className="service-icon text-2xl text-primary group-hover:text-white" />
               </div>
-              <h3 className="text-lg font-bold text-gray-800 mb-2">Protección de Datos y Privacidad</h3>
-              <p className="text-gray-600 w-[300px] text-sm mb-4">Consultoría en cumplimiento normativo RGPD, auditorías de privacidad, y gestión de incidentes de seguridad de datos.</p>
+              <h3 className="text-lg font-bold text-gray-800 mb-2">{t('services.tax.title')}</h3>
+              <p className="text-gray-600 w-[300px] text-sm mb-4">{t('services.tax.description')}</p>
               {/* <a href="#" className="inline-flex items-center text-primary font-medium group-hover:text-primary-dark transition-colors duration-300">
               Leer más <FontAwesomeIcon icon={faArrowRight} className="ml-2 transition-transform duration-300 group-hover:translate-x-1" />
             </a> */}

@@ -1,0 +1,40 @@
+/* Estilos globales para EmindsetLaw */
+
+/* Personalización de la barra de desplazamiento */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1579a2;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #0f5a7a;
+}
+
+/* Para Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #1579a2 rgba(255, 255, 255, 0.1);
+}
+
+/* Animaciones y transiciones globales */
+.transition-all {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms;
+}
+
+/* Estilos para elementos seleccionados */
+::selection {
+  background-color: rgba(21, 121, 162, 0.2);
+  color: #1579a2;
+}

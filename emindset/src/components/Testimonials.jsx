@@ -1,7 +1,9 @@
 import React, { useRef, useState, useEffect, useCallback } from 'react';
 import './testimonials.css'; // We'll create this file next
+import { useTranslation } from 'react-i18next';
 
 const Testimonials = () => {
+  const { t } = useTranslation();
   const ref = useRef(null);
   const testimonialContainerRef = useRef(null);
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -14,27 +16,27 @@ const Testimonials = () => {
   const testimonials = [
     {
       id: 1,
-      name: 'Marc Taló',
-      position: 'CEO de Grup Bomosa',
-      text: "Un servei excel·lent i molt professional. Estem molt contents amb la seva atenció i resultats."
+      name: t('testimonials.1.name'),
+      position: t('testimonials.1.position'),
+      text: t('testimonials.1.text')
     },
     {
       id: 2,
-      name: 'Fernando Mas',
-      position: 'CEO de MP Gestió',
-      text: "Sens dubte un equip d'advocats molt professionals i atents, amb un molt alt nivell resolutiu i disposats en tot moment en ajudar-te i assessorar-te en qualsevol dubte legal, ja són anys els que compto amb la seva ajuda i sempre amb un grau de satisfacció d'alt nivell"
+      name: t('testimonials.2.name'),
+      position: t('testimonials.2.position'),
+      text: t('testimonials.2.text')
     },
     {
       id: 3,
-      name: 'Rafael Rabat',
-      position: 'CEO de Norz Patrimonia',
-      text: "Portem temps treballant amb l'equip d'Emindset Law i n'avalo la qualitat i professionalitat"
+      name: t('testimonials.3.name'),
+      position: t('testimonials.3.position'),
+      text: t('testimonials.3.text')
     },
     {
       id: 4,
-      name: 'Sergi Martin',
-      position: 'CEO de Altment Capital',
-      text: "Emindset combina confiança i rigorositat a parts iguals. Amb una alta professionalitat, el seu equip ofereix solucions legals precises i eficaces, sempre amb un tracte empàtic i proper que porten a una atenció personalitzada. I tot, amb un aire fresc en la manera de treballar, amb una visió moderna i proactiva del dret."
+      name: t('testimonials.4.name'),
+      position: t('testimonials.4.position'),
+      text: t('testimonials.4.text')
     }
   ];
 
@@ -227,7 +229,7 @@ const Testimonials = () => {
                 className={`h-2 w-2 rounded-full focus:outline-none transition-colors duration-300 ${
                   index === currentIndex ? 'bg-primary' : 'bg-gray-300'
                 }`}
-                aria-label={`Go to testimonial ${index + 1}`}
+                aria-label={t('testimonials.goto', { number: index + 1 })}
               />
             ))}
           </div>
