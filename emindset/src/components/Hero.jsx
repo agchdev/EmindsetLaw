@@ -1,13 +1,38 @@
 import React, { useEffect, useRef } from 'react';
+import { useLocation } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight, faPlayCircle, faChevronDown } from '@fortawesome/free-solid-svg-icons';
 import heroVideo from '../assets/video.mp4';
 import logo from '../assets/img/logoEmindset.png';
 
-const Hero = () => {
+const Hero = ({ isLogoAnimationComplete }) => {
   const { t } = useTranslation();
   const videoRef = useRef(null);
+  const location = useLocation();
+
+  const isHomePage = location.pathname === '/';
+  const canAnimate = isLogoAnimationComplete && isHomePage;
+
+  const heroContentVariants = {
+    hidden: { opacity: 0 },
+    visible: {
+      opacity: 1,
+      transition: {
+        staggerChildren: 0.3,
+        delayChildren: 0.2, // Optional delay after parent becomes visible
+      }
+    }
+  };
+
+  const itemVariants = {
+    hidden: { opacity: 0, y: 20 },
+    visible: {
+      opacity: 1,
+      y: 0,
+      transition: { type: 'spring', stiffness: 100 }
+    }
+  };
 
   useEffect(() => {
     const handleScroll = () => {
@@ -55,8 +80,11 @@ const Hero = () => {
       {/* El logo ahora se maneja en el Header */}
       
       {/* Contenido principal */}
-      <div 
+      <motion.div 
         className="relative flex flex-col justify-center h-screen text-gray-800 z-20"
+        variants={heroContentVariants}
+        initial="hidden"
+        animate={canAnimate ? "visible" : "hidden"}
       >
         <div className="container mx-auto px-6">
           <div className="max-w-2xl" role="region" aria-label="Sección Hero - Bienvenida">
@@ -66,25 +94,26 @@ const Hero = () => {
             <div className="h-12"></div>
             <h1 className="mb-8 leading-tight text-white">
               <div className="flex justify-start items-center">
-                <img 
+                <motion.img 
                   src={logo} 
                   alt="Emindset Law Logo" 
-                  className="w-auto h-20 md:h-28 lg:h-32 animate-fade-in"
+                  className="w-auto h-20 md:h-28 lg:h-32"
+                  variants={itemVariants}
                 />
               </div>
             </h1>
-            <p className="text-lg md:text-xl mb-10 text-white/90 max-w-lg">
+            <motion.p className="text-lg md:text-xl mb-10 text-white/90 max-w-lg" variants={itemVariants}>
               {t('hero.subtitle')}<br />
               <span className="inline-block mt-2 text-base text-white/80">{t('hero.description')}</span>
-            </p>
-            <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
+            </motion.p>
+            <motion.div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4" variants={itemVariants}>
               <a href="#budget" className="btn-hover inline-flex items-center justify-center bg-primary text-white font-semibold px-6 py-4 hover:bg-primary-dark transition-all duration-300 group">
                 {t('hero.cta.budget')} <FontAwesomeIcon icon={faArrowRight} className="ml-3 transition-transform duration-300 group-hover:translate-x-1" />
               </a>
               <a href="#about" className="btn-hover inline-flex items-center justify-center text-primary font-semibold px-6 py-3.5 hover:bg-[#003673]/10 transition-all duration-300 group">
                 <FontAwesomeIcon icon={faPlayCircle} className="mr-3" /> {t('hero.cta.about')}
               </a>
-            </div>
+            </motion.div>
           </div>
         </div>
         {/* Decorative SVG wave */}
@@ -93,7 +122,7 @@ const Hero = () => {
             <path fill="white" fillOpacity="1" d="M0,80 C360,120 1080,40 1440,80 L1440,120 L0,120 Z"></path>
           </svg>
         </div>
-      </div>
+      </motion.div>
       
       {/* Animated scroll indicator */}
       <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce z-30">

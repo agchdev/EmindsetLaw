@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef, useCallback } from 'react';
 import { useTranslation } from 'react-i18next';
 import logo from '../assets/logo.png';
 
-const Header = () => {
+const Header = ({ onLogoAnimationComplete }) => {
   const { t, i18n } = useTranslation();
   const [isScrolled, setIsScrolled] = useState(false);
   const [isLoaded, setIsLoaded] = useState(false);
@@ -32,13 +32,16 @@ const Header = () => {
       // Fase 2: Completar la animación después de un tiempo
       const timer2 = setTimeout(() => {
         setLogoAnimationPhase(2);
+        if (onLogoAnimationComplete) {
+          onLogoAnimationComplete();
+        }
       }, 800);
       
       return () => clearTimeout(timer2);
     }, 2000); // Esperar 2 segundos antes de iniciar la animación
     
     return () => clearTimeout(timer1);
-  }, []);
+  }, [onLogoAnimationComplete]);
 
   // Handle scroll effect for the header
   useEffect(() => {

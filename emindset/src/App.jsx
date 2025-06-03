@@ -1,3 +1,4 @@
+import { useState, useCallback } from 'react';
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import { HelmetProvider } from 'react-helmet-async';
 import Home from './pages/Home';
@@ -32,14 +33,19 @@ const SEOHandler = () => {
 
 // Componente principal con SEO integrado
 function AppContent() {
+  const [isLogoAnimationComplete, setIsLogoAnimationComplete] = useState(false);
+
+  const handleLogoAnimationComplete = useCallback(() => {
+    setIsLogoAnimationComplete(true);
+  }, []);
   return (
     <>
       <SEOHandler />
       <div className="flex flex-col min-h-screen">
-        <Header />
+        <Header onLogoAnimationComplete={handleLogoAnimationComplete} />
         <main className="flex-grow">
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/" element={<Home isLogoAnimationComplete={isLogoAnimationComplete} />} />
             <Route path="/reconocimientos" element={<Reconocimientos />} />
             <Route path="/historia" element={<Historia />} />
             <Route path="/blog" element={<Blogs />} />
