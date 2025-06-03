@@ -91,6 +91,10 @@
     "tax": {
       "title": "Fiscalidad",
       "description": "Optimización fiscal y planificación patrimonial internacional"
+    },
+    "startups": {
+      "title": "Startups, Innovación y Tecnología",
+      "description": "Apoyo legal especializado para startups, rondas de financiación, propiedad intelectual y acuerdos de colaboración tecnológica."
     }
   },
   "languages": {
@@ -175,6 +179,150 @@
       "privacy": "Acepto la política de privacidad y el tratamiento de mis datos",
       "submit": "ENVIAR MENSAJE",
       "success": "Su mensaje ha sido enviado correctamente. Nos pondremos en contacto con usted lo antes posible."
+    }
+  },
+  "awards": {
+    "title": "Reconocimientos",
+    "subtitle": "Premios y Distinciones",
+    "description": "Hemos recibido varios premios por nuestra destacada labor y contribución al campo del derecho.",
+    "readMore": "Leer más",
+    "viewAll": "Ver todos los reconocimientos",
+    "relatedLinks": "Enlaces relacionados:",
+    "videos": "Videos:",
+    "watchVideo": "Ver video",
+    "videoCeremony": "Video de la ceremonia",
+    "interview": "Entrevista",
+    "certificate": "Certificado",
+    "items": [
+      {
+        "title": "Mejor Despacho en Derecho Mercantil de España 2025 (Premios De Ley)",
+        "year": "2025",
+        "description": "Reconocimiento otorgado por los Premios De Ley a nuestra labor en el ámbito del Derecho Mercantil y el compromiso con la innovación legal para empresas."
+      },
+      {
+        "title": "CEO del Año en el Sector Legal 2024-2025 (Premios La Razón y Foment del Treball)",
+        "year": "2024",
+        "description": "Reconocimiento al liderazgo en asesoramiento empresarial y la capacidad de adaptación en tiempos de cambio e incertidumbre económica."
+      },
+      {
+        "title": "Top Legal Strategist to Look Out For in 2025",
+        "year": "2025",
+        "description": "Reconocimiento a nuestra visión estratégica y capacidad de transformar desafíos en oportunidades en el ámbito legal."
+      },
+      {
+        "title": "Corporate Law Expert of the Year in Andorra 2024-2025",
+        "year": "2024",
+        "description": "Reconocimiento a nuestra excelencia en el ámbito del derecho corporativo en Andorra, destacando nuestro compromiso con la calidad y la innovación."
+      }
+    ]
+  },
+  "blog": {
+    "title": "Nuestro Blog",
+    "subtitle": "Manténte al día con las últimas noticias y publicaciones de nuestro equipo",
+    "linkedInSection": "Nuestras Publicaciones en LinkedIn",
+    "connectTitle": "Conéctate con nosotros en LinkedIn",
+    "connectDescription": "Síguenos en LinkedIn para estar al día de todas nuestras publicaciones, eventos y novedades del sector legal.",
+    "visitProfile": "Visitar nuestro perfil de LinkedIn"
+  },
+  "history": {
+    "title": "Nuestra Historia",
+    "subtitle": "Descubre cómo nació y evolucionó Emindset Law a lo largo de los años",
+    "storyTitle": "La historia de Emindset Law",
+    "story": {
+      "paragraph1": "Una firma de abogados que nació en 2016, gracias a un equipo con una visión común:",
+      "highlight1": "humanizar la abogacía y romper con todos los estereotipos.",
+      "paragraph2": "Podía ser una herramienta útil, cercana y profundamente humana.",
+      "paragraph3": "Una forma real de acompañar y transformar vidas.",
+      "paragraph4": "Desde el inicio supimos que queríamos hacer las cosas de otra manera.",
+      "paragraph5": "No desde la frialdad del traje y el despacho, sino desde la escucha y el compromiso con las personas.",
+      "paragraph6": "Y, para qué negarlo, llegar con un nuevo mindset no fue fácil.",
+      "paragraph7": "Romper con lo establecido siempre impone respeto.",
+      "paragraph8": "Pero con el tiempo, fue esa mirada humana y auténtica",
+      "paragraph9": "la que nos permitió marcar la diferencia y convertirnos en un referente del sector legal.",
+      "highlight2": "Siempre fieles a lo que nos mueve:",
+      "paragraph10": "ayudar y estar presente cuando más se nos necesita.",
+      "quote": "\"Transformando el derecho en una experiencia humana y cercana desde 2016.\""
+    },
+    "timeline": {
+      "title": "Hitos importantes",
+      "subtitle": "NUESTRO CAMINO",
+      "description": "Un vistazo a los momentos clave que han definido nuestra trayectoria.",
+      "items": {
+        "2016": "Fundación de Emindset Law con un pequeño equipo de 5 abogados comprometidos con una visión diferente del derecho.",
+        "2018": "Apertura de nuestra primera oficina en Barcelona y ampliación del equipo a 15 profesionales.",
+        "2020": "Expansión internacional con la apertura de nuestra oficina en Andorra, especializándonos en fiscalidad internacional.",
+        "2022": "Creación de nuestra división de Nuevas Tecnologías, enfocada en startups y empresas tecnológicas.",
+        "2024": "Apertura de nuestra oficina en Toulouse y reconocimiento como uno de los despachos más innovadores de Europa."
+      }
+    }
+  },
+  "metadata": {
+    "site": {
+      "title": "Emindset Law | Abogados especialistas en Derecho Mercantil, Real Estate y Nuevas Tecnologías",
+      "description": "Bufete de abogados especializado en derecho mercantil, real estate, nuevas tecnologías y fiscalidad. Soluciones legales ágiles e innovadoras para empresas modernas.",
+      "keywords": [
+        "abogados", 
+        "derecho mercantil", 
+        "derecho societario", 
+        "real estate", 
+        "nuevas tecnologías", 
+        "protección de datos", 
+        "RGPD", 
+        "fiscalidad", 
+        "asesoría legal", 
+        "bufete de abogados", 
+        "abogados Madrid", 
+        "asesoría jurídica empresas", 
+        "derecho tecnológico", 
+        "residencia Andorra", 
+        "fiscalidad internacional"
+      ]
+    },
+    "pages": {
+      "home": {
+        "title": "Emindset Law | Abogados especialistas en Derecho Mercantil, Real Estate y Nuevas Tecnologías",
+        "description": "Bufete de abogados especializado en derecho mercantil, real estate, nuevas tecnologías y fiscalidad. Soluciones legales ágiles e innovadoras para empresas modernas."
+      },
+      "about": {
+        "title": "Sobre Nosotros | Emindset Law - Abogados Especializados",
+        "description": "Conoce a nuestro equipo de abogados expertos en derecho mercantil, real estate y nuevas tecnologías. Más de 15 años de experiencia ofreciendo soluciones legales innovadoras."
+      },
+      "services": {
+        "title": "Servicios Legales | Emindset Law - Especialización Legal",
+        "description": "Ofrecemos servicios legales especializados en derecho mercantil, societario, real estate, nuevas tecnologías, protección de datos y fiscalidad internacional."
+      },
+      "contact": {
+        "title": "Contacto | Emindset Law - Solicita una Consulta",
+        "description": "Ponte en contacto con nuestro equipo de abogados especialistas. Estamos en Madrid y ofrecemos asesoramiento legal personalizado para tu empresa."
+      },
+      "mercantil": {
+        "title": "Derecho Mercantil y Societario | Emindset Law",
+        "description": "Asesoramiento integral en constitución de empresas, pactos de socios, fusiones y adquisiciones, y reestructuraciones corporativas."
+      },
+      "realEstate": {
+        "title": "Derecho Inmobiliario y Real Estate | Emindset Law",
+        "description": "Asesoramiento legal en compraventa de inmuebles, arrendamientos, promociones inmobiliarias, due diligence y contratos de construcción."
+      },
+      "tech": {
+        "title": "Derecho Tecnológico | Emindset Law",
+        "description": "Asesoramiento legal en propiedad intelectual, e-commerce, contratos tecnológicos, startups y financiación de proyectos innovadores."
+      },
+      "tax": {
+        "title": "Fiscalidad | Emindset Law",
+        "description": "Asesoramiento fiscal para empresas y particulares, planificación tributaria, fiscalidad internacional y resolución de controversias con la administración."
+      },
+      "andorra": {
+        "title": "Residencia en Andorra | Emindset Law",
+        "description": "Servicios legales especializados para el establecimiento en Andorra, residencia fiscal, inversión en real Estate, y asesoramiento en ventajas fiscales del Principado."
+      },
+      "privacy": {
+        "title": "Política de Privacidad | Emindset Law",
+        "description": "Consulta nuestra política de privacidad y protección de datos. Información sobre cómo recopilamos, utilizamos y protegemos tus datos personales."
+      },
+      "blog": {
+        "title": "Blog | Emindset Law - Novedades y Actualizaciones",
+        "description": "Descubre las últimas noticias, novedades y actualizaciones en el ámbito legal. Artículos y publicaciones de nuestro equipo de expertos abogados."
+      }
     }
   }
 }

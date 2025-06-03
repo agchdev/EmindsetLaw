@@ -1,6 +1,9 @@
 import React, { useEffect, useRef, useState } from 'react';
+import { useTranslation } from 'react-i18next';
+import SeoHelmet from '../seo/SeoHelmet';
 
 const Blogs = () => {
+  const { t } = useTranslation();
   const [isVisible, setIsVisible] = useState(false);
   const sectionRef = useRef(null);
 
@@ -41,14 +44,15 @@ const Blogs = () => {
 
   return (
     <div className="min-h-screen bg-gray-50">
-      {/* Page title is handled by the router */}
+      {/* SEO Metadata */}
+      <SeoHelmet page="blog" />
 
       {/* Header */}
       <div className="bg-gradient-to-r from-[#00b1ed] to-[#0077b5] py-16">
         <div className="container mx-auto px-6 text-center">
-          <h1 className="text-3xl md:text-4xl font-bold text-white mb-4">Nuestro Blog</h1>
+          <h1 className="text-3xl md:text-4xl font-bold text-white mb-4">{t('blog.title')}</h1>
           <p className="text-white/90 max-w-2xl mx-auto">
-            Mantente al día con las últimas noticias y publicaciones de nuestro equipo
+            {t('blog.subtitle')}
           </p>
         </div>
       </div>
@@ -57,7 +61,7 @@ const Blogs = () => {
       <section ref={sectionRef} className="py-20">
         <div className="container mx-auto px-6">
           <div className={`transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
-            <h2 className="text-2xl font-bold text-center mb-12">Nuestras Publicaciones en LinkedIn</h2>
+            <h2 className="text-2xl font-bold text-center mb-12">{t('blog.linkedInSection')}</h2>
             
             {/* Elfsight LinkedIn Feed Widget */}
             <div className="elfsight-app-b4f07965-9c6a-470c-af2b-58cfc6c1611a" data-elfsight-app-lazy></div>
@@ -69,9 +73,9 @@ const Blogs = () => {
       <section className="py-16 bg-white">
         <div className="container mx-auto px-6 text-center">
           <div className={`max-w-3xl mx-auto transition-all duration-1000 delay-300 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
-            <h2 className="text-2xl font-bold text-gray-800 mb-4">Conéctate con nosotros en LinkedIn</h2>
+            <h2 className="text-2xl font-bold text-gray-800 mb-4">{t('blog.connectTitle')}</h2>
             <p className="text-gray-600 mb-8">
-              Síguenos en LinkedIn para estar al día de todas nuestras publicaciones, eventos y novedades del sector legal.
+              {t('blog.connectDescription')}
             </p>
             <a 
               href="https://www.linkedin.com/company/emindset-law-firm/?originalSubdomain=ad" 
@@ -79,7 +83,7 @@ const Blogs = () => {
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center bg-[#0077b5] text-white font-medium px-6 py-3 rounded-full hover:bg-[#00669c] transition-all duration-300 shadow-sm hover:shadow-md"
             >
-              Visitar nuestro perfil de LinkedIn
+              {t('blog.visitProfile')}
             </a>
           </div>
         </div>

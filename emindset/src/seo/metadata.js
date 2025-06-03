@@ -92,12 +92,6 @@ export const pageMetadata = {
     canonicalUrl: "/services/tech",
     ogImage: "/og-tech.jpg"
   },
-  privacy: {
-    title: "Protecciu00f3n de Datos y Privacidad | Emindset Law",
-    description: "Consultoru00eda en cumplimiento normativo RGPD, auditoru00edas de privacidad, y gestiu00f3n de incidentes de seguridad de datos.",
-    canonicalUrl: "/services/privacy",
-    ogImage: "/og-privacy.jpg"
-  },
   tax: {
     title: "Fiscalidad | Emindset Law",
     description: "Asesoramiento fiscal para empresas y particulares, planificaciu00f3n tributaria, fiscalidad internacional y resoluciu00f3n de controversias con la administraciu00f3n.",
@@ -114,6 +108,24 @@ export const pageMetadata = {
     title: "Política de Privacidad | Emindset Law",
     description: "Consulta nuestra política de privacidad y protección de datos. Información sobre cómo recopilamos, utilizamos y protegemos tus datos personales.",
     canonicalUrl: "/politica-privacidad",
+    ogImage: "/og-privacy.jpg"
+  },
+  privacy_en: {
+    title: "Privacy Policy | Emindset Law",
+    description: "Check our privacy policy and data protection. Information about how we collect, use and protect your personal data.",
+    canonicalUrl: "/privacy-policy",
+    ogImage: "/og-privacy.jpg"
+  },
+  privacy_fr: {
+    title: "Politique de Confidentialité | Emindset Law",
+    description: "Consultez notre politique de confidentialité et de protection des données. Informations sur la façon dont nous collectons, utilisons et protégeons vos données personnelles.",
+    canonicalUrl: "/politique-confidentialite",
+    ogImage: "/og-privacy.jpg"
+  },
+  privacy_ca: {
+    title: "Política de Privacitat | Emindset Law",
+    description: "Consulta la nostra política de privacitat i protecció de dades. Informació sobre com recopilem, utilitzem i protegim les teves dades personals.",
+    canonicalUrl: "/politica-privacitat",
     ogImage: "/og-privacy.jpg"
   }
 };

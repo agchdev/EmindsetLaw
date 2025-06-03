@@ -1,6 +1,8 @@
 import React, { useState, useEffect, useRef } from 'react';
+import { useTranslation } from 'react-i18next';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faQuoteLeft, faQuoteRight, faExternalLinkAlt, faPlay } from '@fortawesome/free-solid-svg-icons';
+import SeoHelmet from '../seo/SeoHelmet';
 import prem1 from "../assets/img/prem1.jpg";
 import prem2 from "../assets/img/prem2.jpg";
 import prem3 from "../assets/img/prem3.jpg";
@@ -36,6 +38,7 @@ const VideoModal = ({ videoUrl, isOpen, onClose }) => {
 };
 
 const PremioDetalle = ({ titulo, descripcion, imagen, enlaces, isVisible, delay }) => {
+  const { t } = useTranslation();
   const [videoUrl, setVideoUrl] = useState('');
   const [isModalOpen, setIsModalOpen] = useState(false);
   
@@ -83,7 +86,7 @@ const PremioDetalle = ({ titulo, descripcion, imagen, enlaces, isVisible, delay 
             
             {enlaces.length > 0 && (
               <div className="space-y-4">
-                <h4 className="text-sm font-semibold text-gray-700">Enlaces relacionados:</h4>
+                <h4 className="text-sm font-semibold text-gray-700">{t('awards.relatedLinks')}</h4>
                 <div className="space-y-3 flex flex-wrap">
                   {externalLinks.map((enlace, index) => (
                     <a 
@@ -93,7 +96,7 @@ const PremioDetalle = ({ titulo, descripcion, imagen, enlaces, isVisible, delay 
                       rel="noopener noreferrer"
                       className="inline-flex items-center text-[#00b1ed] hover:text-[#003673] transition-colors text-sm mr-6 mb-2"
                     >
-                      <span>{enlace.nombre || "Leer más"}</span>
+                      <span>{enlace.nombre || t('awards.readMore')}</span>
                       <FontAwesomeIcon icon={faExternalLinkAlt} className="ml-2 text-xs" />
                     </a>
                   ))}
@@ -103,7 +106,7 @@ const PremioDetalle = ({ titulo, descripcion, imagen, enlaces, isVisible, delay 
             
             {videoLinks.length > 0 && (
               <div className="mt-6 space-y-3">
-                <h4 className="text-sm font-semibold text-gray-700">Videos:</h4>
+                <h4 className="text-sm font-semibold text-gray-700">{t('awards.videos')}</h4>
                 <div className="flex flex-wrap gap-3">
                   {videoLinks.map((video, index) => (
                     <button 
@@ -112,7 +115,7 @@ const PremioDetalle = ({ titulo, descripcion, imagen, enlaces, isVisible, delay 
                       className="inline-flex items-center bg-[#00b1ed]/10 hover:bg-[#00b1ed]/20 text-[#00b1ed] px-4 py-2 rounded-full text-sm transition-colors shadow-sm hover:shadow-md"
                     >
                       <FontAwesomeIcon icon={faPlay} className="mr-2" />
-                      <span>Ver video {videoLinks.length > 1 ? index + 1 : ''}</span>
+                      <span>{t('awards.watchVideo')} {videoLinks.length > 1 ? index + 1 : ''}</span>
                     </button>
                   ))}
                 </div>
@@ -132,6 +135,7 @@ const PremioDetalle = ({ titulo, descripcion, imagen, enlaces, isVisible, delay 
 };
 
 const Reconocimientos = () => {
+  const { t } = useTranslation();
   const [isVisible, setIsVisible] = useState(false);
   const sectionRef = useRef(null);
   
@@ -156,11 +160,12 @@ const Reconocimientos = () => {
     return () => observer.disconnect();
   }, []);
   
+  // Array de premios usando las traducciones de i18n
   const premios = [
     {
       id: 1,
-      titulo: "Mejor Despacho en Derecho Mercantil de España 2025 (Premios De Ley)",
-      descripcion: "Reconocimiento otorgado por los Premios De Ley a nuestra labor en el ámbito del Derecho Mercantil y el compromiso con la innovación legal para empresas.",
+      titulo: t('awards.items.0.title'),
+      descripcion: t('awards.items.0.description'),
       imagen: prem1,
       enlaces: [
         { 
@@ -168,19 +173,19 @@ const Reconocimientos = () => {
           url: "https://www.elsuplemento.es/premiado/emindset-law-premio-de-ley-2025-en-la-categoria-derecho-mercantil" 
         },
         { 
-          nombre: "Video de la ceremonia", 
+          nombre: t('awards.videoCeremony'), 
           url: "https://www.youtube.com/watch?v=oADo2ksYs4c" 
         },
         { 
-          nombre: "Entrevista", 
+          nombre: t('awards.interview'), 
           url: "https://www.youtube.com/watch?v=oOLCL6bikVw" 
         }
       ]
     },
     {
       id: 2,
-      titulo: "CEO del Año en el Sector Legal 2024-2025 (Premios La Razón y Foment del Treball)",
-      descripcion: "Reconocimiento al liderazgo en asesoramiento empresarial y la capacidad de adaptación en tiempos de cambio e incertidumbre económica.",
+      titulo: t('awards.items.1.title'),
+      descripcion: t('awards.items.1.description'),
       imagen: prem2,
       enlaces: [
         { 
@@ -192,15 +197,15 @@ const Reconocimientos = () => {
           url: "https://www.foment.com/la-razon-reconeix-lexcel%C2%B7lencia-empresarial-de-16-ceos-a-la-primera-edicio-dels-premis-ceo-catalunya/" 
         },
         { 
-          nombre: "Video de la ceremonia", 
+          nombre: t('awards.videoCeremony'), 
           url: "https://www.youtube.com/watch?v=P0iS-NdTSB8" 
         }
       ]
     },
     {
       id: 3,
-      titulo: "Top Legal Strategist to Look Out For in 2025",
-      descripcion: "Reconocimiento a nuestra visión estratégica y capacidad de transformar desafíos en oportunidades en el ámbito legal.",
+      titulo: t('awards.items.2.title'),
+      descripcion: t('awards.items.2.description'),
       imagen: prem3,
       enlaces: [
         { 
@@ -211,12 +216,12 @@ const Reconocimientos = () => {
     },
     {
       id: 4,
-      titulo: "Corporate Law Expert of the Year in Andorra 2024-2025",
-      descripcion: "Reconocimiento a nuestra excelencia en el ámbito del derecho corporativo en Andorra, destacando nuestro compromiso con la calidad y la innovación.",
+      titulo: t('awards.items.3.title'),
+      descripcion: t('awards.items.3.description'),
       imagen: prem4,
       enlaces: [
         { 
-          nombre: "Certificado", 
+          nombre: t('awards.certificate'), 
           url: "https://www.swisstransfer.com/d/1a7e5b0c-4800-42fb-876d-db0ff76d5e07" 
         }
       ]
@@ -225,6 +230,9 @@ const Reconocimientos = () => {
 
   return (
     <div className="pt-24 bg-dark">
+      {/* SEO Metadata */}
+      <SeoHelmet page="recognitions" />
+      
       {/* Hero section */}
       <section className="relative py-24 bg-gradient-to-r from-[#00b1ed] to-[#003673] text-white overflow-hidden">
         <div className="absolute inset-0 opacity-20">
@@ -234,11 +242,10 @@ const Reconocimientos = () => {
         
         <div className="container mx-auto px-8 relative z-10">
           <div className="max-w-3xl mx-auto text-center">
-            <h1 className="text-4xl md:text-5xl font-bold mb-8">Reconocimientos</h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-8">{t('awards.title')}</h1>
             <div className="w-24 h-1 bg-white/30 mx-auto mb-10"></div>
             <p className="text-xl text-white/90 leading-relaxed">
-              Hemos recibido varios premios y reconocimientos por nuestra destacada labor y contribución al campo del derecho. 
-              Estos premios son un testimonio de nuestro compromiso con la excelencia y la calidad en el servicio al cliente.
+              {t('awards.description')}
             </p>
           </div>
         </div>
@@ -266,22 +273,22 @@ const Reconocimientos = () => {
             <div className="absolute top-0 left-0 w-16 h-16 border-l-2 border-t-2 border-[#00b1ed]/10"></div>
             <div className="absolute bottom-0 right-0 w-16 h-16 border-r-2 border-b-2 border-[#00b1ed]/10"></div>
             
-            <h2 className="text-2xl font-bold text-gray-800 mb-6">¿Necesitas asesoramiento legal de calidad?</h2>
+            <h2 className="text-2xl font-bold text-gray-800 mb-6">{t('contact.title')}</h2>
             <p className="text-gray-600 max-w-2xl mx-auto mb-10">
-              Nuestro equipo de expertos está listo para ayudarte con cualquier desafío legal que enfrentes.
+              {t('contact.description')}
             </p>
             <div className="flex flex-wrap justify-center gap-6">
               <a 
                 href="/contacto" 
                 className="btn-hover inline-flex items-center justify-center bg-[#00b1ed] text-white font-medium px-7 py-3 rounded-full hover:bg-[#003673] transition-all duration-300 shadow-sm hover:shadow-md"
               >
-                Contactar ahora
+                {t('contact.button')}
               </a>
               <a 
                 href="/servicios" 
                 className="btn-hover inline-flex items-center justify-center bg-white text-[#00b1ed] font-medium px-7 py-3 rounded-full border border-[#00b1ed] hover:bg-[#00b1ed]/5 transition-all duration-300"
               >
-                Ver servicios
+                {t('navigation.services')}
               </a>
             </div>
           </div>

@@ -1,7 +1,10 @@
 import React, { useEffect, useRef } from 'react';
-import { motion } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
 
 const Historia = () => {
+  // Inicializar el hook de traducción
+  const { t } = useTranslation();
+  
   // Refs for timeline animation
   const timelineSectionRef = useRef(null);
   const timelineProgressRef = useRef(null);
@@ -77,10 +80,10 @@ const Historia = () => {
         
         <div className="container mx-auto px-6 relative z-10">
           <div className="max-w-3xl mx-auto text-center">
-            <h1 className="text-4xl md:text-5xl font-bold mb-8">Nuestra Historia</h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-8">{t('history.title')}</h1>
             <div className="w-24 h-1 bg-white/30 mx-auto mb-10"></div>
             <p className="text-xl text-white/90 leading-relaxed">
-              Conoce los orígenes y la evolución de Emindset Law, una firma con un enfoque humano y cercano.
+              {t('history.subtitle')}
             </p>
           </div>
         </div>
@@ -99,64 +102,64 @@ const Historia = () => {
               className="text-3xl font-bold text-center mb-12"
               variants={itemVariants}
             >
-              Érase una vez Emindset Law
+              {t('history.storyTitle')}
             </motion.h2>
             
             <motion.div variants={itemVariants} className="mb-12">
               <p className="text-xl leading-relaxed">
-                Una firma de abogados que nació en 2016, gracias a un equipo con una visión común:
+                {t('history.story.paragraph1')}
               </p>
               <p className="text-xl leading-relaxed font-medium text-[#00b1ed] my-6">
-                que el derecho podía ser más que normas, plazos y lenguaje inaccesible.
+                {t('history.story.highlight1')}
               </p>
               <p className="text-xl leading-relaxed">
-                Podía ser una herramienta útil, cercana y profundamente humana.
+                {t('history.story.paragraph2')}
               </p>
               <p className="text-xl leading-relaxed">
-                Una forma real de acompañar y transformar vidas.
-              </p>
-            </motion.div>
-            
-            <motion.div variants={itemVariants} className="mb-12">
-              <p className="text-xl leading-relaxed">
-                Desde el inicio supimos que queríamos hacer las cosas de otra manera.
-              </p>
-              <p className="text-xl leading-relaxed">
-                No desde la frialdad del traje y el despacho, sino desde la escucha y el compromiso con las personas.
+                {t('history.story.paragraph3')}
               </p>
             </motion.div>
             
             <motion.div variants={itemVariants} className="mb-12">
               <p className="text-xl leading-relaxed">
-                Y, para qué negarlo, llegar con un nuevo mindset no fue fácil.
+                {t('history.story.paragraph4')}
               </p>
               <p className="text-xl leading-relaxed">
-                Romper con lo establecido siempre impone respeto.
+                {t('history.story.paragraph5')}
               </p>
             </motion.div>
             
             <motion.div variants={itemVariants} className="mb-12">
               <p className="text-xl leading-relaxed">
-                Pero con el tiempo, fue esa mirada humana y auténtica
+                {t('history.story.paragraph6')}
               </p>
               <p className="text-xl leading-relaxed">
-                la que nos permitió marcar la diferencia y convertirnos en un referente del sector legal.
+                {t('history.story.paragraph7')}
+              </p>
+            </motion.div>
+            
+            <motion.div variants={itemVariants} className="mb-12">
+              <p className="text-xl leading-relaxed">
+                {t('history.story.paragraph8')}
+              </p>
+              <p className="text-xl leading-relaxed">
+                {t('history.story.paragraph9')}
               </p>
             </motion.div>
             
             <motion.div variants={itemVariants} className="mb-12">
               <p className="text-xl leading-relaxed font-medium text-[#00b1ed]">
-                Siempre fieles a lo que nos mueve:
+                {t('history.story.highlight2')}
               </p>
               <p className="text-xl leading-relaxed">
-                ayudar y estar presente cuando más se nos necesita.
+                {t('history.story.paragraph10')}
               </p>
             </motion.div>
             
             <motion.div variants={itemVariants} className="mt-16 text-center">
               <div className="w-20 h-1 bg-[#00b1ed] mx-auto mb-8"></div>
               <p className="text-gray-600 italic">
-                "Transformando el derecho en una experiencia humana y cercana desde 2016."
+                {t('history.story.quote')}
               </p>
             </motion.div>
           </motion.div>
@@ -167,10 +170,10 @@ const Historia = () => {
       <section className="py-20 bg-gray-50" ref={timelineSectionRef}>
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
-            <span className="inline-block text-sm font-semibold text-[#00b1ed] mb-4">NUESTRO CAMINO</span>
-            <h2 className="text-3xl font-bold text-gray-800 mb-4">Hitos importantes</h2>
+            <span className="inline-block text-sm font-semibold text-[#00b1ed] mb-4">{t('history.timeline.subtitle')}</span>
+            <h2 className="text-3xl font-bold text-gray-800 mb-4">{t('history.timeline.title')}</h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              Un vistazo a los momentos clave que han definido nuestra trayectoria.
+              {t('history.timeline.description')}
             </p>
           </div>
           
@@ -200,7 +203,7 @@ const Historia = () => {
                 <div className="flex flex-col md:flex-row items-center">
                   <div className="md:w-1/2 md:pr-12 md:text-right mb-6 md:mb-0">
                     <h3 className="text-xl font-bold text-gray-800 mb-2">2016</h3>
-                    <p className="text-gray-600">Fundación de Emindset Law con un pequeño equipo de 5 abogados comprometidos con una visión diferente del derecho.</p>
+                    <p className="text-gray-600">{t('history.timeline.items.2016')}</p>
                   </div>
                   <div className="md:w-1/2 md:pl-12">
                     {/* Empty space for alignment */}
@@ -224,7 +227,7 @@ const Historia = () => {
                   </div>
                   <div className="md:w-1/2 md:pl-12">
                     <h3 className="text-xl font-bold text-gray-800 mb-2">2018</h3>
-                    <p className="text-gray-600">Apertura de nuestra primera oficina en Barcelona y ampliación del equipo a 15 profesionales.</p>
+                    <p className="text-gray-600">{t('history.timeline.items.2018')}</p>
                   </div>
                 </div>
               </motion.div>
@@ -242,7 +245,7 @@ const Historia = () => {
                 <div className="flex flex-col md:flex-row items-center">
                   <div className="md:w-1/2 md:pr-12 md:text-right mb-6 md:mb-0">
                     <h3 className="text-xl font-bold text-gray-800 mb-2">2020</h3>
-                    <p className="text-gray-600">Expansión internacional con la apertura de nuestra oficina en Andorra, especializándonos en fiscalidad internacional.</p>
+                    <p className="text-gray-600">{t('history.timeline.items.2020')}</p>
                   </div>
                   <div className="md:w-1/2 md:pl-12">
                     {/* Empty space for alignment */}
@@ -266,7 +269,7 @@ const Historia = () => {
                   </div>
                   <div className="md:w-1/2 md:pl-12">
                     <h3 className="text-xl font-bold text-gray-800 mb-2">2022</h3>
-                    <p className="text-gray-600">Creación de nuestra división de Nuevas Tecnologías, enfocada en startups y empresas tecnológicas.</p>
+                    <p className="text-gray-600">{t('history.timeline.items.2022')}</p>
                   </div>
                 </div>
               </motion.div>
@@ -284,7 +287,7 @@ const Historia = () => {
                 <div className="flex flex-col md:flex-row items-center">
                   <div className="md:w-1/2 md:pr-12 md:text-right mb-6 md:mb-0">
                     <h3 className="text-xl font-bold text-gray-800 mb-2">2024</h3>
-                    <p className="text-gray-600">Apertura de nuestra oficina en Toulouse y reconocimiento como uno de los despachos más innovadores de Europa.</p>
+                    <p className="text-gray-600">{t('history.timeline.items.2024')}</p>
                   </div>
                   <div className="md:w-1/2 md:pl-12">
                     {/* Empty space for alignment */}

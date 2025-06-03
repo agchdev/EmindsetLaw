@@ -116,6 +116,10 @@
     "tax": {
       "title": "Fiscalitat",
       "description": "Optimització fiscal i planificació patrimonial internacional"
+    },
+    "startups": {
+      "title": "Startups, Innovació i Tecnologia",
+      "description": "Suport legal especialitzat per a startups, rondes de finançament, propietat intel·lectual i acords de col·laboració tecnològica."
     }
   },
   "languages": {
@@ -167,6 +171,143 @@
     "description": "El nostre equip es posarà en contacte amb tu en menys de 24 hores per analitzar el teu cas.",
     "button": "DEMANA PRESSUPOST",
     "call": "TRUCA'NS"
+  },
+  "awards": {
+    "title": "Reconeixements",
+    "subtitle": "Premis i Distincions",
+    "description": "Hem rebut diversos premis per la nostra destacada tasca i contribució al camp del dret.",
+    "readMore": "Llegir més",
+    "viewAll": "Veure tots els reconeixements",
+    "items": [
+      {
+        "title": "Millor Despatx en Dret Mercantil d'Espanya 2025 (Premis De Ley)",
+        "year": "2025",
+        "description": "Reconeixement atorgat pels Premis De Ley a la nostra tasca en l'àmbit del Dret Mercantil i el compromís amb la innovació legal per a empreses."
+      },
+      {
+        "title": "CEO de l'Any en el Sector Legal 2024-2025 (Premis La Razón i Foment del Treball)",
+        "year": "2024",
+        "description": "Reconeixement al lideratge en assessorament empresarial i la capacitat d'adaptació en temps de canvi i incertesa econòmica."
+      },
+      {
+        "title": "Top Legal Strategist to Look Out For in 2025",
+        "year": "2025",
+        "description": "Reconeixement a la nostra visió estratègica i capacitat de transformar desafiaments en oportunitats en l'àmbit legal."
+      },
+      {
+        "title": "Corporate Law Expert of the Year in Andorra 2024-2025",
+        "year": "2024",
+        "description": "Reconeixement a la nostra excel·lència en l'àmbit del dret corporatiu a Andorra, destacant el nostre compromís amb la qualitat i la innovació."
+      }
+    ]
+  },
+  "blog": {
+    "title": "El Nostre Blog",
+    "subtitle": "Mantingui's al dia amb les últimes notícies i publicacions del nostre equip",
+    "linkedInSection": "Les Nostres Publicacions a LinkedIn",
+    "connectTitle": "Connecti's amb nosaltres a LinkedIn",
+    "connectDescription": "Segueixi'ns a LinkedIn per mantenir-se al dia amb totes les nostres publicacions, esdeveniments i notícies del sector legal.",
+    "visitProfile": "Visitar el nostre perfil de LinkedIn"
+  },
+  "history": {
+    "title": "La Nostra Història",
+    "subtitle": "Descobreix com Emindset Law va néixer i ha evolucionat al llarg dels anys",
+    "storyTitle": "La història d'Emindset Law",
+    "story": {
+      "paragraph1": "Un despatx d'advocats nascut el 2016, gràcies a un equip amb una visió comuna:",
+      "highlight1": "humanitzar el dret i trencar amb tots els estereotips.",
+      "paragraph2": "Podia ser una eina útil, propera i profundament humana.",
+      "paragraph3": "Una manera real d'acompanyar i transformar vides.",
+      "paragraph4": "Des del principi, sabíem que volíem fer les coses de manera diferent.",
+      "paragraph5": "No des de la fredor del vestit i l'oficina, sinó des de l'escolta i el compromís amb les persones.",
+      "paragraph6": "I, per ser honestos, arribar amb un nou mindset no va ser fàcil.",
+      "paragraph7": "Trencar amb l'establert sempre imposa respecte.",
+      "paragraph8": "Però amb el temps, és aquesta mirada humana i autèntica",
+      "paragraph9": "la que ens ha permès marcar la diferència i convertir-nos en un referent en el sector legal.",
+      "highlight2": "Sempre fidels al que ens mou:",
+      "paragraph10": "ajudar i ser-hi quan més se'ns necessita.",
+      "quote": "\"Transformant el dret en una experiència humana i propera des de 2016.\""
+    },
+    "timeline": {
+      "title": "Fites importants",
+      "subtitle": "EL NOSTRE RECORREGUT",
+      "description": "Un resum dels moments clau que han definit la nostra trajectòria.",
+      "items": {
+        "2016": "Fundació d'Emindset Law amb un petit equip de 5 advocats compromesos amb una visió diferent del dret.",
+        "2018": "Obertura de la nostra primera oficina a Barcelona i expansió de l'equip a 15 professionals.",
+        "2020": "Expansió internacional amb l'obertura de la nostra oficina a Andorra, especialitzada en fiscalitat internacional.",
+        "2022": "Creació de la nostra divisió de Noves Tecnologies, centrada en startups i empreses tecnològiques.",
+        "2024": "Obertura de la nostra oficina a Tolosa i reconeixement com un dels despatxos d'advocats més innovadors d'Europa."
+      }
+    }
+  },
+  "metadata": {
+    "site": {
+      "title": "Emindset Law | Especialistes en Dret Mercantil, Immobiliari i Noves Tecnologies",
+      "description": "Despatx d'advocats especialitzat en dret mercantil, immobiliari, noves tecnologies i fiscalitat. Solucions legals àgils i innovadores per a empreses modernes.",
+      "keywords": [
+        "advocats", 
+        "dret mercantil", 
+        "dret societari", 
+        "immobiliari", 
+        "noves tecnologies", 
+        "protecció de dades", 
+        "RGPD", 
+        "fiscalitat", 
+        "assessoria legal", 
+        "despatx d'advocats", 
+        "advocats Madrid", 
+        "assessoria jurídica empreses", 
+        "dret tecnològic", 
+        "residència Andorra", 
+        "fiscalitat internacional"
+      ]
+    },
+    "pages": {
+      "home": {
+        "title": "Emindset Law | Especialistes en Dret Mercantil, Immobiliari i Noves Tecnologies",
+        "description": "Despatx d'advocats especialitzat en dret mercantil, immobiliari, noves tecnologies i fiscalitat. Solucions legals àgils i innovadores per a empreses modernes."
+      },
+      "about": {
+        "title": "Sobre Nosaltres | Emindset Law - Advocats Especialitzats",
+        "description": "Coneix el nostre equip d'advocats experts en dret mercantil, immobiliari i noves tecnologies. Més de 15 anys d'experiència oferint solucions legals innovadores."
+      },
+      "services": {
+        "title": "Serveis Legals | Emindset Law - Especialització Legal",
+        "description": "Oferim serveis legals especialitzats en dret mercantil, societari, immobiliari, noves tecnologies, protecció de dades i fiscalitat internacional."
+      },
+      "contact": {
+        "title": "Contacte | Emindset Law - Sol·licita una Consulta",
+        "description": "Posa't en contacte amb el nostre equip d'advocats especialistes. Som a Madrid i oferim assessorament legal personalitzat per a la teva empresa."
+      },
+      "mercantil": {
+        "title": "Dret Mercantil i Societari | Emindset Law",
+        "description": "Assessorament integral en constitució d'empreses, pactes de socis, fusions i adquisicions, i reestructuracions corporatives."
+      },
+      "realEstate": {
+        "title": "Dret Immobiliari | Emindset Law",
+        "description": "Assessorament legal en compravenda d'immobles, arrendaments, promocions immobiliàries, due diligence i contractes de construcció."
+      },
+      "tech": {
+        "title": "Dret Tecnològic | Emindset Law",
+        "description": "Assessorament legal en propietat intel·lectual, e-commerce, contractes tecnològics, startups i finançament de projectes innovadors."
+      },
+      "tax": {
+        "title": "Fiscalitat | Emindset Law",
+        "description": "Assessorament fiscal per a empreses i particulars, planificació tributària, fiscalitat internacional i resolució de controversies amb l'administració."
+      },
+      "andorra": {
+        "title": "Residència a Andorra | Emindset Law",
+        "description": "Serveis legals especialitzats per a l'establiment a Andorra, residència fiscal, inversió immobiliària i assessorament en avantatges fiscals del Principat."
+      },
+      "privacy": {
+        "title": "Política de Privacitat | Emindset Law",
+        "description": "Consulta la nostra política de privacitat i protecció de dades. Informació sobre com recopilem, utilitzem i protegim les teves dades personals."
+      },
+      "blog": {
+        "title": "Blog | Emindset Law - Novetats i Actualitzacions",
+        "description": "Descobreix les últimes notícies, novetats i actualitzacions en l'àmbit legal. Articles i publicacions del nostre equip d'advocats experts."
+      }
+    }
   }
-
 }

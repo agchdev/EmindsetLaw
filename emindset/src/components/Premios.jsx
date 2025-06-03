@@ -1,10 +1,11 @@
 import React, { useState, useEffect, useRef } from 'react'
+import { useTranslation } from 'react-i18next';
 import prem1 from "../assets/img/prem1.jpg";
 import prem2 from "../assets/img/prem2.jpg";
 import prem3 from "../assets/img/prem3.jpg";
 import prem4 from "../assets/img/prem4.png";
 
-const PremioCard = ({ title, year, description, image, delay, isVisible }) => (
+const PremioCard = ({ title, year, description, image, delay, isVisible, readMoreText }) => (
   <div 
     className={`bg-white rounded-sm overflow-hidden transition-all duration-700 shadow-sm hover:shadow-md group ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}
     style={{ transitionDelay: `${delay}ms` }}
@@ -44,7 +45,7 @@ const PremioCard = ({ title, year, description, image, delay, isVisible }) => (
           href="#" 
           className="inline-flex items-center text-primary text-xs group-hover:translate-x-2 transition-transform duration-300"
         >
-          <span className="mr-1">Leer más</span>
+          <span className="mr-1">{readMoreText}</span>
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M5 12H19" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
             <path d="M12 5L19 12L12 19" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
@@ -56,6 +57,7 @@ const PremioCard = ({ title, year, description, image, delay, isVisible }) => (
 );
 
 const Premios = () => {
+  const { t } = useTranslation();
   const [isVisible, setIsVisible] = useState(false);
   const sectionRef = useRef(null);
   
@@ -80,46 +82,28 @@ const Premios = () => {
     return () => observer.disconnect();
   }, []);
   
-  const premios = [
-    {
-      id: 1,
-      title: "Mejor Despacho en Derecho Mercantil de España 2025 (Premios De Ley)",
-      year: "2025",
-      description: "Reconocimiento otorgado por los Premios De Ley a nuestra labor en el ámbito del Derecho Mercantil y el compromiso con la innovación legal para empresas.",
-      image: prem1
-    },
-    {
-      id: 2,
-      title: "CEO del Año en el Sector Legal 2024-2025 (Premios La Razón y Foment del Treball)",
-      year: "2024",
-      description: "Reconocimiento al liderazgo en asesoramiento empresarial y la capacidad de adaptación en tiempos de cambio e incertidumbre económica.",
-      image: prem2
-    },
-    {
-      id: 3,
-      title: "Top Legal Strategist to Look Out For in 2025",
-      year: "2025",
-      description: "Reconocimiento a nuestra visión estratégica y capacidad de transformar desafíos en oportunidades en el ámbito legal.",
-      image: prem3
-    },
-    {
-      id: 4,
-      title: "Corporate Law Expert of the Year in Andorra 2024-2025",
-      year: "2024",
-      description: "Reconocimiento a nuestra excelencia en el ámbito del derecho corporativo en Andorra, destacando nuestro compromiso con la calidad y la innovación.",
-      image: prem4
-    }
-  ];
+  // Usar las traducciones para los premios
+  const premiosData = t('awards.items', { returnObjects: true });
+  
+  // Mapear imágenes a cada premio
+  const premiosImages = [prem1, prem2, prem3, prem4];
+  
+  // Combinar datos traducidos con imágenes
+  const premios = premiosData.map((premio, index) => ({
+    id: index + 1,
+    ...premio,
+    image: premiosImages[index]
+  }));
 
   return (
     <section ref={sectionRef} className="py-16 lg:py-24 bg-white overflow-hidden relative">
       <div className="max-w-6xl mx-auto px-6">
         <div className={`text-center mb-12 transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
-          <span className="inline-block text-sm font-semibold text-primary mb-2">RECONOCIMIENTOS</span>
-          <h2 className="text-2xl font-bold text-gray-800 mb-2">Premios y Distinciones</h2>
+          <span className="inline-block text-sm font-semibold text-primary mb-2">{t('awards.title').toUpperCase()}</span>
+          <h2 className="text-2xl font-bold text-gray-800 mb-2">{t('awards.subtitle')}</h2>
           <div className="w-10 h-1 bg-primary mx-auto mt-2 mb-3"></div>
           <p className="max-w-2xl mx-auto text-gray-600 text-sm">
-            Hemos recibido varios premios por nuestra destacada labor y contribución al campo del derecho.
+            {t('awards.description')}
           </p>
         </div>
         
@@ -130,6 +114,7 @@ const Premios = () => {
               {...premio} 
               delay={200 + (index * 100)}
               isVisible={isVisible}
+              readMoreText={t('awards.readMore')}
             />
           ))}
         </div>
@@ -139,7 +124,7 @@ const Premios = () => {
             href="/reconocimientos" 
             className="inline-flex items-center text-primary text-sm hover:text-primary-dark transition-colors duration-300"
           >
-            <span className="relative z-10">Ver todos los reconocimientos</span>
+            <span className="relative z-10">{t('awards.viewAll')}</span>
             <svg className="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
             </svg>

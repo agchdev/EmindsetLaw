@@ -9,15 +9,19 @@ import CTA from '../components/CTA';
 import News from '../components/News';
 import Contact from '../components/Contact';
 import Testimonials from '../components/Testimonials';
+import SeoHelmet from '../seo/SeoHelmet';
 
 const Home = () => {
   return (
     <div>
+      {/* SEO Metadata */}
+      <SeoHelmet page="home" />
+      
       <Hero />
       <About />
       <Services />
       <Mision />
-      <Stats />
+      {/* <Stats /> */}
       <Testimonials />
       <CTA />
       <Premios />

@@ -116,6 +116,10 @@
     "tax": {
       "title": "Fiscalité",
       "description": "Optimisation fiscale et planification patrimoniale internationale"
+    },
+    "startups": {
+      "title": "Startups, Innovation et Technologie",
+      "description": "Soutien juridique spécialisé pour les startups, les levées de fonds, la propriété intellectuelle et les accords de collaboration technologique."
     }
   },
   "languages": {
@@ -167,5 +171,143 @@
     "description": "Notre équipe vous contactera dans les 24 heures pour analyser votre cas.",
     "button": "DEMANDER UN DEVIS",
     "call": "APPELEZ-NOUS"
+  },
+  "awards": {
+    "title": "Reconnaissances",
+    "subtitle": "Prix et Distinctions",
+    "description": "Nous avons reçu plusieurs prix pour notre travail exceptionnel et notre contribution au domaine juridique.",
+    "readMore": "Lire plus",
+    "viewAll": "Voir toutes les reconnaissances",
+    "items": [
+      {
+        "title": "Meilleur Cabinet de Droit Commercial en Espagne 2025 (Prix De Ley)",
+        "year": "2025",
+        "description": "Reconnaissance décernée par les Prix De Ley pour notre travail dans le domaine du Droit Commercial et notre engagement envers l'innovation juridique pour les entreprises."
+      },
+      {
+        "title": "PDG de l'Année dans le Secteur Juridique 2024-2025 (Prix La Razón et Foment del Treball)",
+        "year": "2024",
+        "description": "Reconnaissance pour le leadership dans le conseil aux entreprises et la capacité d'adaptation en périodes de changement et d'incertitude économique."
+      },
+      {
+        "title": "Top Stratège Juridique à Surveiller en 2025",
+        "year": "2025",
+        "description": "Reconnaissance de notre vision stratégique et de notre capacité à transformer les défis en opportunités dans le domaine juridique."
+      },
+      {
+        "title": "Expert en Droit des Sociétés de l'Année en Andorre 2024-2025",
+        "year": "2024",
+        "description": "Reconnaissance de notre excellence dans le domaine du droit des sociétés en Andorre, soulignant notre engagement envers la qualité et l'innovation."
+      }
+    ]
+  },
+  "blog": {
+    "title": "Notre Blog",
+    "subtitle": "Restez informés des dernières nouvelles et publications de notre équipe",
+    "linkedInSection": "Nos Publications sur LinkedIn",
+    "connectTitle": "Connectez-vous avec nous sur LinkedIn",
+    "connectDescription": "Suivez-nous sur LinkedIn pour rester à jour avec toutes nos publications, événements et actualités du secteur juridique.",
+    "visitProfile": "Visiter notre profil LinkedIn"
+  },
+  "history": {
+    "title": "Notre Histoire",
+    "subtitle": "Découvrez comment Emindset Law est née et a évolué au fil des années",
+    "storyTitle": "L'histoire d'Emindset Law",
+    "story": {
+      "paragraph1": "Un cabinet d'avocats né en 2016, grâce à une équipe avec une vision commune :",
+      "highlight1": "humaniser le droit et rompre avec tous les stéréotypes.",
+      "paragraph2": "Il pouvait être un outil utile, proche et profondément humain.",
+      "paragraph3": "Une façon réelle d'accompagner et de transformer des vies.",
+      "paragraph4": "Dès le début, nous savions que nous voulions faire les choses différemment.",
+      "paragraph5": "Pas depuis la froideur du costume et du bureau, mais depuis l'écoute et l'engagement envers les personnes.",
+      "paragraph6": "Et, pour être honnête, arriver avec un nouveau mindset n'était pas facile.",
+      "paragraph7": "Rompre avec l'établi impose toujours le respect.",
+      "paragraph8": "Mais avec le temps, c'est ce regard humain et authentique",
+      "paragraph9": "qui nous a permis de faire la différence et de devenir une référence dans le secteur juridique.",
+      "highlight2": "Toujours fidèles à ce qui nous anime :",
+      "paragraph10": "aider et être présents lorsqu'on a le plus besoin de nous.",
+      "quote": "\"Transformer le droit en une expérience humaine et proche depuis 2016.\""
+    },
+    "timeline": {
+      "title": "Jalons importants",
+      "subtitle": "NOTRE PARCOURS",
+      "description": "Un aperçu des moments clés qui ont défini notre trajectoire.",
+      "items": {
+        "2016": "Fondation d'Emindset Law avec une petite équipe de 5 avocats engagés avec une vision différente du droit.",
+        "2018": "Ouverture de notre premier bureau à Barcelone et expansion de l'équipe à 15 professionnels.",
+        "2020": "Expansion internationale avec l'ouverture de notre bureau en Andorre, spécialisé dans la fiscalité internationale.",
+        "2022": "Création de notre division Nouvelles Technologies, axée sur les startups et les entreprises technologiques.",
+        "2024": "Ouverture de notre bureau à Toulouse et reconnaissance comme l'un des cabinets d'avocats les plus innovants d'Europe."
+      }
+    }
+  },
+  "metadata": {
+    "site": {
+      "title": "Emindset Law | Spécialistes en Droit Commercial, Immobilier et Nouvelles Technologies",
+      "description": "Cabinet d'avocats spécialisé en droit commercial, immobilier, nouvelles technologies et fiscalité. Solutions juridiques agiles et innovantes pour les entreprises modernes.",
+      "keywords": [
+        "avocats", 
+        "droit commercial", 
+        "droit des sociétés", 
+        "immobilier", 
+        "nouvelles technologies", 
+        "protection des données", 
+        "RGPD", 
+        "fiscalité", 
+        "conseil juridique", 
+        "cabinet d'avocats", 
+        "avocats Madrid", 
+        "conseil juridique entreprises", 
+        "droit technologique", 
+        "résidence Andorre", 
+        "fiscalité internationale"
+      ]
+    },
+    "pages": {
+      "home": {
+        "title": "Emindset Law | Spécialistes en Droit Commercial, Immobilier et Nouvelles Technologies",
+        "description": "Cabinet d'avocats spécialisé en droit commercial, immobilier, nouvelles technologies et fiscalité. Solutions juridiques agiles et innovantes pour les entreprises modernes."
+      },
+      "about": {
+        "title": "À Propos | Emindset Law - Avocats Spécialisés",
+        "description": "Rencontrez notre équipe d'avocats experts en droit commercial, immobilier et nouvelles technologies. Plus de 15 ans d'expérience offrant des solutions juridiques innovantes."
+      },
+      "services": {
+        "title": "Services Juridiques | Emindset Law - Spécialisation Juridique",
+        "description": "Nous offrons des services juridiques spécialisés en droit commercial, droit des sociétés, immobilier, nouvelles technologies, protection des données et fiscalité internationale."
+      },
+      "contact": {
+        "title": "Contact | Emindset Law - Demandez une Consultation",
+        "description": "Contactez notre équipe d'avocats spécialistes. Nous sommes basés à Madrid et offrons des conseils juridiques personnalisés pour votre entreprise."
+      },
+      "mercantil": {
+        "title": "Droit Commercial et des Sociétés | Emindset Law",
+        "description": "Conseil complet en création d'entreprise, pactes d'actionnaires, fusions et acquisitions, et restructurations d'entreprises."
+      },
+      "realEstate": {
+        "title": "Droit Immobilier | Emindset Law",
+        "description": "Conseil juridique en achat et vente de biens immobiliers, baux, développements immobiliers, due diligence et contrats de construction."
+      },
+      "tech": {
+        "title": "Droit des Technologies | Emindset Law",
+        "description": "Conseil juridique en propriété intellectuelle, commerce électronique, contrats technologiques, startups et financement de projets innovants."
+      },
+      "tax": {
+        "title": "Fiscalité | Emindset Law",
+        "description": "Conseil fiscal pour entreprises et particuliers, planification fiscale, fiscalité internationale et résolution de litiges avec l'administration."
+      },
+      "andorra": {
+        "title": "Résidence en Andorre | Emindset Law",
+        "description": "Services juridiques spécialisés pour l'établissement en Andorre, résidence fiscale, investissement immobilier et conseil sur les avantages fiscaux de la Principauté."
+      },
+      "privacy": {
+        "title": "Politique de Confidentialité | Emindset Law",
+        "description": "Consultez notre politique de confidentialité et de protection des données. Informations sur la façon dont nous collectons, utilisons et protégeons vos données personnelles."
+      },
+      "blog": {
+        "title": "Blog | Emindset Law - Actualités et Mises à Jour",
+        "description": "Découvrez les dernières actualités, développements et mises à jour dans le domaine juridique. Articles et publications de notre équipe d'avocats experts."
+      }
+    }
   }
 }

@@ -93,8 +93,8 @@ const Services = () => {
               <div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center mb-4 group-hover:bg-primary transition-colors duration-300">
                 <FontAwesomeIcon icon={faMicrochip} className="service-icon text-2xl text-primary group-hover:text-white" />
               </div>
-              <h3 className="text-lg font-bold text-gray-800 mb-2">Startups, Innovación y Tecnología</h3>
-              <p className="text-gray-600 w-[300px] text-sm mb-4">Apoyo legal especializado para startups, rondas de financiación, propiedad intelectual y acuerdos de colaboración tecnológica.</p>
+              <h3 className="text-lg font-bold text-gray-800 mb-2">{t('services.startups.title')}</h3>
+              <p className="text-gray-600 w-[300px] text-sm mb-4">{t('services.startups.description')}</p>
               {/* <a href="#" className="inline-flex items-center text-primary font-medium group-hover:text-primary-dark transition-colors duration-300">
               Leer más <FontAwesomeIcon icon={faArrowRight} className="ml-2 transition-transform duration-300 group-hover:translate-x-1" />
             </a> */}
@@ -105,8 +105,8 @@ const Services = () => {
               <div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center mb-4 group-hover:bg-primary transition-colors duration-300">
                 <FontAwesomeIcon icon={faGlobe} className="service-icon text-2xl text-primary group-hover:text-white" />
               </div>
-              <h3 className="text-lg font-bold text-gray-800 mb-2">{t('services.realestate.title')}</h3>
-              <p className="text-gray-600 w-[300px] text-sm mb-4">{t('services.realestate.description')}</p>
+              <h3 className="text-lg font-bold text-gray-800 mb-2">{t('services.andorra.title')}</h3>
+              <p className="text-gray-600 w-[300px] text-sm mb-4">{t('services.andorra.description')}</p>
               {/* <a href="#" className="inline-flex items-center text-primary font-medium group-hover:text-primary-dark transition-colors duration-300">
               Leer más <FontAwesomeIcon icon={faArrowRight} className="ml-2 transition-transform duration-300 group-hover:translate-x-1" />
             </a> */}
@@ -117,8 +117,8 @@ const Services = () => {
               <div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center mb-4 group-hover:bg-primary transition-colors duration-300">
                 <FontAwesomeIcon icon={faShield} className="service-icon text-2xl text-primary group-hover:text-white" />
               </div>
-              <h3 className="text-lg font-bold text-gray-800 mb-2">{t('services.tax.title')}</h3>
-              <p className="text-gray-600 w-[300px] text-sm mb-4">{t('services.tax.description')}</p>
+              <h3 className="text-lg font-bold text-gray-800 mb-2">{t('services.data.title')}</h3>
+              <p className="text-gray-600 w-[300px] text-sm mb-4">{t('services.data.description')}</p>
               {/* <a href="#" className="inline-flex items-center text-primary font-medium group-hover:text-primary-dark transition-colors duration-300">
               Leer más <FontAwesomeIcon icon={faArrowRight} className="ml-2 transition-transform duration-300 group-hover:translate-x-1" />
             </a> */}
@@ -129,8 +129,8 @@ const Services = () => {
               <div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center mb-4 group-hover:bg-primary transition-colors duration-300">
                 <FontAwesomeIcon icon={faChartLine} className="service-icon text-2xl text-primary group-hover:text-white" />
               </div>
-              <h3 className="text-lg font-bold text-gray-800 mb-2">Fiscalidad</h3>
-              <p className="text-gray-600 w-[300px] text-sm mb-4">Asesoramiento fiscal para empresas y particulares, planificación tributaria, fiscalidad internacional y resolución de controversias con la administración.</p>
+              <h3 className="text-lg font-bold text-gray-800 mb-2">{t('services.tax.title')}</h3>
+              <p className="text-gray-600 w-[300px] text-sm mb-4">{t('services.tax.description')}</p>
               {/* <a href="#" className="inline-flex items-center text-primary font-medium group-hover:text-primary-dark transition-colors duration-300">
               Leer más <FontAwesomeIcon icon={faArrowRight} className="ml-2 transition-transform duration-300 group-hover:translate-x-1" />
             </a> */}

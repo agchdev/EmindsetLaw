@@ -1,0 +1,19 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[dev]
+  command = "npm run dev"
+  port = 5173
+  targetPort = 5173
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Configuración para protección con contraseña
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Basic-Auth = "emindset:equipo2025"

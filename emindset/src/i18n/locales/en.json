@@ -116,6 +116,10 @@
     "tax": {
       "title": "Taxation",
       "description": "Tax optimization and international wealth planning"
+    },
+    "startups": {
+      "title": "Startups, Innovation and Technology",
+      "description": "Specialized legal support for startups, funding rounds, intellectual property and technological collaboration agreements."
     }
   },
   "languages": {
@@ -167,5 +171,149 @@
     "description": "Our team will contact you within 24 hours to analyze your case.",
     "button": "GET A QUOTE",
     "call": "CALL US"
+  },
+  "awards": {
+    "title": "Recognitions",
+    "subtitle": "Awards and Distinctions",
+    "description": "We have received several awards for our outstanding work and contribution to the field of law.",
+    "readMore": "Read more",
+    "viewAll": "View all recognitions",
+    "relatedLinks": "Related links:",
+    "videos": "Videos:",
+    "watchVideo": "Watch video",
+    "videoCeremony": "Ceremony video",
+    "interview": "Interview",
+    "certificate": "Certificate",
+    "items": [
+      {
+        "title": "Best Commercial Law Firm in Spain 2025 (De Ley Awards)",
+        "year": "2025",
+        "description": "Recognition given by De Ley Awards for our work in the field of Commercial Law and our commitment to legal innovation for companies."
+      },
+      {
+        "title": "CEO of the Year in the Legal Sector 2024-2025 (La Razón and Foment del Treball Awards)",
+        "year": "2024",
+        "description": "Recognition for leadership in business advisory and the ability to adapt in times of change and economic uncertainty."
+      },
+      {
+        "title": "Top Legal Strategist to Look Out For in 2025",
+        "year": "2025",
+        "description": "Recognition of our strategic vision and ability to transform challenges into opportunities in the legal field."
+      },
+      {
+        "title": "Corporate Law Expert of the Year in Andorra 2024-2025",
+        "year": "2024",
+        "description": "Recognition of our excellence in the field of corporate law in Andorra, highlighting our commitment to quality and innovation."
+      }
+    ]
+  },
+  "blog": {
+    "title": "Our Blog",
+    "subtitle": "Stay up to date with the latest news and publications from our team",
+    "linkedInSection": "Our LinkedIn Posts",
+    "connectTitle": "Connect with us on LinkedIn",
+    "connectDescription": "Follow us on LinkedIn to stay updated with all our publications, events, and news from the legal sector.",
+    "visitProfile": "Visit our LinkedIn profile"
+  },
+  "history": {
+    "title": "Our History",
+    "subtitle": "Discover how Emindset Law was born and evolved over the years",
+    "storyTitle": "The Emindset Law story",
+    "story": {
+      "paragraph1": "A law firm that was born in 2016, thanks to a team with a common vision:",
+      "highlight1": "to humanize the legal profession and break with all stereotypes.",
+      "paragraph2": "It could be a useful, approachable, and deeply human tool.",
+      "paragraph3": "A real way to accompany and transform lives.",
+      "paragraph4": "From the beginning, we knew we wanted to do things differently.",
+      "paragraph5": "Not from the coldness of the suit and the office, but from listening and commitment to people.",
+      "paragraph6": "And, to be honest, arriving with a new mindset wasn't easy.",
+      "paragraph7": "Breaking with the established always commands respect.",
+      "paragraph8": "But over time, it was that human and authentic perspective",
+      "paragraph9": "that allowed us to make a difference and become a reference in the legal sector.",
+      "highlight2": "Always faithful to what drives us:",
+      "paragraph10": "helping and being present when we are needed most.",
+      "quote": "\"Transforming law into a human and approachable experience since 2016.\""
+    },
+    "timeline": {
+      "title": "Important milestones",
+      "subtitle": "OUR JOURNEY",
+      "description": "A glimpse of the key moments that have defined our trajectory.",
+      "items": {
+        "2016": "Foundation of Emindset Law with a small team of 5 lawyers committed to a different vision of law.",
+        "2018": "Opening of our first office in Barcelona and expansion of the team to 15 professionals.",
+        "2020": "International expansion with the opening of our office in Andorra, specializing in international taxation.",
+        "2022": "Creation of our New Technologies division, focused on startups and technology companies.",
+        "2024": "Opening of our office in Toulouse and recognition as one of the most innovative law firms in Europe."
+      }
+    }
+  },
+  "metadata": {
+    "site": {
+      "title": "Emindset Law | Specialists in Commercial Law, Real Estate and New Technologies",
+      "description": "Law firm specializing in commercial law, real estate, new technologies, and taxation. Agile and innovative legal solutions for modern businesses.",
+      "keywords": [
+        "lawyers", 
+        "commercial law", 
+        "corporate law", 
+        "real estate", 
+        "new technologies", 
+        "data protection", 
+        "GDPR", 
+        "taxation", 
+        "legal advice", 
+        "law firm", 
+        "Madrid lawyers", 
+        "business legal advice", 
+        "technology law", 
+        "Andorra residency", 
+        "international taxation"
+      ]
+    },
+    "pages": {
+      "home": {
+        "title": "Emindset Law | Specialists in Commercial Law, Real Estate and New Technologies",
+        "description": "Law firm specializing in commercial law, real estate, new technologies, and taxation. Agile and innovative legal solutions for modern businesses."
+      },
+      "about": {
+        "title": "About Us | Emindset Law - Specialized Lawyers",
+        "description": "Meet our team of expert lawyers in commercial law, real estate, and new technologies. Over 15 years of experience providing innovative legal solutions."
+      },
+      "services": {
+        "title": "Legal Services | Emindset Law - Legal Specialization",
+        "description": "We offer specialized legal services in commercial law, corporate law, real estate, new technologies, data protection, and international taxation."
+      },
+      "contact": {
+        "title": "Contact | Emindset Law - Request a Consultation",
+        "description": "Get in touch with our team of specialist lawyers. We are based in Madrid and offer personalized legal advice for your business."
+      },
+      "mercantil": {
+        "title": "Commercial and Corporate Law | Emindset Law",
+        "description": "Comprehensive advice on company formation, shareholder agreements, mergers and acquisitions, and corporate restructuring."
+      },
+      "realEstate": {
+        "title": "Property and Real Estate Law | Emindset Law",
+        "description": "Legal advice on property purchase and sale, leases, real estate developments, due diligence, and construction contracts."
+      },
+      "tech": {
+        "title": "Technology Law | Emindset Law",
+        "description": "Legal advice on intellectual property, e-commerce, technology contracts, startups, and financing for innovative projects."
+      },
+      "tax": {
+        "title": "Taxation | Emindset Law",
+        "description": "Tax advice for companies and individuals, tax planning, international taxation, and resolution of disputes with the administration."
+      },
+      "andorra": {
+        "title": "Residence in Andorra | Emindset Law",
+        "description": "Specialized legal services for establishment in Andorra, tax residence, real estate investment, and advice on tax advantages of the Principality."
+      },
+      "privacy": {
+        "title": "Privacy Policy | Emindset Law",
+        "description": "Check our privacy policy and data protection. Information about how we collect, use and protect your personal data."
+      },
+      "blog": {
+        "title": "Blog | Emindset Law - News and Updates",
+        "description": "Discover the latest news, developments, and updates in the legal field. Articles and publications from our team of expert lawyers."
+      }
+    }
   }
 }

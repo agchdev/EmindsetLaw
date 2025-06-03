@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
+import { HelmetProvider } from 'react-helmet-async';
 import Home from './pages/Home';
 import Reconocimientos from './pages/Reconocimientos';
 import Historia from './pages/Historia';
@@ -10,7 +11,7 @@ import Footer from './components/Footer';
 import BackToTop from './components/BackToTop';
 import WhatsAppButton from './components/WhatsAppButton';
 import Blogs from './pages/Blogs';
-import SEO from './seo/SEO';
+import SeoHelmet from './seo/SeoHelmet';
 
 // Componente para gestionar el SEO basado en la ruta actual
 const SEOHandler = () => {
@@ -26,7 +27,7 @@ const SEOHandler = () => {
   else if (path === '/contacto') currentPage = 'contact';
   else if (path === '/politica-privacidad') currentPage = 'privacy';
   
-  return <SEO page={currentPage} />;
+  return <SeoHelmet page={currentPage} />;
 };
 
 // Componente principal con SEO integrado
@@ -56,9 +57,11 @@ function AppContent() {
 
 function App() {
   return (
-    <Router>
-      <AppContent />
-    </Router>
+    <HelmetProvider>
+      <Router>
+        <AppContent />
+      </Router>
+    </HelmetProvider>
   );
 }
 

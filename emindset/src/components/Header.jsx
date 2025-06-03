@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef, useCallback } from 'react';
 import { useTranslation } from 'react-i18next';
 import logo from '../assets/logo.png';
 
@@ -7,7 +7,6 @@ const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isLoaded, setIsLoaded] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [isHeaderFull, setIsHeaderFull] = useState(false);
   const [headerHeight, setHeaderHeight] = useState('auto');
   const [menuWasRecentlyClosed, setMenuWasRecentlyClosed] = useState(false);
   const [currentLanguage, setCurrentLanguage] = useState(i18n.language || 'es'); // es, fr, ca, en
@@ -60,14 +59,12 @@ const Header = () => {
     const handleClickOutside = (event) => {
       if (headerRef.current && !headerRef.current.contains(event.target)) {
         setIsMenuOpen(false);
-        setIsHeaderFull(false);
       }
     };
 
     const handleEscKey = (event) => {
       if (event.key === 'Escape') {
         setIsMenuOpen(false);
-        setIsHeaderFull(false);
       }
     };
 
@@ -84,7 +81,6 @@ const Header = () => {
       document.removeEventListener('mousedown', handleClickOutside);
       document.removeEventListener('keydown', handleEscKey);
       document.body.style.overflow = '';
-      setIsHeaderFull(false);
     };
   }, [isMenuOpen]);
   
@@ -122,19 +118,18 @@ const Header = () => {
   const toggleMenu = () => {
     const newMenuState = !isMenuOpen;
     setIsMenuOpen(newMenuState);
-    setIsHeaderFull(newMenuState);
     console.log('Toggle menu:', newMenuState ? 'abriendo' : 'cerrando');
   };
   
-  // Función para cambiar el idioma
-  const changeLanguage = (lang) => {
+  // Función para cambiar el idioma, envuelta en useCallback para evitar recrear la función en cada renderizado
+  const changeLanguage = useCallback((lang) => {
     setCurrentLanguage(lang);
     i18n.changeLanguage(lang);
     console.log(`Idioma cambiado a: ${lang}`);
     
     // Almacenar la preferencia de idioma en localStorage
     localStorage.setItem('userLanguage', lang);
-  };
+  }, [i18n, setCurrentLanguage]);
   
   // Detectar el idioma al cargar el componente
   useEffect(() => {
@@ -142,7 +137,7 @@ const Header = () => {
     if (savedLanguage) {
       changeLanguage(savedLanguage);
     }
-  }, []);
+  }, [changeLanguage]);
 
   return (
     <header 
@@ -202,8 +197,8 @@ const Header = () => {
               </a>
             ))}
             
-{/* Language Selector Dropdown */}
-<div className="relative group ml-4">
+            {/* Language Selector Dropdown */}
+            <div className="relative group ml-4">
               <button 
                 className={`flex items-center space-x-1 ${isScrolled ? 'text-gray-700 hover:text-[#1579a2]' : 'text-white/90 hover:text-white'} transition-colors duration-300`} 
                 aria-label={t('navigation.select_language')}
@@ -219,37 +214,36 @@ const Header = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 9l-7 7-7-7" />
                 </svg>
               </button>
-              <div className={`absolute right-0 mt-2 w-32 ${isScrolled ? 'bg-white/95' : 'bg-white/10'} backdrop-blur-md rounded shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50`}>
-                <div className="p-1">
-                  <button 
-                    onClick={() => changeLanguage('es')} 
-                    className={`w-full text-left px-4 py-2 ${currentLanguage === 'es' ? 'bg-[#1579a2]/10 text-[#1579a2] font-medium' : 'text-gray-700'} hover:bg-gray-100`} 
-                    aria-pressed={currentLanguage === 'es'}
-                  >
-                    {t('languages.es')}
-                  </button>
-                  <button 
-                    onClick={() => changeLanguage('fr')} 
-                    className={`w-full text-left px-4 py-2 ${currentLanguage === 'fr' ? 'bg-[#1579a2]/10 text-[#1579a2] font-medium' : 'text-gray-700'} hover:bg-gray-100`} 
-                    aria-pressed={currentLanguage === 'fr'}
-                  >
-                    {t('languages.fr')}
-                  </button>
-                  <button 
-                    onClick={() => changeLanguage('ca')} 
-                    className={`w-full text-left px-4 py-2 ${currentLanguage === 'ca' ? 'bg-[#1579a2]/10 text-[#1579a2] font-medium' : 'text-gray-700'} hover:bg-gray-100`} 
-                    aria-pressed={currentLanguage === 'ca'}
-                  >
-                    {t('languages.ca')}
-                  </button>
-                  <button 
-                    onClick={() => changeLanguage('en')} 
-                    className={`w-full text-left px-4 py-2 ${currentLanguage === 'en' ? 'bg-[#1579a2]/10 text-[#1579a2] font-medium' : 'text-gray-700'} hover:bg-gray-100`} 
-                    aria-pressed={currentLanguage === 'en'}
-                  >
-                    {t('languages.en')}
-                  </button>
-                </div>
+              
+              <div className={`absolute right-0 mt-2 w-32 ${isScrolled ? 'bg-white/95' : 'bg-gray-800/80'} backdrop-blur-md rounded shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50`}>
+                <button 
+                  onClick={() => changeLanguage('es')} 
+                  className={`w-full text-left px-4 py-2 ${currentLanguage === 'es' ? 'bg-[#1579a2]/10 text-[#1579a2] font-medium' : isScrolled ? 'text-gray-700' : 'text-white'} hover:bg-gray-100 hover:text-gray-700`} 
+                  aria-pressed={currentLanguage === 'es'}
+                >
+                  {t('languages.es')}
+                </button>
+                <button 
+                  onClick={() => changeLanguage('fr')} 
+                  className={`w-full text-left px-4 py-2 ${currentLanguage === 'fr' ? 'bg-[#1579a2]/10 text-[#1579a2] font-medium' : isScrolled ? 'text-gray-700' : 'text-white'} hover:bg-gray-100 hover:text-gray-700`} 
+                  aria-pressed={currentLanguage === 'fr'}
+                >
+                  {t('languages.fr')}
+                </button>
+                <button 
+                  onClick={() => changeLanguage('ca')} 
+                  className={`w-full text-left px-4 py-2 ${currentLanguage === 'ca' ? 'bg-[#1579a2]/10 text-[#1579a2] font-medium' : isScrolled ? 'text-gray-700' : 'text-white'} hover:bg-gray-100 hover:text-gray-700`} 
+                  aria-pressed={currentLanguage === 'ca'}
+                >
+                  {t('languages.ca')}
+                </button>
+                <button 
+                  onClick={() => changeLanguage('en')} 
+                  className={`w-full text-left px-4 py-2 ${currentLanguage === 'en' ? 'bg-[#1579a2]/10 text-[#1579a2] font-medium' : isScrolled ? 'text-gray-700' : 'text-white'} hover:bg-gray-100 hover:text-gray-700`} 
+                  aria-pressed={currentLanguage === 'en'}
+                >
+                  {t('languages.en')}
+                </button>
               </div>
             </div>
 
@@ -260,8 +254,6 @@ const Header = () => {
             >
               {t('contact_section.now')}
             </a>
-            
-            
           </nav>
 
           {/* Mobile Menu Button */}
@@ -302,7 +294,7 @@ const Header = () => {
         aria-modal="true"
         aria-label={t('navigation.menu_navigation')}
       >
-        <div className="pt-16 pb-8 px-6 h-full overflow-y-auto flex flex-col ">
+        <div className="pt-16 pb-8 px-6 h-full overflow-y-auto flex flex-col">
           {/* Close button */}
           <button 
             className="absolute top-4 right-4 p-2 text-gray-500 hover:text-[#1579a2] transition-colors"
@@ -455,7 +447,7 @@ const Header = () => {
         </button>
       </div>
     </header>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;
