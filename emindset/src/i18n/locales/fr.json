@@ -2,7 +2,7 @@
   "navigation": {
     "history": "Histoire",
     "recognitions": "Reconnaissances",
-    "blog": "Blog",
+    "blog": "Linkedin",
     "contact": "Contacter",
     "home": "Accueil",
     "about": "Qui sommes-nous",
@@ -60,9 +60,13 @@
     "copyright": "Tous droits réservés."
   },
   "contact_section": {
-    "title": "Contact",
-    "subtitle": "Parlons de votre cas",
-    "description": "Nous sommes là pour vous aider. Remplissez le formulaire et nous vous répondrons dans les plus brefs délais.",
+    "title": "Contactez-nous",
+    "subtitle": "Nous sommes là pour vous aider",
+    "offices": {
+      "subtitle": "NOS BUREAUX",
+      "title": "Où nous trouver",
+      "description": "Nous disposons de bureaux dans trois emplacements stratégiques pour répondre à vos besoins juridiques."
+    },
     "now": "Contacter maintenant",
     "help": "Besoin d'aide immédiate?",
     "language": "Sélectionner la langue",
@@ -83,19 +87,23 @@
       "schedule": "Lundi à Vendredi: 9:00 - 19:00"
     },
     "form": {
-      "title": "Envoyez-nous un message",
-      "name": "Nom complet",
+      "title": "Prenez contact",
+      "description": "Remplissez le formulaire et nous vous contacterons dès que possible pour vous aider avec vos besoins juridiques.",
+      "name": "Nom",
+      "company": "Entreprise",
       "email": "Email",
       "phone": "Téléphone",
       "subject": "Sujet",
       "message": "Message",
+      "optional": "optionnel",
+      "sending": "Envoi...",
+      "submit": "Envoyer le message",
       "service": "Service d'intérêt",
       "select": "Sélectionnez un service",
       "other": "Autre",
       "send": "Envoyer le message",
       "privacy": "J'accepte la politique de confidentialité et le traitement de mes données",
-      "submit": "ENVOYER LE MESSAGE",
-      "success": "Votre message a été envoyé avec succès. Nous vous contacterons dans les plus brefs délais."
+      "success": "Votre message a été envoyé avec succès. Nous vous contacterons dès que possible."
     }
   },
   "services": {

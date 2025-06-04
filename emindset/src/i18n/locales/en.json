@@ -2,7 +2,7 @@
   "navigation": {
     "history": "History",
     "recognitions": "Awards",
-    "blog": "Blog",
+    "blog": "Linkedin",
     "contact": "Contact",
     "home": "Home",
     "about": "About us",
@@ -60,9 +60,13 @@
     "copyright": "All rights reserved."
   },
   "contact_section": {
-    "title": "Contact",
-    "subtitle": "Let's discuss your case",
-    "description": "We're here to help. Fill out the form and we'll get back to you as soon as possible.",
+    "title": "Contact us",
+    "subtitle": "We're here to help",
+    "offices": {
+      "subtitle": "OUR OFFICES",
+      "title": "Where to find us",
+      "description": "We have offices in three strategic locations to meet your legal needs."
+    },
     "now": "Contact now",
     "help": "Need immediate help?",
     "language": "Select language",
@@ -83,18 +87,22 @@
       "schedule": "Monday to Friday: 9:00 - 19:00"
     },
     "form": {
-      "title": "Send us a message",
-      "name": "Full name",
+      "title": "Get in touch",
+      "description": "Complete the form and we will contact you as soon as possible to help you with your legal needs.",
+      "name": "Name",
+      "company": "Company",
       "email": "Email",
       "phone": "Phone",
       "subject": "Subject",
       "message": "Message",
+      "optional": "optional",
+      "sending": "Sending...",
+      "submit": "Send message",
       "service": "Service of interest",
       "select": "Select a service",
       "other": "Other",
       "send": "Send message",
       "privacy": "I accept the privacy policy and the processing of my data",
-      "submit": "SEND MESSAGE",
       "success": "Your message has been sent successfully. We will contact you as soon as possible."
     }
   },

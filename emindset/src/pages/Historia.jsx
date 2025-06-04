@@ -1,5 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import { useTranslation } from 'react-i18next';
+import { motion } from 'framer-motion';
+
 
 const Historia = () => {
   // Inicializar el hook de traducción

@@ -2,7 +2,7 @@
   "navigation": {
     "history": "Historia",
     "recognitions": "Reconocimientos",
-    "blog": "Blog",
+    "blog": "Linkedin",
     "contact": "Contactar",
     "home": "Inicio",
     "about": "Quiénes somos",
@@ -60,18 +60,31 @@
     "copyright": "Todos los derechos reservados."
   },
   "contact_section": {
-    "now": "Contactar ahora",
-    "help": "¿Necesitas ayuda inmediata?",
-    "language": "Seleccionar idioma",
+    "title": "Contacta con nosotros",
+    "subtitle": "Estamos aquí para ayudarte",
+    "offices": {
+      "subtitle": "NUESTRAS OFICINAS",
+      "title": "Dónde encontrarnos",
+      "description": "Contamos con oficinas en tres ubicaciones estratégicas para atender tus necesidades legales."
+    },
     "form": {
+      "title": "Ponte en contacto",
+      "description": "Completa el formulario y nos pondremos en contacto contigo lo antes posible para ayudarte con tus necesidades legales.",
       "name": "Nombre",
-      "email": "Email",
+      "company": "Empresa",
+      "email": "Correo electrónico",
       "phone": "Teléfono",
       "subject": "Asunto",
       "message": "Mensaje",
+      "optional": "opcional",
+      "sending": "Enviando...",
+      "submit": "Enviar mensaje",
       "send": "Enviar mensaje",
       "privacy": "Acepto la política de privacidad"
-    }
+    },
+    "now": "Contactar ahora",
+    "help": "¿Necesitas ayuda inmediata?",
+    "language": "Seleccionar idioma"
   },
   "services": {
     "title": "Nuestros servicios",

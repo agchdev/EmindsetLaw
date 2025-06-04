@@ -2,7 +2,7 @@
   "navigation": {
     "history": "Història",
     "recognitions": "Reconeixements",
-    "blog": "Blog",
+    "blog": "Linkedin",
     "contact": "Contactar",
     "home": "Inici",
     "about": "Qui som",
@@ -57,12 +57,16 @@
       "barcelona": "Barcelona",
       "toulouse": "Toulouse"
     },
-    "copyright": "Tots els drets reservats."
+    "rights": " 2024 Emindset Law. Tots els drets reservats."
   },
   "contact_section": {
-    "title": "Contacte",
-    "subtitle": "Parlem sobre el teu cas",
-    "description": "Estem aquí per ajudar-te. Completa el formulari i ens posarem en contacte amb tu el més aviat possible.",
+    "title": "Contacta amb nosaltres",
+    "subtitle": "Estem aquí per ajudar-te",
+    "offices": {
+      "subtitle": "LES NOSTRES OFICINES",
+      "title": "On trobar-nos",
+      "description": "Tenim oficines en tres ubicacions estratègiques per atendre les teves necessitats legals."
+    },
     "now": "Contactar ara",
     "help": "Necessites ajuda immediata?",
     "language": "Seleccionar idioma",
@@ -83,18 +87,22 @@
       "schedule": "Dilluns a Divendres: 9:00 - 19:00"
     },
     "form": {
-      "title": "Envia'ns un missatge",
-      "name": "Nom complet",
-      "email": "Email",
+      "title": "Posa't en contacte",
+      "description": "Completa el formulari i ens posarem en contacte amb tu al més aviat possible per ajudar-te amb les teves necessitats legals.",
+      "name": "Nom",
+      "company": "Empresa",
+      "email": "Correu electrònic",
       "phone": "Telèfon",
       "subject": "Assumpte",
       "message": "Missatge",
+      "optional": "opcional",
+      "sending": "Enviant...",
+      "submit": "Enviar missatge",
       "service": "Servei d'interès",
       "select": "Selecciona un servei",
       "other": "Altre",
       "send": "Enviar missatge",
       "privacy": "Accepto la política de privacitat i el tractament de les meves dades",
-      "submit": "ENVIAR MISSATGE",
       "success": "El teu missatge ha estat enviat correctament. Ens posarem en contacte amb tu el més aviat possible."
     }
   },
