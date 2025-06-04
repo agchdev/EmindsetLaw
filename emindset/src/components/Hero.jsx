@@ -60,8 +60,10 @@ const Hero = ({ isLogoAnimationComplete }) => {
         <video 
           ref={videoRef}
           autoPlay 
+          playsInline
           muted 
           loop 
+          preload="auto"
           className="absolute inset-0 w-full h-full object-cover z-0"
           style={{ 
             minHeight: '100vh', 

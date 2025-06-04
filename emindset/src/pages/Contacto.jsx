@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMapMarkerAlt, faPhone, faEnvelope, faCheck } from '@fortawesome/free-solid-svg-icons';
 
 const Contacto = () => {
+  const { t } = useTranslation();
   const [formData, setFormData] = useState({
     nombre: '',
     empresa: '',
@@ -102,10 +104,10 @@ const Contacto = () => {
         
         <div className="container mx-auto px-6 relative z-10">
           <div className="max-w-3xl mx-auto text-center">
-            <h1 className="text-4xl md:text-5xl font-bold mb-8">Contacto</h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-8">{t('contact_section.title')}</h1>
             <div className="w-24 h-1 bg-white/30 mx-auto mb-10"></div>
             <p className="text-xl text-white/90 leading-relaxed">
-              Estamos aquí para ayudarte. Contáctanos y nuestro equipo de expertos te atenderá lo antes posible.
+              {t('contact_section.subtitle')}
             </p>
           </div>
         </div>
@@ -115,10 +117,10 @@ const Contacto = () => {
       <section className="py-20 bg-white">
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
-            <span className="inline-block text-sm font-semibold text-[#00b1ed] mb-4">NUESTRAS OFICINAS</span>
-            <h2 className="text-3xl font-bold text-gray-800 mb-4">Dónde encontrarnos</h2>
+            <span className="inline-block text-sm font-semibold text-[#00b1ed] mb-4">{t('contact_section.offices.subtitle')}</span>
+            <h2 className="text-3xl font-bold text-gray-800 mb-4">{t('contact_section.offices.title')}</h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              Contamos con oficinas en tres ubicaciones estratégicas para atender tus necesidades legales.
+              {t('contact_section.offices.description')}
             </p>
           </div>
           
@@ -155,9 +157,9 @@ const Contacto = () => {
           <div className="max-w-4xl mx-auto bg-white rounded-lg shadow-md overflow-hidden">
             <div className="grid grid-cols-1 lg:grid-cols-2">
               <div className="bg-gradient-to-br from-[#00b1ed] to-[#003673] p-12 text-white">
-                <h3 className="text-2xl font-bold mb-6">Ponte en contacto</h3>
+                <h3 className="text-2xl font-bold mb-6">{t('contact_section.form.title')}</h3>
                 <p className="mb-8 text-white/80">
-                  Completa el formulario y nos pondremos en contacto contigo lo antes posible para ayudarte con tus necesidades legales.
+                  {t('contact_section.form.description')}
                 </p>
                 
                 <div className="space-y-6">
@@ -197,7 +199,7 @@ const Contacto = () => {
                 ) : (
                   <form onSubmit={handleSubmit}>
                     <div className="mb-6">
-                      <label htmlFor="nombre" className="block text-gray-700 mb-2">Nombre*</label>
+                      <label htmlFor="nombre" className="block text-gray-700 mb-2">{t('contact_section.form.name')}*</label>
                       <input
                         type="text"
                         id="nombre"
@@ -210,7 +212,7 @@ const Contacto = () => {
                     </div>
                     
                     <div className="mb-6">
-                      <label htmlFor="empresa" className="block text-gray-700 mb-2">Empresa*</label>
+                      <label htmlFor="empresa" className="block text-gray-700 mb-2">{t('contact_section.form.company')}*</label>
                       <input
                         type="text"
                         id="empresa"
@@ -223,7 +225,7 @@ const Contacto = () => {
                     </div>
                     
                     <div className="mb-6">
-                      <label htmlFor="email" className="block text-gray-700 mb-2">Correo electrónico*</label>
+                      <label htmlFor="email" className="block text-gray-700 mb-2">{t('contact_section.form.email')}*</label>
                       <input
                         type="email"
                         id="email"
@@ -236,7 +238,7 @@ const Contacto = () => {
                     </div>
                     
                     <div className="mb-6">
-                      <label htmlFor="mensaje" className="block text-gray-700 mb-2">Mensaje (opcional)</label>
+                      <label htmlFor="mensaje" className="block text-gray-700 mb-2">{t('contact_section.form.message')} ({t('contact_section.form.optional')})</label>
                       <textarea
                         id="mensaje"
                         name="mensaje"
@@ -286,10 +288,10 @@ const Contacto = () => {
                             <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
                             <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
                           </svg>
-                          Enviando...
+                          {t('contact_section.form.sending')}
                         </>
                       ) : (
-                        'Enviar mensaje'
+                        t('contact_section.form.submit')
                       )}
                     </button>
                   </form>

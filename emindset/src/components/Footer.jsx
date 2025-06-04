@@ -3,6 +3,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhone, faEnvelope, faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
 import { faFacebook, faTwitter, faLinkedin, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { useTranslation } from 'react-i18next';
+import logo from '../assets/img/logoEmindset.png';
+
+// Emindset<span className="text-[#64d2e5]">Law</span>
 
 const Footer = () => {
   const { t } = useTranslation();
@@ -12,7 +15,9 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Columna 1: Información de contacto */}
           <div>
-            <h3 className="text-xl font-bold mb-4">Emindset<span className="text-[#64d2e5]">Law</span></h3>
+            <h3 className=" mb-4 w-30">
+              <img src={logo} alt="" />
+            </h3>
             <p className="mb-4">{t('footer.company.description')}</p>
             <div className="space-y-2">
               <p className="flex items-center">
