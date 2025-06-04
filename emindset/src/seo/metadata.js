@@ -34,7 +34,7 @@ export const siteMetadata = {
   ],
   author: {
     name: "Emindset Law",
-    email: "info@emindsetlaw.com"
+    email: "contact@emindsetlaw.com"
   },
   organization: {
     name: "Emindset Law",
@@ -45,7 +45,7 @@ export const siteMetadata = {
     postalCode: "28001",
     addressCountry: "ES",
     telephone: "+34 912 345 678",
-    email: "info@emindsetlaw.com"
+    email: "contact@emindsetlaw.com"
   }
 };
 

@@ -77,6 +77,56 @@ app.post('/api/send-email', async (req, res) => {
   }
 });
 
+// Newsletter subscription endpoint
+app.post('/api/newsletter-subscribe', async (req, res) => {
+  const { email } = req.body;
+  
+  if (!email) {
+    return res.status(400).json({ success: false, message: 'Por favor, proporcione una dirección de correo electrónico.' });
+  }
+
+  try {
+    // Email options for confirmation to user
+    const mailOptions = {
+      from: process.env.EMAIL_FROM,
+      to: email,
+      subject: 'Gracias por suscribirte a nuestra newsletter - EmindsetLaw',
+      html: `
+        <h2>¡Gracias por suscribirte a la newsletter de EmindsetLaw!</h2>
+        <p>Hola,</p>
+        <p>Te has suscrito correctamente a nuestra newsletter. A partir de ahora, recibirás las últimas noticias y actualizaciones legales directamente en tu bandeja de entrada.</p>
+        <p>Si en algún momento deseas darte de baja, simplemente responde a este correo con el asunto "Baja".</p>
+        <hr>
+        <p>EmindsetLaw - Soluciones legales con un enfoque humano</p>
+      `
+    };
+    
+    // Send confirmation email to the user
+    await transporter.sendMail(mailOptions);
+    
+    // Notification to admin about new subscription
+    const adminMailOptions = {
+      from: process.env.EMAIL_FROM,
+      to: process.env.EMAIL_TO,
+      subject: 'Nueva suscripción a la newsletter - EmindsetLaw',
+      html: `
+        <h2>Nueva suscripción a la newsletter</h2>
+        <p><strong>Email:</strong> ${email}</p>
+        <p><strong>Fecha:</strong> ${new Date().toLocaleDateString('es-ES')}</p>
+        <hr>
+        <p>Suscripción recibida desde el formulario de newsletter de EmindsetLaw.</p>
+      `
+    };
+    
+    await transporter.sendMail(adminMailOptions);
+    
+    res.status(200).json({ success: true, message: 'Te has suscrito correctamente a nuestra newsletter.' });
+  } catch (error) {
+    console.error('Error al procesar la suscripción:', error);
+    res.status(500).json({ success: false, message: 'Error al procesar la suscripción. Por favor, inténtelo de nuevo más tarde.' });
+  }
+});
+
 // Health check endpoint
 app.get('/api/health', (req, res) => {
   res.status(200).json({ status: 'OK', message: 'Server is running' });

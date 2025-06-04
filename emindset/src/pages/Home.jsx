@@ -11,13 +11,13 @@ import Contact from '../components/Contact';
 import Testimonials from '../components/Testimonials';
 import SeoHelmet from '../seo/SeoHelmet';
 
-const Home = ({ isLogoAnimationComplete }) => {
+const Home = () => {
   return (
     <div>
       {/* SEO Metadata */}
       <SeoHelmet page="home" />
       
-      <Hero isLogoAnimationComplete={isLogoAnimationComplete} />
+      <Hero />
       <About />
       <Services />
       <Mision />

@@ -1,6 +1,6 @@
 {
   "navigation": {
-    "history": "Historia",
+    "commitment": "Nuestro compromiso",
     "recognitions": "Reconocimientos",
     "blog": "Linkedin",
     "contact": "Contactar",
@@ -26,7 +26,7 @@
     }
   },
   "about": {
-    "title": "Emindset Law ayuda a la empresa moderna",
+    "title": "En Emindset Law te acompañamos",
     "description": "Simplificamos y resolvemos tus retos legales de una forma global, ágil e innovadora. Nuestro equipo combina experiencia tradicional con un enfoque moderno para ofrecer soluciones efectivas.",
     "practical": {
       "title": "Enfoque práctico",
@@ -38,7 +38,7 @@
     },
     "cta": "QUIÉNES SOMOS",
     "experience": {
-      "years": "15+",
+      "years": "10+",
       "text": "Años de",
       "title": "Experiencia"
     },
@@ -53,7 +53,7 @@
     "quick_links": "Enlaces rápidos",
     "offices": {
       "title": "Nuestras Oficinas",
-      "andorra": "Andorra",
+      "fiscal": "Residencia Fiscal e Inversión",
       "barcelona": "Barcelona",
       "toulouse": "Toulouse"
     },
@@ -66,6 +66,22 @@
       "subtitle": "NUESTRAS OFICINAS",
       "title": "Dónde encontrarnos",
       "description": "Contamos con oficinas en tres ubicaciones estratégicas para atender tus necesidades legales."
+    },
+    "address": {
+      "title": "Dirección",
+      "line1": "Av. Prat de la Creu 59-65, AD500"
+    },
+    "phone": {
+      "title": "Teléfono",
+      "number": "+376 678 882"
+    },
+    "email": {
+      "title": "Correo electrónico",
+      "address": "contact@emindsetlaw.com"
+    },
+    "hours": {
+      "title": "Horario",
+      "schedule": "Lunes a Viernes: 9:00 - 19:00"
     },
     "form": {
       "title": "Ponte en contacto",
@@ -80,34 +96,132 @@
       "sending": "Enviando...",
       "submit": "Enviar mensaje",
       "send": "Enviar mensaje",
-      "privacy": "Acepto la política de privacidad"
+      "service": "Servicio de interés",
+      "select": "Selecciona un servicio",
+      "other": "Otro",
+      "privacy": "Acepto la política de privacidad",
+      "privacy_info": "Información Adicional: Puede encontrar más información leyendo nuestra",
+      "privacy_policy": "Política de Privacidad",
+      "privacy_accept": "He leído y acepto la",
+      "error_required_fields": "Por favor, complete todos los campos obligatorios y acepte la política de privacidad.",
+      "error_sending": "Ha ocurrido un error al enviar el mensaje. Por favor, inténtelo de nuevo.",
+      "error_connection": "Error de conexión. Por favor, compruebe su conexión a internet e inténtelo de nuevo."
     },
     "now": "Contactar ahora",
     "help": "¿Necesitas ayuda inmediata?",
-    "language": "Seleccionar idioma"
+    "language": "Seleccionar idioma",
+    "map": {
+      "title": "Nuestra ubicación",
+      "description": "Encuentra nuestras oficinas en el mapa y visítanos cuando lo necesites."
+    }
   },
   "services": {
-    "title": "Nuestros servicios",
-    "subtitle": "Soluciones legales completas para tu negocio",
+    "title": "NUESTROS SERVICIOS",
+    "subtitle": "Soluciones legales para tu empresa",
+    "features": "Servicios incluidos",
+    "contactCta": "Solicitar asesoramiento",
     "corporate": {
-      "title": "Derecho Corporativo",
-      "description": "Asesoramiento integral en operaciones societarias y mercantiles"
+      "title": "Mercantil & Societario",
+      "shortDescription": "Asesoramiento legal integral para empresas en todas sus fases de desarrollo.",
+      "description": "Ofrecemos un asesoramiento legal integral para empresas en todas sus fases de desarrollo, desde la constitución hasta procesos de fusión, adquisición o liquidación. Optimizamos la estructura societaria para asegurar la protección patrimonial y eficiencia fiscal.",
+      "features": {
+        "title": "Servicios mercantiles y societarios",
+        "f1": "Constitución de sociedades y reestructuraciones",
+        "f2": "Pactos de socios y gobierno corporativo",
+        "f3": "Due diligence y auditorías legales",
+        "f4": "Contratos mercantiles y negociaciones",
+        "f5": "Operaciones de M&A y joint ventures",
+        "f6": "Secretaría legal y cumplimiento normativo"
+      }
+    },
+    "nuevasTecnologias": {
+      "title": "Nuevas Tecnologías",
+      "shortDescription": "Asesoramiento especializado en derecho digital, blockchain y tokenización de activos.",
+      "description": "Ayudamos a empresas innovadoras a navegar el complejo marco regulatorio de las nuevas tecnologías. Nuestro asesoramiento abarca blockchain, tokenización de activos, contratos inteligentes, FinTech y tecnologías emergentes en el marco legal vigente.",
+      "features": {
+        "title": "Servicios en derecho tecnológico",
+        "f1": "Marco legal de blockchain y criptoactivos",
+        "f2": "Tokenización de activos y emisión de NFTs",
+        "f3": "Regulatory compliance para FinTech",
+        "f4": "Contratos inteligentes y DAOs",
+        "f5": "Asesoramiento en Web3 y Metaverso",
+        "f6": "Defensa ante organismos reguladores"
+      }
+    },
+    "startupsInnovacion": {
+      "title": "Startups e Innovación",
+      "shortDescription": "Acompañamiento legal para emprendedores y startups en todas sus etapas.",
+      "description": "Acompañamos a emprendedores desde la idea hasta las rondas de financiación. Nuestro asesoramiento comprende estructuración societaria, pactos de socios, propiedad intelectual, protección de know-how y negociaciones con inversores.",
+      "features": {
+        "title": "Servicios para startups",
+        "f1": "Constitución y estructuración legal",
+        "f2": "Pactos de fundadores e inversores",
+        "f3": "Protección IP y secretos comerciales",
+        "f4": "Asesoramiento en rondas de financiación",
+        "f5": "Optimización fiscal para el crecimiento",
+        "f6": "Plan de incentivos para empleados"
+      }
+    },
+    "fiscal": {
+      "title": "Residencia Fiscal e Inversión",
+      "shortDescription": "Asesoramiento especializado en residencia fiscal internacional e inversiones estratégicas.",
+      "description": "Somos especialistas en procesos de residencia fiscal internacional e inversión. Ofrecemos asesoramiento integral en optimización fiscal, inversión extranjera, relocalización y cumplimiento normativo en distintas jurisdicciones.",
+      "features": {
+        "title": "Servicios de Residencia Fiscal e Inversión",
+        "f1": "Obtención de residencia fiscal internacional",
+        "f2": "Constitución de sociedades en jurisdicciones estratégicas",
+        "f3": "Gestión fiscal y contable internacional",
+        "f4": "Autorizaciones de inversión extranjera",
+        "f5": "Planificación patrimonial internacional",
+        "f6": "Relocalización personal y empresarial"
+      }
+    },
+    "proteccionDatos": {
+      "title": "Protección de Datos",
+      "shortDescription": "Implementación de medidas de cumplimiento en protección de datos y privacidad.",
+      "description": "Implementamos medidas de cumplimiento en protección de datos adaptadas a tu negocio. Realizamos auditorías, elaboramos políticas de privacidad, contratos de encargado de tratamiento y asesoramos ante posibles brechas de seguridad.",
+      "features": {
+        "title": "Servicios en protección de datos",
+        "f1": "Adaptación al RGPD y normativa local",
+        "f2": "Auditorías de cumplimiento",
+        "f3": "DPO Outsourcing",
+        "f4": "Políticas de privacidad y cookies",
+        "f5": "Gestión de brechas de seguridad",
+        "f6": "Transferencias internacionales de datos"
+      }
+    },
+    "fiscalidad": {
+      "title": "Fiscalidad",
+      "shortDescription": "Optimización fiscal legal para personas físicas y jurídicas a nivel nacional e internacional.",
+      "description": "Optimizamos la fiscalidad de personas físicas y jurídicas dentro del marco legal vigente. Asesoramos en fiscalidad nacional e internacional, precios de transferencia, planificación patrimonial y representación ante inspecciones tributarias.",
+      "features": {
+        "title": "Servicios fiscales",
+        "f1": "Planificación fiscal corporativa",
+        "f2": "Asesoramiento en fiscalidad internacional",
+        "f3": "Estructuración de grupos empresariales",
+        "f4": "Precios de transferencia",
+        "f5": "Due diligence fiscal",
+        "f6": "Defensa ante inspecciones tributarias"
+      }
     },
     "realestate": {
       "title": "Real Estate",
-      "description": "Gestión de operaciones inmobiliarias nacionales e internacionales"
+      "shortDescription": "Asesoramiento legal en transacciones inmobiliarias y urbanismo.",
+      "description": "Asesoramiento legal en transacciones inmobiliarias y urbanismo"
     },
-    "tech": {
-      "title": "Nuevas Tecnologías",
-      "description": "Soluciones legales para empresas tecnológicas y startups"
+    "faq": {
+      "title": "Preguntas frecuentes",
+      "q1": "¿Cómo puedo solicitar una consulta inicial?",
+      "a1": "Puedes solicitar una consulta inicial a través de nuestro formulario de contacto, por teléfono o por email. Te responderemos en menos de 24 horas para agendar una primera reunión sin compromiso.",
+      "q2": "¿Trabajáis con clientes internacionales?",
+      "a2": "Sí, trabajamos con clientes de todo el mundo. Nuestro equipo es multilingüe y tenemos amplia experiencia en asesoramiento legal internacional, especialmente en Europa y América Latina.",
+      "q3": "¿Cuáles son vuestras tarifas?",
+      "a3": "Nuestras tarifas varían según el tipo de servicio y la complejidad del caso. Ofrecemos tanto igualas mensuales como honorarios por proyecto. Te proporcionaremos un presupuesto detallado y sin compromiso tras analizar tus necesidades específicas."
     },
-    "tax": {
-      "title": "Fiscalidad",
-      "description": "Optimización fiscal y planificación patrimonial internacional"
-    },
-    "startups": {
-      "title": "Startups, Innovación y Tecnología",
-      "description": "Apoyo legal especializado para startups, rondas de financiación, propiedad intelectual y acuerdos de colaboración tecnológica."
+    "contactSection": {
+      "title": "¿Necesitas asesoramiento legal?",
+      "description": "Nuestro equipo de abogados especialistas está listo para ayudarte con cualquier consulta legal relacionada con tu empresa o proyecto.",
+      "button": "Contactar ahora"
     }
   },
   "languages": {
@@ -116,8 +230,42 @@
     "ca": "Català",
     "en": "English"
   },
+  "newsletter": {
+    "title": "Mantente informado",
+    "description": "¡Suscríbete para recibir las últimas noticias y actualizaciones legales directamente en tu correo electrónico!",
+    "email_placeholder": "Tu dirección de email",
+    "subscribe": "Suscribirse",
+    "error_email": "Por favor, introduce una dirección de email válida",
+    "error_submit": "Ha ocurrido un error al procesar tu suscripción. Por favor, inténtalo de nuevo.",
+    "success_title": "¡Gracias por suscribirte!",
+    "success_message": "Te mantendremos informado sobre las últimas actualizaciones",
+    "privacy_notice": "Al suscribirte, aceptas nuestra"
+  },
+  "cookies": {
+    "title": "Respetamos tu privacidad",
+    "message": "Este sitio utiliza cookies para mejorar tu experiencia. Al continuar navegando, aceptas nuestra",
+    "policy": "política de cookies",
+    "accept_all": "Aceptar todas",
+    "essential_only": "Solo esenciales",
+    "settings": "Configurar",
+    "preferences": "Preferencias de cookies",
+    "description": "Utilizamos cookies para asegurar la funcionalidad básica del sitio y mejorar tu experiencia online. Puedes elegir para cada categoría activarla o desactivarla cuando quieras.",
+    "save": "Guardar preferencias",
+    "cancel": "Cancelar",
+    "essential": {
+      "title": "Cookies esenciales",
+      "description": "Necesarias para el funcionamiento básico del sitio. El sitio no puede funcionar correctamente sin estas cookies."
+    },
+    "analytics": {
+      "title": "Cookies analíticas",
+      "description": "Nos ayudan a entender cómo utilizas nuestro sitio para mejorarlo.",
+      "details": "Estas cookies recopilan información anónima sobre cómo navegas por nuestro sitio, qué páginas visitas y qué enlaces pulsas. Toda la información es anónima y no permite identificarte personalmente."
+    }
+  },
   "common": {
-    "logo_alt": "Emindset Law Logo"
+    "logo_alt": "Emindset Law Logo",
+    "sending": "Enviando...",
+    "readMore": "Leer más"
   },
   "testimonials": {
     "1": {
@@ -174,7 +322,7 @@
     },
     "email": {
       "title": "Email",
-      "address": "info@emindsetlaw.com"
+      "address": "contact@emindsetlaw.com"
     },
     "hours": {
       "title": "Horario",
@@ -197,7 +345,7 @@
   "awards": {
     "title": "Reconocimientos",
     "subtitle": "Premios y Distinciones",
-    "description": "Hemos recibido varios premios por nuestra destacada labor y contribución al campo del derecho.",
+    "description": "Hemos recibido varios premios por nuestra destacada labor y contribución en el sector legal.",
     "readMore": "Leer más",
     "viewAll": "Ver todos los reconocimientos",
     "relatedLinks": "Enlaces relacionados:",
@@ -269,6 +417,110 @@
       }
     }
   },
+  "services": {
+    "title": "NUESTROS SERVICIOS",
+    "subtitle": "Soluciones legales para tu empresa",
+    "features": "Servicios incluidos",
+    "contactCta": "Solicitar asesoramiento",
+    "corporate": {
+      "title": "Mercantil & Societario",
+      "shortDescription": "Asesoramiento legal integral para empresas en todas sus fases de desarrollo.",
+      "description": "Ofrecemos un asesoramiento legal integral para empresas en todas sus fases de desarrollo, desde la constitución hasta procesos de fusión, adquisición o liquidación. Optimizamos la estructura societaria para asegurar la protección patrimonial y eficiencia fiscal.",
+      "features": {
+        "title": "Servicios mercantiles y societarios",
+        "f1": "Constitución de sociedades y reestructuraciones",
+        "f2": "Pactos de socios y gobierno corporativo",
+        "f3": "Due diligence y auditorías legales",
+        "f4": "Contratos mercantiles y negociaciones",
+        "f5": "Operaciones de M&A y joint ventures",
+        "f6": "Secretaría legal y cumplimiento normativo"
+      }
+    },
+    "tech": {
+      "title": "Nuevas Tecnologías",
+      "shortDescription": "Asesoramiento especializado en derecho digital, blockchain y tokenización de activos.",
+      "description": "Ayudamos a empresas innovadoras a navegar el complejo marco regulatorio de las nuevas tecnologías. Nuestro asesoramiento abarca blockchain, tokenización de activos, contratos inteligentes, FinTech y tecnologías emergentes en el marco legal vigente.",
+      "features": {
+        "title": "Servicios en derecho tecnológico",
+        "f1": "Marco legal de blockchain y criptoactivos",
+        "f2": "Tokenización de activos y emisión de NFTs",
+        "f3": "Regulatory compliance para FinTech",
+        "f4": "Contratos inteligentes y DAOs",
+        "f5": "Asesoramiento en Web3 y Metaverso",
+        "f6": "Defensa ante organismos reguladores"
+      }
+    },
+    "startups": {
+      "title": "Startups e Innovación",
+      "shortDescription": "Acompañamiento legal para emprendedores y startups en todas sus etapas.",
+      "description": "Acompañamos a emprendedores desde la idea hasta las rondas de financiación. Nuestro asesoramiento comprende estructuración societaria, pactos de socios, propiedad intelectual, protección de know-how y negociaciones con inversores.",
+      "features": {
+        "title": "Servicios para startups",
+        "f1": "Constitución y estructuración legal",
+        "f2": "Pactos de fundadores e inversores",
+        "f3": "Protección IP y secretos comerciales",
+        "f4": "Asesoramiento en rondas de financiación",
+        "f5": "Optimización fiscal para el crecimiento",
+        "f6": "Plan de incentivos para empleados"
+      }
+    },
+    "fiscal": {
+      "title": "Residencia Fiscal e Inversión",
+      "shortDescription": "Asesoramiento especializado en residencia fiscal internacional e inversiones estratégicas.",
+      "description": "Somos especialistas en procesos de residencia fiscal internacional e inversión. Ofrecemos asesoramiento integral en optimización fiscal, inversión extranjera, relocalización y cumplimiento normativo en distintas jurisdicciones.",
+      "features": {
+        "title": "Servicios de Residencia Fiscal e Inversión",
+        "f1": "Obtención de residencia fiscal internacional",
+        "f2": "Constitución de sociedades en jurisdicciones estratégicas",
+        "f3": "Gestión fiscal y contable internacional",
+        "f4": "Autorizaciones de inversión extranjera",
+        "f5": "Planificación patrimonial internacional",
+        "f6": "Relocalización personal y empresarial"
+      }
+    },
+    "data": {
+      "title": "Protección de Datos",
+      "shortDescription": "Implementación de medidas de cumplimiento en protección de datos y privacidad.",
+      "description": "Implementamos medidas de cumplimiento en protección de datos adaptadas a tu negocio. Realizamos auditorías, elaboramos políticas de privacidad, contratos de encargado de tratamiento y asesoramos ante posibles brechas de seguridad.",
+      "features": {
+        "title": "Servicios en protección de datos",
+        "f1": "Adaptación al RGPD y normativa local",
+        "f2": "Auditorías de cumplimiento",
+        "f3": "DPO Outsourcing",
+        "f4": "Políticas de privacidad y cookies",
+        "f5": "Gestión de brechas de seguridad",
+        "f6": "Transferencias internacionales de datos"
+      }
+    },
+    "tax": {
+      "title": "Fiscalidad",
+      "shortDescription": "Optimización fiscal legal para personas físicas y jurídicas a nivel nacional e internacional.",
+      "description": "Optimizamos la fiscalidad de personas físicas y jurídicas dentro del marco legal vigente. Asesoramos en fiscalidad nacional e internacional, precios de transferencia, planificación patrimonial y representación ante inspecciones tributarias.",
+      "features": {
+        "title": "Servicios fiscales",
+        "f1": "Planificación fiscal corporativa",
+        "f2": "Asesoramiento en fiscalidad internacional",
+        "f3": "Estructuración de grupos empresariales",
+        "f4": "Precios de transferencia",
+        "f5": "Due diligence fiscal",
+        "f6": "Defensa ante inspecciones tributarias"
+      }
+    },
+    "faq": {
+      "title": "Preguntas frecuentes",
+      "q1": "¿Cómo puedo solicitar una consulta inicial?",
+      "a1": "Puedes solicitar una consulta inicial a través de nuestro formulario de contacto, por teléfono o por email. Te responderemos en menos de 24 horas para agendar una primera reunión sin compromiso.",
+      "q2": "¿Trabajáis con clientes internacionales?",
+      "a2": "Sí, trabajamos con clientes de todo el mundo. Nuestro equipo es multilingüe y tenemos amplia experiencia en asesoramiento legal internacional, especialmente en Europa y América Latina.",
+      "q3": "¿Cuáles son vuestras tarifas?",
+      "a3": "Nuestras tarifas varían según el tipo de servicio y la complejidad del caso. Ofrecemos tanto igualas mensuales como honorarios por proyecto. Te proporcionaremos un presupuesto detallado y sin compromiso tras analizar tus necesidades específicas."
+    },
+    "contactSection": {
+      "title": "¿Necesitas asesoramiento legal?",
+      "description": "Nuestro equipo de abogados especialistas está listo para ayudarte con cualquier consulta legal relacionada con tu empresa o proyecto.",
+      "button": "Contactar ahora"
+    }
+  },
   "metadata": {
     "site": {
       "title": "Emindset Law | Abogados especialistas en Derecho Mercantil, Real Estate y Nuevas Tecnologías",
@@ -324,9 +576,9 @@
         "title": "Fiscalidad | Emindset Law",
         "description": "Asesoramiento fiscal para empresas y particulares, planificación tributaria, fiscalidad internacional y resolución de controversias con la administración."
       },
-      "andorra": {
-        "title": "Residencia en Andorra | Emindset Law",
-        "description": "Servicios legales especializados para el establecimiento en Andorra, residencia fiscal, inversión en real Estate, y asesoramiento en ventajas fiscales del Principado."
+      "fiscal": {
+        "title": "Residencia Fiscal e Inversión | Emindset Law",
+        "description": "Servicios legales especializados en residencia fiscal internacional, inversión estratégica, y asesoramiento en optimización fiscal en diferentes jurisdicciones."
       },
       "privacy": {
         "title": "Política de Privacidad | Emindset Law",

@@ -1,5 +1,4 @@
 import React, { useEffect, useRef } from 'react';
-import { useLocation } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight, faPlayCircle, faChevronDown } from '@fortawesome/free-solid-svg-icons';
@@ -7,13 +6,9 @@ import heroVideo from '../assets/video.mp4';
 import logo from '../assets/img/logoEmindset.png';
 import { motion } from 'framer-motion';
 
-const Hero = ({ isLogoAnimationComplete }) => {
+const Hero = () => {
   const { t } = useTranslation();
   const videoRef = useRef(null);
-  const location = useLocation();
-
-  const isHomePage = location.pathname === '/';
-  const canAnimate = isLogoAnimationComplete && isHomePage;
 
   const heroContentVariants = {
     hidden: { opacity: 0 },
@@ -87,7 +82,7 @@ const Hero = ({ isLogoAnimationComplete }) => {
         className="relative flex flex-col justify-center h-screen text-gray-800 z-20"
         variants={heroContentVariants}
         initial="hidden"
-        animate={canAnimate ? "visible" : "hidden"}
+        animate="visible"
       >
         <div className="container mx-auto px-6">
           <div className="max-w-2xl" role="region" aria-label="Sección Hero - Bienvenida">

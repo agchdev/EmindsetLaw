@@ -10,37 +10,24 @@ const Header = ({ onLogoAnimationComplete }) => {
   const [headerHeight, setHeaderHeight] = useState('auto');
   const [menuWasRecentlyClosed, setMenuWasRecentlyClosed] = useState(false);
   const [currentLanguage, setCurrentLanguage] = useState(i18n.language || 'es'); // es, fr, ca, en
-  const [logoAnimationPhase, setLogoAnimationPhase] = useState(0); // 0: centrado, 1: animando, 2: posición final
+  const [logoAnimationPhase] = useState(2); // Establecemos directamente a la posición final (2)
   const headerRef = useRef(null);
   const logoRef = useRef(null);
   
   const navLinks = [
-    { name: t('navigation.history'), url: '/historia' },
+    { name: t('navigation.commitment'), url: '/historia' },
+    { name: t('navigation.services'), url: '/servicios' },
     { name: t('navigation.recognitions'), url: '/reconocimientos' },
     { name: t('navigation.blog'), url: '/blog' },
   ];
 
-  // Initial load animation and logo animation sequence
+  // Initial load without animation
   useEffect(() => {
     setIsLoaded(true);
-    
-    // Iniciar la secuencia de animación del logo
-    const timer1 = setTimeout(() => {
-      // Fase 1: Iniciar animación
-      setLogoAnimationPhase(1);
-      
-      // Fase 2: Completar la animación después de un tiempo
-      const timer2 = setTimeout(() => {
-        setLogoAnimationPhase(2);
-        if (onLogoAnimationComplete) {
-          onLogoAnimationComplete();
-        }
-      }, 800);
-      
-      return () => clearTimeout(timer2);
-    }, 2000); // Esperar 2 segundos antes de iniciar la animación
-    
-    return () => clearTimeout(timer1);
+    // Notificar que la animación está completa inmediatamente
+    if (onLogoAnimationComplete) {
+      onLogoAnimationComplete();
+    }
   }, [onLogoAnimationComplete]);
 
   // Handle scroll effect for the header

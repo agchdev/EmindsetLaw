@@ -26,7 +26,7 @@ const Footer = () => {
               </p>
               <p className="flex items-center">
                 <FontAwesomeIcon icon={faEnvelope} className="mr-2" />
-                info@emindsetlaw.com
+                contact@emindsetlaw.com
               </p>
               <p className="flex items-center">
                 <FontAwesomeIcon icon={faMapMarkerAlt} className="mr-2" />

@@ -38,7 +38,7 @@
     },
     "cta": "ABOUT US",
     "experience": {
-      "years": "15+",
+      "years": "10+",
       "text": "Years of",
       "title": "Experience"
     },
@@ -53,7 +53,7 @@
     "quick_links": "Quick links",
     "offices": {
       "title": "Our Offices",
-      "andorra": "Andorra",
+      "fiscal": "Tax Residency and Investment",
       "barcelona": "Barcelona",
       "toulouse": "Toulouse"
     },
@@ -80,7 +80,7 @@
     },
     "email": {
       "title": "Email",
-      "address": "info@emindsetlaw.com"
+      "address": "contact@emindsetlaw.com"
     },
     "hours": {
       "title": "Hours",
@@ -273,7 +273,7 @@
         "Madrid lawyers", 
         "business legal advice", 
         "technology law", 
-        "Andorra residency", 
+        "Tax Residency", 
         "international taxation"
       ]
     },
@@ -310,9 +310,9 @@
         "title": "Taxation | Emindset Law",
         "description": "Tax advice for companies and individuals, tax planning, international taxation, and resolution of disputes with the administration."
       },
-      "andorra": {
-        "title": "Residence in Andorra | Emindset Law",
-        "description": "Specialized legal services for establishment in Andorra, tax residence, real estate investment, and advice on tax advantages of the Principality."
+      "fiscal": {
+        "title": "Tax Residency and Investment | Emindset Law",
+        "description": "Specialized legal services for international tax residency, strategic investments, and advice on tax optimization across different jurisdictions."
       },
       "privacy": {
         "title": "Privacy Policy | Emindset Law",

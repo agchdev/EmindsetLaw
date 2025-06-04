@@ -30,7 +30,7 @@ const Contacto = () => {
     
     // Validación básica
     if (!formData.nombre || !formData.email || !formData.aceptaPrivacidad) {
-      setFormError('Por favor, complete todos los campos obligatorios y acepte la política de privacidad.');
+      setFormError(t('contact_section.form.error_required_fields'));
       return;
     }
     
@@ -62,11 +62,11 @@ const Contacto = () => {
         });
       } else {
         // Error del servidor
-        setFormError(data.message || 'Ha ocurrido un error al enviar el mensaje. Por favor, inténtelo de nuevo.');
+        setFormError(data.message || t('contact_section.form.error_sending'));
       }
     } catch (error) {
       console.error('Error al enviar el formulario:', error);
-      setFormError('Error de conexión. Por favor, compruebe su conexión a internet e inténtelo de nuevo.');
+      setFormError(t('contact_section.form.error_connection'));
     } finally {
       setIsSubmitting(false);
     }
@@ -179,7 +179,7 @@ const Contacto = () => {
                     </div>
                     <div>
                       <p className="text-sm text-white/70">Email</p>
-                      <p className="font-medium">info@emindsetlaw.com</p>
+                      <p className="font-medium">contact@emindsetlaw.com</p>
                     </div>
                   </div>
                 </div>
@@ -253,7 +253,7 @@ const Contacto = () => {
                       <div className="bg-gray-100 p-4 rounded-md text-sm text-gray-600">
                         <p className="font-medium text-gray-700 mb-2">INFORMACIÓN PROTECCIÓN DE DATOS DE EMINDSET LAW</p>
                         <p className="mb-2">Finalidades: Responder a sus solicitudes y remitirle información comercial de nuestros productos y servicios, incluso por medios electrónicos. Derechos: Puede retirar su consentimiento en cualquier momento, así como acceder, rectificar, suprimir sus datos y demás derechos en <a href="mailto:dpo@emindsetlaw.com" className="text-[#00b1ed] hover:underline">dpo@emindsetlaw.com</a></p>
-                        <p>Información Adicional: Puede encontrar más información leyendo nuestra <a href="/politica-privacidad" className="text-[#00b1ed] hover:underline">Política de Privacidad</a>.</p>
+                        <p>{t('contact_section.form.privacy_info')} <a href="/politica-privacidad" className="text-[#00b1ed] hover:underline">{t('contact_section.form.privacy_policy')}</a>.</p>
                       </div>
                     </div>
                     
@@ -267,7 +267,7 @@ const Contacto = () => {
                           className="mr-2 h-5 w-5 text-[#00b1ed]"
                           required
                         />
-                        <span className="text-gray-700">He leído y acepto la <a href="/politica-privacidad" className="text-[#00b1ed] hover:underline">Política de Privacidad</a>.</span>
+                        <span className="text-gray-700">{t('contact_section.form.privacy_accept')} <a href="/politica-privacidad" className="text-[#00b1ed] hover:underline">{t('contact_section.form.privacy_policy')}</a>.</span>
                       </label>
                     </div>
                     
@@ -306,9 +306,9 @@ const Contacto = () => {
       <section className="py-20 bg-white">
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
-            <h2 className="text-3xl font-bold text-gray-800 mb-4">Nuestra ubicación</h2>
+            <h2 className="text-3xl font-bold text-gray-800 mb-4">{t('contact_section.map.title')}</h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              Encuentra nuestras oficinas en el mapa y visítanos cuando lo necesites.
+              {t('contact_section.map.description')}
             </p>
           </div>
           

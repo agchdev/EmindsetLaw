@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhone, faEnvelope, faMapMarkerAlt, faClock, faPaperPlane } from '@fortawesome/free-solid-svg-icons';
-import { faLinkedinIn, faTwitter, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedinIn, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { useTranslation } from 'react-i18next';
 
 const Contact = () => {
@@ -29,32 +29,84 @@ const Contact = () => {
     }));
   };
   
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     
-    // Simulación de envío de formulario
-    setFormStatus({
-      submitted: true,
-      success: true,
-      message: t('contact_section.form.success')
-    });
-    
-    // Resetear el formulario después de 5 segundos
-    setTimeout(() => {
-      setFormData({
-        name: '',
-        email: '',
-        phone: '',
-        service: '',
-        message: '',
-        privacy: false
-      });
+    // Validación básica del formulario
+    if (!formData.name || !formData.email || !formData.message || !formData.service || !formData.privacy) {
       setFormStatus({
-        submitted: false,
+        submitted: true,
         success: false,
-        message: ''
+        message: t('contact_section.form.error_required_fields')
       });
-    }, 5000);
+      return;
+    }
+    
+    try {
+      // Enviar datos a la API
+      setFormStatus({
+        submitted: true,
+        success: true,
+        message: t('contact_section.form.sending')
+      });
+      
+      // Determinar la URL de la API basada en el entorno (desarrollo o producción)
+      // En producción, la API estará en la misma URL base que la aplicación
+      const isDev = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
+      const apiUrl = isDev 
+        ? 'http://localhost:3001/api/contact' 
+        : '/api/contact';
+      
+      const response = await fetch(apiUrl, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+      
+      const data = await response.json();
+      
+      if (response.ok) {
+        // Mensaje enviado exitosamente
+        setFormStatus({
+          submitted: true,
+          success: true,
+          message: t('contact_section.form.success') || 'Mensaje enviado correctamente'
+        });
+        
+        // Resetear el formulario después de 5 segundos
+        setTimeout(() => {
+          setFormData({
+            name: '',
+            email: '',
+            phone: '',
+            service: '',
+            message: '',
+            privacy: false
+          });
+          setFormStatus({
+            submitted: false,
+            success: false,
+            message: ''
+          });
+        }, 5000);
+      } else {
+        // Error al enviar el mensaje
+        setFormStatus({
+          submitted: true,
+          success: false,
+          message: data.error || t('contact_section.form.error_sending')
+        });
+      }
+    } catch (error) {
+      console.error('Error al enviar el formulario:', error);
+      setFormStatus({
+        submitted: true,
+        success: false,
+        message: t('contact_section.form.error_connection')
+      });
+    }
   };
 
   return (

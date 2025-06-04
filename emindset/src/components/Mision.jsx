@@ -117,14 +117,14 @@ const Mision = () => {
           ))}
         </div>
 
-        <div className={`mt-10 text-center transition-all duration-1000 delay-700 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
+        {/* <div className={`mt-10 text-center transition-all duration-1000 delay-700 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
           <a 
             href="#contact" 
             className="btn-hover inline-flex items-center justify-center bg-primary text-white font-medium px-5 py-3 rounded-full hover:bg-primary-dark transition-all duration-300 shadow-sm hover:shadow-md text-sm"
           >
             {t('mission.cta')} <FontAwesomeIcon icon={faArrowRight} className="ml-2 transition-transform duration-300 group-hover:translate-x-1" />
           </a>
-        </div>
+        </div> */}
       </div>
     </section>
   );

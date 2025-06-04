@@ -18,7 +18,7 @@ export const legalServiceSchema = {
     addressCountry: 'ES'
   },
   telephone: '+34 912 345 678',
-  email: 'info@emindsetlaw.com',
+  email: 'contact@emindsetlaw.com',
   sameAs: [
     'https://www.linkedin.com/company/emindsetlaw',
     'https://twitter.com/emindsetlaw',

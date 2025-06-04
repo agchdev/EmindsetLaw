@@ -38,7 +38,7 @@
     },
     "cta": "QUI SOM",
     "experience": {
-      "years": "15+",
+      "years": "10+",
       "text": "Anys d'",
       "title": "Experiència"
     },
@@ -53,7 +53,7 @@
     "quick_links": "Enllaços ràpids",
     "offices": {
       "title": "Les nostres Oficines",
-      "andorra": "Andorra",
+      "fiscal": "Residència Fiscal i Inversió",
       "barcelona": "Barcelona",
       "toulouse": "Toulouse"
     },
@@ -80,7 +80,7 @@
     },
     "email": {
       "title": "Email",
-      "address": "info@emindsetlaw.com"
+      "address": "contact@emindsetlaw.com"
     },
     "hours": {
       "title": "Horari",
@@ -128,6 +128,20 @@
     "startups": {
       "title": "Startups, Innovació i Tecnologia",
       "description": "Suport legal especialitzat per a startups, rondes de finançament, propietat intel·lectual i acords de col·laboració tecnològica."
+    },
+    "fiscal": {
+      "title": "Residència Fiscal i Inversió",
+      "shortDescription": "Assessorament especialitzat en residència fiscal internacional i inversions estratègiques.",
+      "description": "Som especialistes en processos de residència fiscal internacional i inversió. Oferim assessorament integral en optimització fiscal, inversió estrangera, relocalització i compliment normatiu en diferents jurisdiccions.",
+      "features": {
+        "title": "Serveis de Residència Fiscal i Inversió",
+        "f1": "Obtenció de residència fiscal internacional",
+        "f2": "Constitució de societats en jurisdiccions estratègiques",
+        "f3": "Gestió fiscal i comptable internacional",
+        "f4": "Autoritzacions d'inversió estrangera",
+        "f5": "Planificació patrimonial internacional",
+        "f6": "Relocalització personal i empresarial"
+      }
     }
   },
   "languages": {
