@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight, faPlayCircle, faChevronDown } from '@fortawesome/free-solid-svg-icons';
 import heroVideo from '../assets/video.mp4';
 import logo from '../assets/img/logoEmindset.png';
+import { motion } from 'framer-motion';
 
 const Hero = ({ isLogoAnimationComplete }) => {
   const { t } = useTranslation();

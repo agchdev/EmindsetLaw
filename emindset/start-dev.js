@@ -1,5 +1,5 @@
-const { spawn } = require('child_process');
-const path = require('path');
+import { spawn } from 'child_process';
+import process from 'node:process';
 
 // Configuración
 const EXPRESS_PORT = 3001;
