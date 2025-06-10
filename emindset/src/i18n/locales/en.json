@@ -3,7 +3,7 @@
     "history": "History",
     "commitment": "Our Commitment",
     "recognitions": "Awards",
-    "blog": "Linkedin",
+    "blog": "Media",
     "contact": "Contact",
     "home": "Home",
     "about": "About us",
@@ -57,7 +57,8 @@
       "andorra": "Andorra",
       "fiscal": "Tax Residency and Investment",
       "barcelona": "Barcelona",
-      "toulouse": "Toulouse"
+      "toulouse": "Toulouse",
+      "dubai": "Dubai"
     },
     "copyright": "All rights reserved."
   },
@@ -79,15 +80,15 @@
     },
     "phone": {
       "title": "Phone",
-      "number": "+376 678 882"
+      "number": "+376 824 991"
     },
     "email": {
       "title": "Email",
-      "address": "contact@emindsetlaw.com"
+      "address": "info@emindsetlaw.com"
     },
     "hours": {
       "title": "Hours",
-      "schedule": "Monday to Friday: 9:00 - 19:00"
+      "schedule": "Monday to Friday: 9:00 - 18:00"
     },
     "form": {
       "title": "Get in touch",
@@ -111,7 +112,7 @@
   },
   "services": {
     "title": "Our services",
-    "subtitle": "Complete legal solutions for your business",
+    "subtitle": "Legal Solutions",
     "corporate": {
       "title": "Corporate & Business",
       "shortDescription": "Comprehensive legal solutions for business development.",
@@ -367,3 +368,6 @@
     }
   }
 }
+
+
+

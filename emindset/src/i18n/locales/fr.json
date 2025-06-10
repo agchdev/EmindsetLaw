@@ -3,7 +3,7 @@
     "history": "Histoire",
     "commitment": "Notre Engagement",
     "recognitions": "Reconnaissances",
-    "blog": "Linkedin",
+    "blog": "Médias",
     "contact": "Contacter",
     "home": "Accueil",
     "about": "Qui sommes-nous",
@@ -57,7 +57,8 @@
       "andorra": "Andorre",
       "fiscal": "Résidence Fiscale et Investissement",
       "barcelona": "Barcelone",
-      "toulouse": "Toulouse"
+      "toulouse": "Toulouse",
+      "dubai": "Dubaï"
     },
     "copyright": "Tous droits réservés."
   },
@@ -79,11 +80,11 @@
     },
     "phone": {
       "title": "Téléphone",
-      "number": "+376 678 882"
+      "number": "+376 824 991"
     },
     "email": {
       "title": "Email",
-      "address": "contact@emindsetlaw.com"
+      "address": "info@emindsetlaw.com"
     },
     "hours": {
       "title": "Horaires",
@@ -111,7 +112,7 @@
   },
   "services": {
     "title": "Nos services",
-    "subtitle": "Solutions juridiques complètes pour votre entreprise",
+    "subtitle": "Solutions Juridiques",
     "corporate": {
       "title": "Droit des Affaires",
       "shortDescription": "Conseil juridique intégral pour les entreprises à toutes les phases de développement.",
@@ -350,3 +351,6 @@
     }
   }
 }
+
+
+

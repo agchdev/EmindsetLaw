@@ -2,7 +2,7 @@
   "navigation": {
     "commitment": "Nuestro compromiso",
     "recognitions": "Reconocimientos",
-    "blog": "Linkedin",
+    "blog": "Medios",
     "contact": "Contactar",
     "home": "Inicio",
     "history": "Historia",
@@ -57,7 +57,8 @@
       "andorra": "Andorra",
       "fiscal": "Residencia Fiscal e Inversión",
       "barcelona": "Barcelona",
-      "toulouse": "Toulouse"
+      "toulouse": "Toulouse",
+      "dubai": "Dubai"
     },
     "copyright": "Todos los derechos reservados."
   },
@@ -76,15 +77,15 @@
     },
     "phone": {
       "title": "Teléfono",
-      "number": "+376 678 882"
+      "number": "+376 824 991"
     },
     "email": {
       "title": "Correo electrónico",
-      "address": "contact@emindsetlaw.com"
+      "address": "info@emindsetlaw.com"
     },
     "hours": {
       "title": "Horario",
-      "schedule": "Lunes a Viernes: 9:00 - 19:00"
+      "schedule": "Lunes a Viernes: 9:00 - 18:00"
     },
     "form": {
       "title": "Ponte en contacto",
@@ -120,7 +121,7 @@
   },
   "services": {
     "title": "NUESTROS SERVICIOS",
-    "subtitle": "Soluciones legales para tu empresa",
+    "subtitle": "Soluciones Legales",
     "features": "Servicios incluidos",
     "contactCta": "Solicitar asesoramiento",
     "corporate": {
@@ -278,22 +279,22 @@
     "1": {
       "name": "Marc Taló",
       "position": "CEO de Grup Bomosa",
-      "text": "Un servei excel·lent i molt professional. Estem molt contents amb la seva atenció i resultats."
+      "text": "Un servicio excelente y muy profesional. Estamos muy contentos con su atención y resultados."
     },
     "2": {
       "name": "Fernando Mas",
       "position": "CEO de MP Gestió",
-      "text": "Sens dubte un equip d'advocats molt professionals i atents, amb un molt alt nivell resolutiu i disposats en tot moment en ajudar-te i assessorar-te en qualsevol dubte legal, ja són anys els que compto amb la seva ajuda i sempre amb un grau de satisfacció d'alt nivell"
+      "text": "Sin duda un equipo de abogados muy profesionales y atentos, con un muy alto nivel resolutivo y dispuestos en todo momento a ayudarte y asesorarte en cualquier duda legal, ya son años los que cuento con su ayuda y siempre con un grado de satisfacción de alto nivel"
     },
     "3": {
       "name": "Rafael Rabat",
       "position": "CEO de Norz Patrimonia",
-      "text": "Portem temps treballant amb l'equip d'Emindset Law i n'avalo la qualitat i professionalitat"
+      "text": "Llevamos tiempo trabajando con el equipo de Emindset Law y avalo su calidad y profesionalidad"
     },
     "4": {
       "name": "Sergi Martin",
       "position": "CEO de Altment Capital",
-      "text": "Emindset combina confiança i rigorositat a parts iguals. Amb una alta professionalitat, el seu equip ofereix solucions legals precises i eficaces, sempre amb un tracte empàtic i proper que porten a una atenció personalitzada. I tot, amb un aire fresc en la manera de treballar, amb una visió moderna i proactiva del dret."
+      "text": "Emindset combina confianza y rigurosidad a partes iguales. Con una alta profesionalidad, su equipo ofrece soluciones legales precisas y eficaces, siempre con un trato empático y cercano que llevan a una atención personalizada. Y todo, con un aire fresco en la manera de trabajar, con una visión moderna y proactiva del derecho."
     },
     "goto": "Ir al testimonio {{number}}"
   },
@@ -301,6 +302,7 @@
     "title": "Nuestra filosofía",
     "subtitle": "Misión y Valores",
     "description": "Nuestro compromiso es resolver tus retos legales con un enfoque moderno y eficiente.",
+    "quote": "Asesoramos, protegemos y acompañamos a cada cliente como si fuera único",
     "statement1": "Cuando te juegas algo importante, no estás tranquilo. Sabes que un paso en falso puede salir caro.",
     "statement2": "En Emindset Law te entendemos. Sabemos lo que se siente. Por eso llegamos con soluciones antes de que aparezca el problema. Porque el peor conflicto es el que se podría haber evitado.",
     "statement3": "Y más vale un buen acuerdo que mil batallas. Porque tú no estás para perder ninguna.",
@@ -325,15 +327,15 @@
     },
     "phone": {
       "title": "Teléfono",
-      "number": "+376 678 882"
+      "number": "+376 824 991"
     },
     "email": {
       "title": "Email",
-      "address": "contact@emindsetlaw.com"
+      "address": "info@emindsetlaw.com"
     },
     "hours": {
       "title": "Horario",
-      "schedule": "Lunes a Viernes: 9:00 - 19:00"
+      "schedule": "Lunes a Viernes: 9:00 - 18:00"
     },
     "form": {
       "title": "Envíanos un mensaje",
@@ -426,7 +428,7 @@
   },
   "services": {
     "title": "NUESTROS SERVICIOS",
-    "subtitle": "Soluciones legales para tu empresa",
+    "subtitle": "Soluciones Legales",
     "features": "Servicios incluidos",
     "contactCta": "Solicitar asesoramiento",
     "corporate": {
@@ -598,3 +600,6 @@
     }
   }
 }
+
+
+
