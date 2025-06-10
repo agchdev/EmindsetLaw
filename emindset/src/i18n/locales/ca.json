@@ -27,7 +27,8 @@
     }
   },
   "about": {
-    "title": "Emindset Law ajuda a l'empresa moderna",
+    "title": "t'acompanyem",
+    "titlePrefix": "A Emindset",
     "description": "Simplifiquem i resolem els teus reptes legals d'una forma global, àgil i innovadora. El nostre equip combina experiència tradicional amb un enfocament modern per oferir solucions efectives.",
     "practical": {
       "title": "Enfocament pràctic",

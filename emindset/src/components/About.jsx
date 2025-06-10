@@ -11,7 +11,7 @@ const About = () => {
             <div className="flex flex-col lg:flex-row items-center">
                 <div className="lg:w-1/2 mb-12 lg:mb-0 lg:pr-12 animate-fade-in">
                     <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-6 leading-tight">
-                        <span className="underline-animation">Emindset Law</span> {t('about.title').substring(12)}
+                        <span className="underline-animation">{t('about.titlePrefix')}</span> {t('about.title')}
                     </h2>
                     <p className="text-lg text-gray-600 mb-8 leading-relaxed">
                         {t('about.description')}

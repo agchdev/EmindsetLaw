@@ -27,7 +27,8 @@
     }
   },
   "about": {
-    "title": "Emindset Law aide l'entreprise moderne",
+    "title": "nous vous accompagnons",
+    "titlePrefix": "Chez Emindset",
     "description": "Nous simplifions et résolvons vos défis juridiques de manière globale, agile et innovante. Notre équipe combine expertise traditionnelle et approche moderne pour offrir des solutions efficaces.",
     "practical": {
       "title": "Approche pratique",

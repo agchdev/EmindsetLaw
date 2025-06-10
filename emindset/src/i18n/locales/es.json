@@ -27,7 +27,8 @@
     }
   },
   "about": {
-    "title": "En Emindset Law te acompañamos",
+    "title": "te acompañamos",
+    "titlePrefix": "En Emindset",
     "description": "Simplificamos y resolvemos tus retos legales de una forma global, ágil e innovadora. Nuestro equipo combina experiencia tradicional con un enfoque moderno para ofrecer soluciones efectivas.",
     "practical": {
       "title": "Enfoque práctico",
