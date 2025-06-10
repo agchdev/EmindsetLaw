@@ -1,6 +1,7 @@
 {
   "navigation": {
     "history": "History",
+    "commitment": "Our Commitment",
     "recognitions": "Awards",
     "blog": "Linkedin",
     "contact": "Contact",
@@ -53,6 +54,7 @@
     "quick_links": "Quick links",
     "offices": {
       "title": "Our Offices",
+      "andorra": "Andorra",
       "fiscal": "Tax Residency and Investment",
       "barcelona": "Barcelona",
       "toulouse": "Toulouse"
@@ -62,6 +64,7 @@
   "contact_section": {
     "title": "Contact us",
     "subtitle": "We're here to help",
+    "description": "Our team of specialized lawyers is ready to assist you with your legal needs. Contact us today for a personalized consultation.",
     "offices": {
       "subtitle": "OUR OFFICES",
       "title": "Where to find us",
@@ -110,24 +113,57 @@
     "title": "Our services",
     "subtitle": "Complete legal solutions for your business",
     "corporate": {
-      "title": "Corporate Law",
-      "description": "Comprehensive advice on corporate and commercial operations"
+      "title": "Corporate & Business",
+      "shortDescription": "Comprehensive legal solutions for business development.",
+      "description": "Comprehensive legal solutions for all stages of business development"
     },
     "realestate": {
       "title": "Real Estate",
+      "shortDescription": "Expert advice on property and real estate operations.",
       "description": "Management of national and international real estate operations"
     },
     "tech": {
       "title": "New Technologies",
+      "shortDescription": "Legal solutions for technology companies and startups.",
       "description": "Legal solutions for technology companies and startups"
     },
     "tax": {
       "title": "Taxation",
+      "shortDescription": "Tax optimization and international wealth planning.",
       "description": "Tax optimization and international wealth planning"
     },
     "startups": {
       "title": "Startups, Innovation and Technology",
+      "shortDescription": "Specialized legal support for innovative businesses.",
       "description": "Specialized legal support for startups, funding rounds, intellectual property and technological collaboration agreements."
+    },
+    "data": {
+      "title": "Data Protection",
+      "shortDescription": "Implementation of compliance measures in data protection and privacy.",
+      "description": "We implement data protection compliance measures tailored to your business. We conduct audits, develop privacy policies, data processing agreements, and advise on possible security breaches.",
+      "features": {
+        "title": "Data protection services",
+        "f1": "Adaptation to GDPR and local regulations",
+        "f2": "Compliance audits",
+        "f3": "DPO Outsourcing",
+        "f4": "Privacy and cookie policies",
+        "f5": "Security breach management",
+        "f6": "International data transfers"
+      }
+    },
+    "fiscal": {
+      "title": "Tax Residency and Investment",
+      "shortDescription": "Specialized advice on international tax residency and investments.",
+      "description": "We are specialists in international tax residency and investment processes. We offer comprehensive advice on tax optimization, foreign investment, relocation, and regulatory compliance across different jurisdictions.",
+      "features": {
+        "title": "Tax Residency and Investment Services",
+        "f1": "Obtaining international tax residency",
+        "f2": "Company formation in strategic jurisdictions",
+        "f3": "International tax and accounting management",
+        "f4": "Foreign investment authorizations",
+        "f5": "International asset planning",
+        "f6": "Personal and business relocation"
+      }
     }
   },
   "languages": {
@@ -137,9 +173,14 @@
     "en": "English"
   },
   "common": {
-    "logo_alt": "Emindset Law Logo"
+    "logo_alt": "Emindset Law Logo",
+    "readMore": "Read more"
   },
   "testimonials": {
+    "title": "Testimonials",
+    "subtitle": "Some words from",
+    "highlight": "satisfied clients",
+    "description": "Discover what our clients say about our dedication and excellence in legal service.",
     "1": {
       "name": "Marc Taló",
       "position": "CEO of Grup Bomosa",
@@ -312,6 +353,7 @@
       },
       "fiscal": {
         "title": "Tax Residency and Investment | Emindset Law",
+        "shortDescription": "Specialized advice on international tax residency and investments.",
         "description": "Specialized legal services for international tax residency, strategic investments, and advice on tax optimization across different jurisdictions."
       },
       "privacy": {

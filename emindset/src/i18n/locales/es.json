@@ -5,6 +5,7 @@
     "blog": "Linkedin",
     "contact": "Contactar",
     "home": "Inicio",
+    "history": "Historia",
     "about": "Quiénes somos",
     "services": "Servicios",
     "privacy": "Política de Privacidad",
@@ -53,6 +54,7 @@
     "quick_links": "Enlaces rápidos",
     "offices": {
       "title": "Nuestras Oficinas",
+      "andorra": "Andorra",
       "fiscal": "Residencia Fiscal e Inversión",
       "barcelona": "Barcelona",
       "toulouse": "Toulouse"
@@ -62,6 +64,7 @@
   "contact_section": {
     "title": "Contacta con nosotros",
     "subtitle": "Estamos aquí para ayudarte",
+    "description": "Nuestro equipo de abogados especializados está listo para asesorarte en tus necesidades legales. Contáctanos hoy mismo para una consulta personalizada.",
     "offices": {
       "subtitle": "NUESTRAS OFICINAS",
       "title": "Dónde encontrarnos",
@@ -268,6 +271,10 @@
     "readMore": "Leer más"
   },
   "testimonials": {
+    "title": "Testimonios",
+    "subtitle": "Algunas palabras de",
+    "highlight": "clientes satisfechos",
+    "description": "Descubre lo que nuestros clientes dicen sobre nuestra dedicación y excelencia en el servicio legal.",
     "1": {
       "name": "Marc Taló",
       "position": "CEO de Grup Bomosa",

@@ -1,6 +1,7 @@
 {
   "navigation": {
     "history": "Histoire",
+    "commitment": "Notre Engagement",
     "recognitions": "Reconnaissances",
     "blog": "Linkedin",
     "contact": "Contacter",
@@ -53,6 +54,7 @@
     "quick_links": "Liens rapides",
     "offices": {
       "title": "Nos Bureaux",
+      "andorra": "Andorre",
       "fiscal": "Résidence Fiscale et Investissement",
       "barcelona": "Barcelone",
       "toulouse": "Toulouse"
@@ -62,6 +64,7 @@
   "contact_section": {
     "title": "Contactez-nous",
     "subtitle": "Nous sommes là pour vous aider",
+    "description": "Notre équipe d'avocats spécialisés est prête à vous aider dans vos besoins juridiques. Contactez-nous dès aujourd'hui pour une consultation personnalisée.",
     "offices": {
       "subtitle": "NOS BUREAUX",
       "title": "Où nous trouver",
@@ -111,22 +114,32 @@
     "subtitle": "Solutions juridiques complètes pour votre entreprise",
     "corporate": {
       "title": "Droit des Affaires",
+      "shortDescription": "Conseil juridique intégral pour les entreprises à toutes les phases de développement.",
       "description": "Conseil complet sur les opérations sociétaires et commerciales"
     },
     "realestate": {
       "title": "Immobilier",
+      "shortDescription": "Conseil juridique pour les transactions immobilières et l'urbanisme.",
       "description": "Gestion des opérations immobilières nationales et internationales"
     },
     "tech": {
       "title": "Nouvelles Technologies",
+      "shortDescription": "Conseil spécialisé en droit numérique, blockchain et tokenisation d'actifs.",
       "description": "Solutions juridiques pour les entreprises technologiques et les startups"
     },
     "tax": {
       "title": "Fiscalité",
+      "shortDescription": "Optimisation fiscale légale pour les personnes physiques et morales au niveau national et international.",
       "description": "Optimisation fiscale et planification patrimoniale internationale"
+    },
+    "data": {
+      "title": "Protection des Données",
+      "shortDescription": "Mise en oeuvre de mesures de conformité en protection des données et confidentialité.",
+      "description": "Nous mettons en oeuvre des mesures de conformité en protection des données adaptées à votre entreprise. Nous réalisons des audits, élaborons des politiques de confidentialité, des contrats de sous-traitant et vous conseillons en cas de violation de données."
     },
     "startups": {
       "title": "Startups, Innovation et Technologie",
+      "shortDescription": "Accompagnement juridique pour les entrepreneurs et les startups à toutes les étapes.",
       "description": "Soutien juridique spécialisé pour les startups, les levées de fonds, la propriété intellectuelle et les accords de collaboration technologique."
     },
     "fiscal": {
@@ -154,6 +167,10 @@
     "logo_alt": "Logo Emindset Law"
   },
   "testimonials": {
+    "title": "Témoignages",
+    "subtitle": "Quelques mots de",
+    "highlight": "clients satisfaits",
+    "description": "Découvrez ce que nos clients disent sur notre dévouement et notre excellence en matière de service juridique.",
     "1": {
       "name": "Marc Taló",
       "position": "PDG de Grup Bomosa",

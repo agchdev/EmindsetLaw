@@ -1,6 +1,7 @@
 {
   "navigation": {
     "history": "Història",
+    "commitment": "El nostre Compromís",
     "recognitions": "Reconeixements",
     "blog": "Linkedin",
     "contact": "Contactar",
@@ -53,6 +54,7 @@
     "quick_links": "Enllaços ràpids",
     "offices": {
       "title": "Les nostres Oficines",
+      "andorra": "Andorra",
       "fiscal": "Residència Fiscal i Inversió",
       "barcelona": "Barcelona",
       "toulouse": "Toulouse"
@@ -62,6 +64,7 @@
   "contact_section": {
     "title": "Contacta amb nosaltres",
     "subtitle": "Estem aquí per ajudar-te",
+    "description": "El nostre equip d'advocats especialitzats està preparat per assessorar-te en les teves necessitats legals. Contacta amb nosaltres avui mateix per a una consulta personalitzada.",
     "offices": {
       "subtitle": "LES NOSTRES OFICINES",
       "title": "On trobar-nos",
@@ -111,22 +114,32 @@
     "subtitle": "Solucions legals completes per al teu negoci",
     "corporate": {
       "title": "Dret Corporatiu",
+      "shortDescription": "Assessorament legal integral per a empreses en totes les fases de desenvolupament.",
       "description": "Assessorament integral en operacions societàries i mercantils"
     },
     "realestate": {
       "title": "Real Estate",
+      "shortDescription": "Assessorament legal en transaccions immobiliàries i urbanisme.",
       "description": "Gestió d'operacions immobiliàries nacionals i internacionals"
     },
     "tech": {
       "title": "Noves Tecnologies",
+      "shortDescription": "Assessorament especialitzat en dret digital, blockchain i tokenització d'actius.",
       "description": "Solucions legals per a empreses tecnològiques i startups"
     },
     "tax": {
       "title": "Fiscalitat",
+      "shortDescription": "Optimització fiscal legal per a persones físiques i jurídiques a nivell nacional i internacional.",
       "description": "Optimització fiscal i planificació patrimonial internacional"
+    },
+    "data": {
+      "title": "Protecció de Dades",
+      "shortDescription": "Implementació de mesures de compliment en protecció de dades i privacitat.",
+      "description": "Implementem mesures de compliment en protecció de dades adaptades al teu negoci. Realitzem auditories, elaborem polítiques de privacitat, contractes d'encarregat de tractament i assessorem davant possibles bretxes de seguretat."
     },
     "startups": {
       "title": "Startups, Innovació i Tecnologia",
+      "shortDescription": "Acompanyament legal per a emprenedors i startups en totes les seves etapes.",
       "description": "Suport legal especialitzat per a startups, rondes de finançament, propietat intel·lectual i acords de col·laboració tecnològica."
     },
     "fiscal": {
@@ -154,6 +167,10 @@
     "logo_alt": "Emindset Law Logo"
   },
   "testimonials": {
+    "title": "Testimonis",
+    "subtitle": "Algunes paraules de",
+    "highlight": "clients satisfets",
+    "description": "Descobreix el que els nostres clients diuen sobre la nostra dedicació i excel·lència en el servei legal.",
     "1": {
       "name": "Marc Taló",
       "position": "CEO de Grup Bomosa",
