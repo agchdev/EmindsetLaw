@@ -2,8 +2,9 @@ import React, { useState, useEffect, useRef } from 'react'
 import { useTranslation } from 'react-i18next';
 import prem1 from "../assets/img/prem1.jpg";
 import prem2 from "../assets/img/prem2.jpg";
-import prem3 from "../assets/img/prem3.jpg";
 import prem4 from "../assets/img/prem4.png";
+import prem3 from "../assets/img/prem3.jpg";
+import premio1 from "../assets/img/Premio1.jpg";
 
 const PremioCard = ({ title, year, description, image, delay, isVisible, readMoreText }) => (
   <div 
@@ -86,7 +87,7 @@ const Premios = () => {
   const premiosData = t('awards.items', { returnObjects: true });
   
   // Mapear imágenes a cada premio
-  const premiosImages = [prem1, prem2, prem3, prem4];
+  const premiosImages = [prem1, prem2, prem4, prem3, premio1];
   
   // Combinar datos traducidos con imágenes
   const premios = premiosData.map((premio, index) => ({

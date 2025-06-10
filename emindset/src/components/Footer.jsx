@@ -86,6 +86,11 @@ const Footer = () => {
                 <p className="text-sm">63 rue du Colombier, 31670 Labege</p>
                 <p className="text-sm">+33 534 123 456</p>
               </div>
+              <div>
+                <p className="font-medium">{t('footer.offices.dubai')}</p>
+                <p className="text-sm">Suite 1704-1705 | South Tower, Emirates Financial Towers,</p>
+                <p className="text-sm">DIFC | P.O. Box 482025 | Dubai | UAE</p>
+              </div>
             </div>
           </div>
         </div>

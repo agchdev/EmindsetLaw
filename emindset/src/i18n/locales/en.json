@@ -79,6 +79,11 @@
       "title": "Andorra",
       "line1": "Av. Prat de la Creu 59-65, AD500"
     },
+    "dubai": {
+      "title": "Dubai",
+      "line1": "Suite 1704-1705 | South Tower, Emirates Financial Towers,",
+      "line2": "DIFC | P.O. Box 482025 | Dubai | UAE"
+    },
     "phone": {
       "title": "Phone",
       "number": "+376 824 991"
@@ -256,6 +261,11 @@
         "title": "Corporate Law Expert of the Year in Andorra 2024-2025",
         "year": "2024",
         "description": "Recognition of our excellence in the field of corporate law in Andorra, highlighting our commitment to quality and innovation."
+      },
+      {
+        "title": "Corporate and Real Estate Law Advisers of the Year in Andorra",
+        "year": "2025",
+        "description": "Recognition awarded by Global Business Magazine for our outstanding work in corporate and real estate legal advisory services in Andorra."
       }
     ]
   },

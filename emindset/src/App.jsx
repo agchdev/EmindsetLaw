@@ -8,6 +8,7 @@ import Blog from './pages/Blog';
 import Contacto from './pages/Contacto';
 import PoliticaPrivacidad from './pages/PoliticaPrivacidad';
 import Servicios from './pages/Servicios';
+import AvisoLegal from './pages/AvisoLegal';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import BackToTop from './components/BackToTop';
@@ -37,6 +38,7 @@ const SEOHandler = () => {
   else if (path === '/blog') currentPage = 'blog';
   else if (path === '/contacto') currentPage = 'contact';
   else if (path === '/politica-privacidad') currentPage = 'privacy';
+  else if (path === '/aviso-legal') currentPage = 'legal';
   
   return <SeoHelmet page={currentPage} />;
 };
@@ -65,6 +67,7 @@ function AppContent() {
             <Route path="/blog/:slug" element={<Blog />} />
             <Route path="/contacto" element={<Contacto />} />
             <Route path="/politica-privacidad" element={<PoliticaPrivacidad />} />
+            <Route path="/aviso-legal" element={<AvisoLegal />} />
           </Routes>
         </main>
         <Footer />

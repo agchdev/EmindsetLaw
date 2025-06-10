@@ -131,6 +131,17 @@ const Contact = () => {
               
               <div className="flex items-start">
                 <div className="flex-shrink-0 bg-primary/10 p-3 mr-4">
+                  <FontAwesomeIcon icon={faMapMarkerAlt} className="text-primary text-xl" />
+                </div>
+                <div>
+                  <h4 className="font-bold text-gray-800 mb-1">{t('contact_section.dubai.title')}</h4>
+                  <p className="text-gray-600">{t('contact_section.dubai.line1')}</p>
+                  <p className="text-gray-600">{t('contact_section.dubai.line2')}</p>
+                </div>
+              </div>
+              
+              <div className="flex items-start">
+                <div className="flex-shrink-0 bg-primary/10 p-3 mr-4">
                   <FontAwesomeIcon icon={faPhone} className="text-primary text-xl" />
                 </div>
                 <div>

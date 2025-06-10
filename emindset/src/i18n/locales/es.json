@@ -128,7 +128,7 @@
     "corporate": {
       "title": "Mercantil & Societario",
       "shortDescription": "Asesoramiento legal integral para empresas en todas sus fases de desarrollo.",
-      "description": "Ofrecemos un asesoramiento legal integral para empresas en todas sus fases de desarrollo, desde la constitución hasta procesos de fusión, adquisición o liquidación. Optimizamos la estructura societaria para asegurar la protección patrimonial y eficiencia fiscal.",
+      "description": "Ofrecemos un asesoramiento legal integral para particulares y empresas en todas sus fases de desarrollo, desde la constitución hasta procesos de fusión, adquisición o liquidación. Optimizamos la estructura societaria para asegurar la protección patrimonial y eficiencia fiscal.",
       "features": {
         "title": "Servicios mercantiles y societarios",
         "f1": "Constitución de sociedades y reestructuraciones",
@@ -326,6 +326,11 @@
       "title": "Andorra",
       "line1": "Av. Prat de la Creu 59-65, AD500"
     },
+    "dubai": {
+      "title": "Dubai",
+      "line1": "Suite 1704-1705 | South Tower, Emirates Financial Towers,",
+      "line2": "DIFC | P.O. Box 482025 | Dubai | UAE"
+    },
     "phone": {
       "title": "Teléfono",
       "number": "+376 824 991"
@@ -384,6 +389,11 @@
         "title": "Corporate Law Expert of the Year in Andorra 2024-2025",
         "year": "2024",
         "description": "Reconocimiento a nuestra excelencia en el ámbito del derecho corporativo en Andorra, destacando nuestro compromiso con la calidad y la innovación."
+      },
+      {
+        "title": "Corporate and Real Estate Law Advisers of the Year in Andorra",
+        "year": "2025",
+        "description": "Reconocimiento otorgado por Global Business Magazine a nuestra destacada labor en asesoramiento legal corporativo e inmobiliario en Andorra."
       }
     ]
   },
