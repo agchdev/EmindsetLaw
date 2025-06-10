@@ -378,8 +378,54 @@
         "description": "Discover the latest news, developments, and updates in the legal field. Articles and publications from our team of expert lawyers."
       }
     }
+  },
+  "legal": {
+    "title": "Legal Notice",
+    "section1_title": "1.- INFORMATION AND ACCEPTANCE",
+    "section1_p1": "These provisions regulate the use of the service of www.emindsetlaw.com (hereinafter, the \"Website\"), which EMINDSET LAW FIRM, S.L. (hereinafter, \"Emindset Law\" or the \"Firm\") makes available to Internet users.",
+    "section1_p2": "Emindset Law, with registered office in Andorra la Vella, C/ Prat de la Creu 59-65, Ed. Prat de la Creu, Staircase A, Floor 4, Office 1A (AD500) ANDORRA and N.R.T. L711141C, is registered in the Andorra Company Registry with number 16035 and Commerce Registry with number 927360-J. Phone: +376728882. Email: contact@emindsetlaw.com",
+    "section1_p3": "Access to the Website is free except for the cost of the connection through the telecommunications network supplied by the access provider contracted by users. Certain services are exclusive to our clients and their access is restricted. The legal or tax services provided by the Firm have the price indicated in the corresponding professional services proposal and in no case are offered or provided through the Website service.",
+    "section1_p4": "The use of the Website attributes the status of user of the Website (hereinafter, the \"User\") and implies acceptance of all the conditions included in this legal notice which regulate the conditions of use (hereinafter, the \"Conditions of Use\"). The provision of the Website service has a duration limited to the moment in which the User is connected to the Website or to any of the services that are provided through it. Therefore, the User must carefully read this Legal Notice on each of the occasions when they intend to use the Website, as it and its Conditions of Use may undergo modifications.",
+    "section1_p5": "Some services of the Website accessible to Internet users or exclusive to Emindset Law clients may be subject to particular conditions, regulations, and instructions which, where applicable, replace, complete and/or modify this Legal Notice and must be accepted by the User before the provision of the corresponding services begins.",
+    
+    "section2_title": "2.- CONTENT",
+    "section2_p1": "The Website contains material prepared by Emindset Law for informational purposes only. The user should note that such material may not reflect the most recent legislative or jurisprudential state on the issues analyzed. Likewise, Emindset Law reserves the right to modify, expand, or reduce the material offered through the Website at any time, informing the Users.",
+    "section2_p2": "The material contained in the Website cannot serve, in any case, as a substitute for legal advice or advice of another nature. Access to this material is not intended to constitute or imply any relationship between lawyer and client, or any other type of relationship of trust or professional relationship between Emindset Law and the User of the Website. Therefore, the User should not act on the basis of the information contained therein, without previously resorting to the corresponding professional advice. Likewise, the User should not send Emindset Law any type of confidential information without having previously consulted with one of our lawyers and having received authorization to submit said information.",
+    
+    "section3_title": "3.- USER COMMITMENTS",
+    "section3_p1": "In general, the User undertakes to comply with these Conditions of Use, as well as to comply with the special warnings or instructions for use contained therein and always to act in accordance with the Law in force, morals, good customs and the requirements of good faith and public order established, using due diligence, and refraining from using the Website in any way that may prevent, damage or deteriorate its normal operation, the assets or rights of Emindset Law, the rest of Users or, in general, any third party.",
+    "section3_p2": "Specifically, and without implying any restriction on the previous section, the User undertakes to:",
+    "section3_li1": "Provide truthful information about the data requested in the forms provided by Emindset Law for access to certain contents or services offered through the Website. Emindset Law reserves the right, without prejudice to other legal measures at its disposal, to withdraw, deny or suspend access to the Website in the event that the data provided is or may be false, inaccurate or misleading. In any case, the User will be fully responsible for any data or content that they transmit or communicate to Emindset Law. In this sense, the User assumes responsibility for any damages that may arise from improper use of the same.",
+    "section3_li2": "Not introduce, store, download, modify, decompile, license, lease, sell or imitate the Website, its contents or its design.",
+    
+    "section4_title": "4.- EXCLUSION OF LIABILITY AND WARRANTIES",
+    "section4_p1": "Emindset Law is not responsible for damages that could result from interference, omissions, interruptions, computer viruses, breakdowns and/or disconnections in the operational functioning of the electronic system or in the computers and equipment of the Users, for causes beyond Emindset Law, which prevent or delay navigation through the Website.",
+    "section4_p2": "However, Emindset Law declares that it has adopted and will adopt, where appropriate, all necessary measures within its possibilities and the state of technology, to guarantee the correct functioning of the Website and avoid the existence and transmission of viruses and other harmful components to Users.",
+    "section4_p3": "Emindset Law reserves the right to interrupt access to the Website at any time and without prior notice, whether for technical, security, control, maintenance reasons, supply failures or any other cause.",
+    
+    "section5_title": "5.- INTELLECTUAL AND INDUSTRIAL PROPERTY",
+    "section5_p1": "All Intellectual and Industrial Property rights, as well as all the information contained in the Website (including its information, texts, data, images, graphics, designs, brands, navigation structures, databases, etc., and any other content that appears in it) are the exclusive property of Emindset Law or third parties, without any of the exploitation rights recognized by current regulations on intellectual property being understood to be assigned to the User, except those that are strictly necessary for the use of the Website.",
+    "section5_p2": "The trademarks, trade names or distinctive signs are owned by Emindset Law or third parties, without it being understood that access to the Website attributes any right over said trademarks, trade names and/or distinctive signs.",
+    "section5_p3": "The User is only authorized to view the contents for their exclusive personal and private use, but Emindset Law does not authorize them to be subsequently assigned to third parties.",
+    
+    "section6_title": "6.- DATA PROTECTION",
+    "section6_p1": "Emindset Law will protect Users' personal data and use it only to the extent permitted by law or whenever Users have given their consent. For more information on the processing of your personal data on the Website, please refer to the Privacy Policy.",
+    "section6_p2": "DATA COLLECTION FORMS\n\nWithout prejudice to the provisions of the Privacy Policy, the use of certain services or requests addressed to Emindset Law are subject to the prior completion of the corresponding User registration form.\n\nAll information provided by the user through the forms on the Website for the above or any other purposes must be truthful. For these purposes, the user guarantees the authenticity of all the data they communicate and will keep the information provided to Emindset Law perfectly updated so that it responds, at all times, to the real situation of the User. In any case, the user will be solely responsible for false or inaccurate statements they make and for the damage caused to Emindset Law or third parties due to the information they provide.",
+    
+    "section7_title": "7.- THIRD PARTY LINKS",
+    "section7_p1": "These Conditions of Use refer only to the Website and do not apply to links, third-party web pages accessible through it or, in general, any other service provided by third parties.",
+    "section7_p2": "Consequently, Emindset Law does not assume any type of responsibility that may derive from them.",
+    "section7_p3": "Emindset Law offers the User such links and information and/or services solely for the convenience of the User, it being the responsibility of the User to read and accept the terms of use and privacy policies published on said websites. Their inclusion in the Website does not imply approval of the linked website by Emindset Law.",
+    
+    "section8_title": "8.- MODIFICATIONS",
+    "section8_p1": "Emindset Law reserves the right to make changes without prior notice that it deems appropriate to its Website, being able to change, delete or add both the contents and services provided through it and the way in which they are presented or located.",
+    
+    "section9_title": "9.- COMMUNICATIONS",
+    "section9_p1": "For the purposes of these Conditions of Use, and for any necessary communication between Emindset Law and the User, the latter must contact Emindset Law by email (send a message to contact@emindsetlaw.com) or by written communication addressed to Emindset Law, C/ Prat de la Creu 59-65, Ed. Prat de la Creu, Staircase A, Floor 4, Office 1A (AD500) Andorra la Vella, Principat d'Andorra. Communications from Emindset Law to the User will be made according to the data provided by the User when registering on the Website. The User expressly accepts for all communications related to the use of the Website, the use of email as a valid procedure for sending such communications.",
+    
+    "section10_title": "10.- INCIDENTS AND APPLICABLE LEGISLATION",
+    "section10_p1": "In the event of any incident in the functionality or operability of the Site, the User may communicate it via email to the contact address in the previous section.",
+    "section10_p2": "These Terms of Use are governed entirely by Andorran tax and commercial legislation. For the resolution of any conflict that may arise from access to the Website, the User and Emindset Law expressly submit to the jurisdiction of the Andorran courts, waiving their own jurisdiction if they have one.",
+    "section10_p3": "In the event that any clause of this Legal Notice is declared null and void, the remaining clauses will remain in force and will be interpreted taking into account the will of the parties and the purpose of these conditions."
   }
 }
-
-
-
