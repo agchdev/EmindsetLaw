@@ -85,6 +85,7 @@ const Mision = () => {
           <h2 className="text-2xl font-bold text-gray-800 mb-2">{t('mission.subtitle')}</h2>
           <div className="w-10 h-1 bg-primary mx-auto mt-2 mb-3"></div>
           <p className="text-sm text-gray-600 max-w-xl mx-auto">{t('mission.description')}</p>
+          <h3 className="text-xl font-semibold text-primary mt-6 mb-2 italic">"{t('mission.quote')}"</h3>
         </div>
         
         <div className="relative min-h-[160px] md:min-h-[140px] flex items-center justify-center mb-8">
