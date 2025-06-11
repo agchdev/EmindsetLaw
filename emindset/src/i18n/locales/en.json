@@ -64,6 +64,10 @@
     "copyright": "All rights reserved."
   },
   "contact_section": {
+    "map": {
+      "title": "Our Location",
+      "description": "Visit us at our headquarters located in the heart of Andorra la Vella, easily accessible from the main roads of the city."
+    },
     "title": "Contact us",
     "subtitle": "We're here to help",
     "button": "Request a quote",
@@ -118,7 +122,7 @@
     }
   },
   "services": {
-    "title": "OUR SERVICES",
+    "title": "Our Services",
     "subtitle": "Legal Solutions",
     "features": "Included services",
     "contactCta": "Request advice",
@@ -219,8 +223,24 @@
         "f5": "Real estate investment structuring",
         "f6": "Resolution of real estate disputes"
       }
+    },
+
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "q1": "How can I request an initial consultation?",
+      "a1": "You can request an initial consultation through our contact form, by phone or by email. We will respond within 24 hours to schedule a first meeting with no obligation.",
+      "q2": "Do you work with international clients?",
+      "a2": "Yes, we work with clients from around the world. Our team is multilingual and we have extensive experience in international legal consulting, especially in Europe and Latin America.",
+      "q3": "What are your fees?",
+      "a3": "Our fees vary according to the type of service and the complexity of the case. We offer both monthly retainers and project-based fees. We will provide you with a detailed quote with no obligation after analyzing your specific needs."
+    },
+    "contactSection": {
+      "title": "Need legal advice?",
+      "description": "Our team of specialist lawyers is ready to help you with any legal inquiry related to your company or project.",
+      "button": "Contact now"
     }
   },
+  
   "languages": {
     "es": "Español",
     "fr": "Français",
@@ -322,11 +342,15 @@
   "blog": {
     "title": "Our Blog",
     "subtitle": "Stay up to date with the latest news and publications from our team",
-    "linkedInSection": "Our LinkedIn Posts",
+    "linkedInSection": "Our LinkedIn Publications",
+    "instagramSection": "Follow Us on Instagram",
+    "visitInstagram": "Visit our Instagram",
+    "instagramNote": "The posts shown are representative. Visit our Instagram to see all publications.",
     "connectTitle": "Connect with us on LinkedIn",
-    "connectDescription": "Follow us on LinkedIn to stay updated with all our publications, events, and news from the legal sector.",
+    "connectDescription": "Follow us on LinkedIn to stay updated with all our publications, events, and legal sector news.",
     "visitProfile": "Visit our LinkedIn profile"
   },
+
   "history": {
     "title": "Our History",
     "subtitle": "Discover how Emindset Law was born and evolved over the years",

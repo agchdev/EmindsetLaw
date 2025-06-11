@@ -64,6 +64,10 @@
     "copyright": "Tous droits réservés."
   },
   "contact_section": {
+    "map": {
+      "title": "Notre emplacement",
+      "description": "Rendez-nous visite à notre siège situé au cœur d'Andorre-la-Vieille, facilement accessible depuis les principales artères de la ville."
+    },
   "title": "Contactez-nous",
   "subtitle": "Nous sommes là pour vous aider",
   "button": "Demandez un devis",
@@ -119,7 +123,7 @@
 }
 ,
   "services": {
-    "title": "NOS SERVICES",
+    "title": "Nos Services",
     "subtitle": "Solutions Juridiques",
     "features": "Services inclus",
     "contactCta": "Demander conseil",
@@ -220,6 +224,21 @@
         "f5": "Structuration d'investissements immobiliers",
         "f6": "Résolution de litiges immobiliers"
       }
+    },
+
+    "faq": {
+      "title": "Questions fréquentes",
+      "q1": "Comment puis-je demander une consultation initiale?",
+      "a1": "Vous pouvez demander une consultation initiale via notre formulaire de contact, par téléphone ou par email. Nous vous répondrons dans les 24 heures pour planifier une première réunion sans engagement.",
+      "q2": "Travaillez-vous avec des clients internationaux?",
+      "a2": "Oui, nous travaillons avec des clients du monde entier. Notre équipe est multilingue et nous avons une vaste expérience en conseil juridique international, particulièrement en Europe et en Amérique latine.",
+      "q3": "Quels sont vos tarifs?",
+      "a3": "Nos tarifs varient selon le type de service et la complexité du dossier. Nous proposons à la fois des forfaits mensuels et des honoraires par projet. Nous vous fournirons un devis détaillé sans engagement après avoir analysé vos besoins spécifiques."
+    },
+    "contactSection": {
+      "title": "Besoin de conseils juridiques?",
+      "description": "Notre équipe d'avocats spécialistes est prête à vous aider pour toute question juridique liée à votre entreprise ou projet.",
+      "button": "Contacter maintenant"
     }
   },
   "languages": {
@@ -304,18 +323,30 @@
       {
         "title": "Expert en Droit des Sociétés de l'Année en Andorre 2024-2025",
         "year": "2024",
-        "description": "Reconnaissance de notre excellence dans le domaine du droit des sociétés en Andorre, soulignant notre engagement envers la qualité et l'innovation."
+        "description": "Prix décerné pour notre expertise en droit des sociétés et notre approche innovante dans ce domaine."
       }
     ]
   },
   "blog": {
     "title": "Notre Blog",
-    "subtitle": "Restez informés des dernières nouvelles et publications de notre équipe",
+    "subtitle": "Actualités et Articles",
+    "readMore": "Lire plus",
     "linkedInSection": "Nos Publications sur LinkedIn",
+    "instagramSection": "Nous suivre sur Instagram",
+    "instagram": {
+      "title": "Nous suivre sur Instagram",
+      "subtitle": "Restez connectés avec nos dernières mises à jour",
+      "button": "Visiter notre Instagram"
+    },
+    "linkedin": {
+      "title": "Nos Publications sur LinkedIn"
+    },
+    "instagramNote": "Les publications affichées sont représentatives. Visitez notre Instagram pour voir toutes les publications.",
     "connectTitle": "Connectez-vous avec nous sur LinkedIn",
-    "connectDescription": "Suivez-nous sur LinkedIn pour rester à jour avec toutes nos publications, événements et actualités du secteur juridique.",
-    "visitProfile": "Visiter notre profil LinkedIn"
+    "connectDescription": "Suivez-nous sur LinkedIn pour rester informé de toutes nos publications, événements et actualités du secteur juridique.",
+    "visitProfile": "Visitez notre profil LinkedIn"
   },
+
   "history": {
     "title": "Notre Histoire",
     "subtitle": "Découvrez comment Emindset Law est née et a évolué au fil des années",

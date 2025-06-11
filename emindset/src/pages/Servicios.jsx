@@ -87,7 +87,7 @@ const Servicios = () => {
       <SeoHelmet page="services" />
       
       {/* Hero section */}
-      <div className="bg-gradient-to-b from-[#00478B] to-[#003673] text-white py-20 px-6">
+      <div className="bg-gradient-to-b from-[#00478B] to-[#003673] text-white py-30 px-6">
         <div className="container mx-auto">
           <div className="max-w-3xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">{t('services.title')}</h1>

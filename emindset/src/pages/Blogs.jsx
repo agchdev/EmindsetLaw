@@ -49,7 +49,7 @@ const Blogs = () => {
       <SeoHelmet page="blog" />
 
       {/* Header */}
-      <div className="bg-gradient-to-r from-[#00b1ed] to-[#0077b5] py-16">
+      <div className="bg-gradient-to-r from-[#00b1ed] to-[#0077b5] pt-30 pb-20">
         <div className="container mx-auto px-6 text-center">
           <h1 className="text-3xl md:text-4xl font-bold text-white mb-4">{t('blog.title')}</h1>
           <p className="text-white/90 max-w-2xl mx-auto">

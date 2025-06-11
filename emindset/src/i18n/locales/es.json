@@ -73,6 +73,10 @@
     "title": "Dónde encontrarnos",
     "description": "Tenemos oficinas en tres ubicaciones estratégicas para atender tus necesidades legales."
   },
+  "map": {
+    "title": "Nuestra ubicación",
+    "description": "Visítanos en nuestra sede central ubicada en el corazón de Andorra la Vella, fácilmente accesible desde las principales vías de la ciudad."
+  },
   "now": "Contactar ahora",
   "help": "¿Necesitas ayuda inmediata?",
   "language": "Seleccionar idioma",
@@ -119,7 +123,7 @@
 },
 
   "services": {
-    "title": "NUESTROS SERVICIOS",
+    "title": "Nuestros Servicios",
     "subtitle": "Soluciones Legales",
     "features": "Servicios incluidos",
     "contactCta": "Solicitar asesoramiento",
@@ -373,6 +377,7 @@
     "linkedInSection": "Nuestras Publicaciones en LinkedIn",
     "instagramSection": "Síguenos en Instagram",
     "visitInstagram": "Visitar nuestro Instagram",
+    "instagramNote": "Las publicaciones mostradas son representativas. Visita nuestro Instagram para ver todas las publicaciones.",
     "connectTitle": "Conéctate con nosotros en LinkedIn",
     "connectDescription": "Síguenos en LinkedIn para estar al día de todas nuestras publicaciones, eventos y novedades del sector legal.",
     "visitProfile": "Visitar nuestro perfil de LinkedIn"

@@ -64,6 +64,10 @@
     "rights": " 2024 Emindset Law. Tots els drets reservats."
   },
   "contact_section": {
+    "map": {
+      "title": "La nostra ubicació",
+      "description": "Visita'ns a la nostra seu central situada al cor d'Andorra la Vella, fàcilment accessible des de les principals vies de la ciutat."
+    },
     "title": "Contacta amb nosaltres",
     "subtitle": "Estem aquí per ajudar-te",
     "button": "Demana un pressupost",
@@ -118,7 +122,7 @@
     }
   },
   "services": {
-    "title": "ELS NOSTRES SERVEIS",
+    "title": "Els Nostres Serveis",
     "subtitle": "Solucions Legals",
     "features": "Serveis inclosos",
     "contactCta": "Sol·licitar assessorament",
@@ -219,8 +223,24 @@
         "f5": "Estructuració d'inversions immobiliàries",
         "f6": "Resolució de conflictes immobiliaris"
       }
+    },
+
+  "faq": {
+    "title": "Preguntes freqüents",
+    "q1": "Com puc sol·licitar una consulta inicial?",
+    "a1": "Pots sol·licitar una consulta inicial a través del nostre formulari de contacte, per telèfon o per correu electrònic. Et respondrem en menys de 24 hores per programar una primera reunió sense compromís.",
+    "q2": "Treballeu amb clients internacionals?",
+    "a2": "Sí, treballem amb clients d'arreu del món. El nostre equip és multilingüe i tenim àmplia experiència en assessorament legal internacional, especialment a Europa i Amèrica Llatina.",
+    "q3": "Quines són les vostres tarifes?",
+    "a3": "Les nostres tarifes varien segons el tipus de servei i la complexitat del cas. Oferim tant iguales mensuals com honoraris per projecte. Et proporcionarem un pressupost detallat i sense compromís després d'analitzar les teves necessitats específiques."
+  },
+  "contactSection": {
+    "title": "Necessites assessorament legal?",
+    "description": "El nostre equip d'advocats especialistes està preparat per ajudar-te amb qualsevol consulta legal relacionada amb la teva empresa o projecte.",
+    "button": "Contactar ara"
     }
   },
+
   "languages": {
     "es": "Español",
     "fr": "Français",
@@ -307,19 +327,30 @@
       },
       {
         "title": "Corporate and Real Estate Law Advisers of the Year in Andorra",
-        "year": "2025",
         "description": "Reconeixement atorgat per Global Business Magazine a la nostra destacada tasca en assessorament legal corporatiu i immobiliari a Andorra."
       }
     ]
   },
   "blog": {
     "title": "El Nostre Blog",
-    "subtitle": "Mantingui's al dia amb les últimes notícies i publicacions del nostre equip",
+    "subtitle": "Actualitat i Articles",
+    "readMore": "Llegir més",
     "linkedInSection": "Les Nostres Publicacions a LinkedIn",
-    "connectTitle": "Connecti's amb nosaltres a LinkedIn",
-    "connectDescription": "Segueixi'ns a LinkedIn per mantenir-se al dia amb totes les nostres publicacions, esdeveniments i notícies del sector legal.",
-    "visitProfile": "Visitar el nostre perfil de LinkedIn"
+    "instagramSection": "Segueix-nos a Instagram",
+    "instagram": {
+      "title": "Segueix-nos a Instagram",
+      "subtitle": "Mantén-te connectat amb les nostres últimes actualitzacions",
+      "button": "Visita el nostre Instagram"
+    },
+    "linkedin": {
+      "title": "Les Nostres Publicacions a LinkedIn"
+    },
+    "instagramNote": "Les publicacions mostrades són representatives. Visita el nostre Instagram per veure totes les publicacions.",
+    "connectTitle": "Connecta amb nosaltres a LinkedIn",
+    "connectDescription": "Segueix-nos a LinkedIn per estar al dia de totes les nostres publicacions, esdeveniments i novetats del sector legal.",
+    "visitProfile": "Visita el nostre perfil de LinkedIn"
   },
+
   "history": {
     "title": "La Nostra Història",
     "subtitle": "Descobreix com Emindset Law va néixer i ha evolucionat al llarg dels anys",
@@ -472,6 +503,3 @@
     "section10_p2": "Les presents Condicions d'us es regeixen íntegrament per la legislació fiscal i mercantil andorrana. Per a la resolució de qualsevol conflicte que es pugui derivar de l'accés al Lloc Web, l'Usuari i Emindset Law se sotmeten expressament a la jurisdicció dels tribunals andorrans, amb renúncia al seu fur propi si el tingués."
   }
 }
-
-
-
