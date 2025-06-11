@@ -401,6 +401,8 @@
     "title": "Nuestro Blog",
     "subtitle": "Manténte al día con las últimas noticias y publicaciones de nuestro equipo",
     "linkedInSection": "Nuestras Publicaciones en LinkedIn",
+    "instagramSection": "Síguenos en Instagram",
+    "visitInstagram": "Visitar nuestro Instagram",
     "connectTitle": "Conéctate con nosotros en LinkedIn",
     "connectDescription": "Síguenos en LinkedIn para estar al día de todas nuestras publicaciones, eventos y novedades del sector legal.",
     "visitProfile": "Visitar nuestro perfil de LinkedIn"
@@ -414,14 +416,15 @@
       "highlight1": "humanizar la abogacía y romper con todos los estereotipos.",
       "paragraph2": "Podía ser una herramienta útil, cercana y profundamente humana.",
       "paragraph3": "Una forma real de acompañar y transformar vidas.",
-      "paragraph4": "Desde el inicio supimos que queríamos hacer las cosas de otra manera.",
-      "paragraph5": "No desde la frialdad del traje y el despacho, sino desde la escucha y el compromiso con las personas.",
-      "paragraph6": "Y, para qué negarlo, llegar con un nuevo mindset no fue fácil.",
-      "paragraph7": "Romper con lo establecido siempre impone respeto.",
-      "paragraph8": "Pero con el tiempo, fue esa mirada humana y auténtica",
-      "paragraph9": "la que nos permitió marcar la diferencia y convertirnos en un referente del sector legal.",
+      "paragraph4": "Desde los inicios siempre hemos sido fieles a nuestra misión, que es ayudar y servir a nuestros clientes allí donde se encuentren sus necesidades.",
+      "paragraph5": "Desde el inicio supimos que queríamos hacer las cosas de otra manera.",
+      "paragraph6": "No desde la frialdad del traje y el despacho, sino desde la escucha y el compromiso con las personas.",
+      "paragraph7": "Y, para qué negarlo, llegar con un nuevo mindset no fue fácil.",
+      "paragraph8": "Romper con lo establecido siempre impone respeto.",
+      "paragraph9": "Pero con el tiempo, fue esa mirada humana y auténtica",
+      "paragraph10": "la que nos permitió marcar la diferencia y convertirnos en un referente del sector legal.",
       "highlight2": "Siempre fieles a lo que nos mueve:",
-      "paragraph10": "ayudar y estar presente cuando más se nos necesita.",
+      "paragraph11": "ayudar y estar presente cuando más se nos necesita.",
       "quote": "\"Transformando el derecho en una experiencia humana y cercana desde 2016.\""
     },
     "timeline": {
@@ -431,114 +434,11 @@
       "items": {
         "2016": "Fundación de Emindset Law con un pequeño equipo de 5 abogados comprometidos con una visión diferente del derecho.",
         "2018": "Apertura de nuestra primera oficina en Barcelona y ampliación del equipo a 15 profesionales.",
-        "2020": "Expansión internacional con la apertura de nuestra oficina en Andorra, especializándonos en fiscalidad internacional.",
+        "2020": "Expansión internacional con la apertura de nuestra global red de despachos, especializándonos internacionalmente en derecho mercantil, fiscalidad y nuevas tecnologías.",
         "2022": "Creación de nuestra división de Nuevas Tecnologías, enfocada en startups y empresas tecnológicas.",
-        "2024": "Apertura de nuestra oficina en Toulouse y reconocimiento como uno de los despachos más innovadores de Europa."
+        "2024": "Apertura de nuestra oficina en Toulouse y reconocimiento como uno de los despachos más innovadores de Europa. Recibimos el premio al 'Corporate Law Expert of the Year in Andorra 2024-2025' y el 'Premio CEO del Año en el sector legal en España', por Foment del Treball y el diario La Razón.",
+        "2025": "Reconocimientos internacionales confirman nuestra trayectoria de excelencia: 'Reconocidos como Mejor Despacho en Derecho Mercantil de España' y 'Corporate Law Experts of the Year' en Andorra."
       }
-    }
-  },
-  "services": {
-    "title": "NUESTROS SERVICIOS",
-    "subtitle": "Soluciones Legales",
-    "features": "Servicios incluidos",
-    "contactCta": "Solicitar asesoramiento",
-    "corporate": {
-      "title": "Mercantil & Societario",
-      "shortDescription": "Asesoramiento legal integral para empresas en todas sus fases de desarrollo.",
-      "description": "Ofrecemos un asesoramiento legal integral para empresas en todas sus fases de desarrollo, desde la constitución hasta procesos de fusión, adquisición o liquidación. Optimizamos la estructura societaria para asegurar la protección patrimonial y eficiencia fiscal.",
-      "features": {
-        "title": "Servicios mercantiles y societarios",
-        "f1": "Constitución de sociedades y reestructuraciones",
-        "f2": "Pactos de socios y gobierno corporativo",
-        "f3": "Due diligence y auditorías legales",
-        "f4": "Contratos mercantiles y negociaciones",
-        "f5": "Operaciones de M&A y joint ventures",
-        "f6": "Secretaría legal y cumplimiento normativo"
-      }
-    },
-    "tech": {
-      "title": "Nuevas Tecnologías",
-      "shortDescription": "Asesoramiento especializado en derecho digital, blockchain y tokenización de activos.",
-      "description": "Ayudamos a empresas innovadoras a navegar el complejo marco regulatorio de las nuevas tecnologías. Nuestro asesoramiento abarca blockchain, tokenización de activos, contratos inteligentes, FinTech y tecnologías emergentes en el marco legal vigente.",
-      "features": {
-        "title": "Servicios en derecho tecnológico",
-        "f1": "Marco legal de blockchain y criptoactivos",
-        "f2": "Tokenización de activos y emisión de NFTs",
-        "f3": "Regulatory compliance para FinTech",
-        "f4": "Contratos inteligentes y DAOs",
-        "f5": "Asesoramiento en Web3 y Metaverso",
-        "f6": "Defensa ante organismos reguladores"
-      }
-    },
-    "startups": {
-      "title": "Startups e Innovación",
-      "shortDescription": "Acompañamiento legal para emprendedores y startups en todas sus etapas.",
-      "description": "Acompañamos a emprendedores desde la idea hasta las rondas de financiación. Nuestro asesoramiento comprende estructuración societaria, pactos de socios, propiedad intelectual, protección de know-how y negociaciones con inversores.",
-      "features": {
-        "title": "Servicios para startups",
-        "f1": "Constitución y estructuración legal",
-        "f2": "Pactos de fundadores e inversores",
-        "f3": "Protección IP y secretos comerciales",
-        "f4": "Asesoramiento en rondas de financiación",
-        "f5": "Optimización fiscal para el crecimiento",
-        "f6": "Plan de incentivos para empleados"
-      }
-    },
-    "fiscal": {
-      "title": "Residencia Fiscal e Inversión",
-      "shortDescription": "Asesoramiento especializado en residencia fiscal internacional e inversiones estratégicas.",
-      "description": "Somos especialistas en procesos de residencia fiscal internacional e inversión. Ofrecemos asesoramiento integral en optimización fiscal, inversión extranjera, relocalización y cumplimiento normativo en distintas jurisdicciones.",
-      "features": {
-        "title": "Servicios de Residencia Fiscal e Inversión",
-        "f1": "Obtención de residencia fiscal internacional",
-        "f2": "Constitución de sociedades en jurisdicciones estratégicas",
-        "f3": "Gestión fiscal y contable internacional",
-        "f4": "Autorizaciones de inversión extranjera",
-        "f5": "Planificación patrimonial internacional",
-        "f6": "Relocalización personal y empresarial"
-      }
-    },
-    "data": {
-      "title": "Protección de Datos",
-      "shortDescription": "Implementación de medidas de cumplimiento en protección de datos y privacidad.",
-      "description": "Implementamos medidas de cumplimiento en protección de datos adaptadas a tu negocio. Realizamos auditorías, elaboramos políticas de privacidad, contratos de encargado de tratamiento y asesoramos ante posibles brechas de seguridad.",
-      "features": {
-        "title": "Servicios en protección de datos",
-        "f1": "Adaptación al RGPD y normativa local",
-        "f2": "Auditorías de cumplimiento",
-        "f3": "DPO Outsourcing",
-        "f4": "Políticas de privacidad y cookies",
-        "f5": "Gestión de brechas de seguridad",
-        "f6": "Transferencias internacionales de datos"
-      }
-    },
-    "tax": {
-      "title": "Fiscalidad",
-      "shortDescription": "Optimización fiscal legal para personas físicas y jurídicas a nivel nacional e internacional.",
-      "description": "Optimizamos la fiscalidad de personas físicas y jurídicas dentro del marco legal vigente. Asesoramos en fiscalidad nacional e internacional, precios de transferencia, planificación patrimonial y representación ante inspecciones tributarias.",
-      "features": {
-        "title": "Servicios fiscales",
-        "f1": "Planificación fiscal corporativa",
-        "f2": "Asesoramiento en fiscalidad internacional",
-        "f3": "Estructuración de grupos empresariales",
-        "f4": "Precios de transferencia",
-        "f5": "Due diligence fiscal",
-        "f6": "Defensa ante inspecciones tributarias"
-      }
-    },
-    "faq": {
-      "title": "Preguntas frecuentes",
-      "q1": "¿Cómo puedo solicitar una consulta inicial?",
-      "a1": "Puedes solicitar una consulta inicial a través de nuestro formulario de contacto, por teléfono o por email. Te responderemos en menos de 24 horas para agendar una primera reunión sin compromiso.",
-      "q2": "¿Trabajáis con clientes internacionales?",
-      "a2": "Sí, trabajamos con clientes de todo el mundo. Nuestro equipo es multilingüe y tenemos amplia experiencia en asesoramiento legal internacional, especialmente en Europa y América Latina.",
-      "q3": "¿Cuáles son vuestras tarifas?",
-      "a3": "Nuestras tarifas varían según el tipo de servicio y la complejidad del caso. Ofrecemos tanto igualas mensuales como honorarios por proyecto. Te proporcionaremos un presupuesto detallado y sin compromiso tras analizar tus necesidades específicas."
-    },
-    "contactSection": {
-      "title": "¿Necesitas asesoramiento legal?",
-      "description": "Nuestro equipo de abogados especialistas está listo para ayudarte con cualquier consulta legal relacionada con tu empresa o proyecto.",
-      "button": "Contactar ahora"
     }
   },
   "legal": {

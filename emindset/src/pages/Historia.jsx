@@ -313,7 +313,7 @@ const Historia = () => {
                   </div>
                   <div className="md:w-1/2 md:pl-12">
                     <h3 className="text-xl font-bold text-gray-800 mb-2">2025</h3>
-                    <p className="text-gray-600">Actualmente, seguimos creciendo y transformando el sector legal con nuestro enfoque humano y cercano.</p>
+                    <p className="text-gray-600">{t('history.timeline.items.2025')}</p>
                   </div>
                 </div>
               </motion.div>

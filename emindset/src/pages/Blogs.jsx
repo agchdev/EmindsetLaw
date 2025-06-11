@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import SeoHelmet from '../seo/SeoHelmet';
+import InstagramFeed from '../components/InstagramFeed';
 
 const Blogs = () => {
   const { t } = useTranslation();
@@ -65,6 +66,18 @@ const Blogs = () => {
             
             {/* Elfsight LinkedIn Feed Widget */}
             <div className="elfsight-app-b4f07965-9c6a-470c-af2b-58cfc6c1611a" data-elfsight-app-lazy></div>
+          </div>
+        </div>
+      </section>
+
+      {/* Instagram Feed Section */}
+      <section className="py-20 bg-gray-50">
+        <div className="container mx-auto px-6">
+          <div className={`transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
+            <h2 className="text-2xl font-bold text-center mb-12">{t('blog.instagramSection') || 'Síguenos en Instagram'}</h2>
+            
+            {/* Componente de feed de Instagram */}
+            <InstagramFeed className="mt-6" />
           </div>
         </div>
       </section>
