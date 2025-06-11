@@ -64,62 +64,60 @@
     "copyright": "Todos los derechos reservados."
   },
   "contact_section": {
-    "title": "Contacta con nosotros",
-    "subtitle": "Estamos aquí para ayudarte",
-    "description": "Nuestro equipo de abogados especializados está listo para asesorarte en tus necesidades legales. Contáctanos hoy mismo para una consulta personalizada.",
-    "offices": {
-      "subtitle": "NUESTRAS OFICINAS",
-      "title": "Dónde encontrarnos",
-      "description": "Contamos con oficinas en tres ubicaciones estratégicas para atender tus necesidades legales."
-    },
-    "address": {
-      "title": "Dirección",
-      "line1": "Av. Prat de la Creu 59-65, AD500"
-    },
-    "phone": {
-      "title": "Teléfono",
-      "number": "+376 824 991"
-    },
-    "email": {
-      "title": "Correo electrónico",
-      "address": "info@emindsetlaw.com"
-    },
-    "hours": {
-      "title": "Horario",
-      "schedule": "Lunes a Viernes: 9:00 - 18:00"
-    },
-    "form": {
-      "title": "Ponte en contacto",
-      "description": "Completa el formulario y nos pondremos en contacto contigo lo antes posible para ayudarte con tus necesidades legales.",
-      "name": "Nombre",
-      "company": "Empresa",
-      "email": "Correo electrónico",
-      "phone": "Teléfono",
-      "subject": "Asunto",
-      "message": "Mensaje",
-      "optional": "opcional",
-      "sending": "Enviando...",
-      "submit": "Enviar mensaje",
-      "send": "Enviar mensaje",
-      "service": "Servicio de interés",
-      "select": "Selecciona un servicio",
-      "other": "Otro",
-      "privacy": "Acepto la política de privacidad",
-      "privacy_info": "Información Adicional: Puede encontrar más información leyendo nuestra",
-      "privacy_policy": "Política de Privacidad",
-      "privacy_accept": "He leído y acepto la",
-      "error_required_fields": "Por favor, complete todos los campos obligatorios y acepte la política de privacidad.",
-      "error_sending": "Ha ocurrido un error al enviar el mensaje. Por favor, inténtelo de nuevo.",
-      "error_connection": "Error de conexión. Por favor, compruebe su conexión a internet e inténtelo de nuevo."
-    },
-    "now": "Contactar ahora",
-    "help": "¿Necesitas ayuda inmediata?",
-    "language": "Seleccionar idioma",
-    "map": {
-      "title": "Nuestra ubicación",
-      "description": "Encuentra nuestras oficinas en el mapa y visítanos cuando lo necesites."
-    }
+  "title": "Contacta con nosotros",
+  "button": "Pide presupuesto",
+  "subtitle": "Estamos aquí para ayudarte",
+  "description": "Nuestro equipo de abogados especializados está preparado para asesorarte en tus necesidades legales. Contacta con nosotros hoy mismo para una consulta personalizada.",
+  "offices": {
+    "subtitle": "NUESTRAS OFICINAS",
+    "title": "Dónde encontrarnos",
+    "description": "Tenemos oficinas en tres ubicaciones estratégicas para atender tus necesidades legales."
   },
+  "now": "Contactar ahora",
+  "help": "¿Necesitas ayuda inmediata?",
+  "language": "Seleccionar idioma",
+  "address": {
+    "title": "Andorra",
+    "line1": "Av. Prat de la Creu 59-65, AD500"
+  },
+  "dubai": {
+    "title": "Dubái",
+    "line1": "Suite 1704-1705 | South Tower, Emirates Financial Towers,",
+    "line2": "DIFC | P.O. Box 482025 | Dubái | EAU"
+  },
+  "phone": {
+    "title": "Teléfono",
+    "number": "+376 824 991"
+  },
+  "email": {
+    "title": "Correo electrónico",
+    "address": "info@emindsetlaw.com"
+  },
+  "hours": {
+    "title": "Horario",
+    "schedule": "Lunes a Viernes: 9:00 - 18:00"
+  },
+  "form": {
+    "title": "Ponte en contacto",
+    "description": "Completa el formulario y nos pondremos en contacto contigo lo antes posible para ayudarte con tus necesidades legales.",
+    "name": "Nombre",
+    "company": "Empresa",
+    "email": "Correo electrónico",
+    "phone": "Teléfono",
+    "subject": "Asunto",
+    "message": "Mensaje",
+    "optional": "opcional",
+    "sending": "Enviando...",
+    "submit": "Enviar mensaje",
+    "service": "Servicio de interés",
+    "select": "Selecciona un servicio",
+    "other": "Otro",
+    "send": "Enviar mensaje",
+    "privacy": "Acepto la política de privacidad y el tratamiento de mis datos",
+    "success": "Tu mensaje ha sido enviado correctamente. Nos pondremos en contacto contigo lo antes posible."
+  }
+},
+
   "services": {
     "title": "NUESTROS SERVICIOS",
     "subtitle": "Soluciones Legales",
@@ -212,8 +210,18 @@
     "realestate": {
       "title": "Real Estate",
       "shortDescription": "Asesoramiento legal en transacciones inmobiliarias y urbanismo.",
-      "description": "Asesoramiento legal en transacciones inmobiliarias y urbanismo"
+      "description": "Proporcionamos asesoramiento legal completo en todas las etapas de operaciones inmobiliarias, desde la adquisición hasta la venta de propiedades. Gestionamos trámites urbanísticos, contratos de arrendamiento, due diligence inmobiliaria y asesoramos en proyectos de desarrollo y construcción.",
+      "features": {
+        "title": "Servicios inmobiliarios",
+        "f1": "Compraventa de inmuebles residenciales y comerciales",
+        "f2": "Contratos de arrendamiento y gestión",
+        "f3": "Due diligence inmobiliaria",
+        "f4": "Licencias y permisos urbanísticos",
+        "f5": "Estructuración de inversiones inmobiliarias",
+        "f6": "Resolución de conflictos inmobiliarios"
+      }
     },
+
     "faq": {
       "title": "Preguntas frecuentes",
       "q1": "¿Cómo puedo solicitar una consulta inicial?",
@@ -317,45 +325,6 @@
     "description": "Nuestro equipo se pondrá en contacto contigo en menos de 24 horas para analizar tu caso.",
     "button": "PIDE PRESUPUESTO",
     "call": "LLÁMANOS"
-  },
-  "contact": {
-    "title": "Contacto",
-    "subtitle": "Hablemos sobre tu caso",
-    "description": "Estamos aquí para ayudarte. Completa el formulario y nos pondremos en contacto contigo lo antes posible.",
-    "address": {
-      "title": "Andorra",
-      "line1": "Av. Prat de la Creu 59-65, AD500"
-    },
-    "dubai": {
-      "title": "Dubai",
-      "line1": "Suite 1704-1705 | South Tower, Emirates Financial Towers,",
-      "line2": "DIFC | P.O. Box 482025 | Dubai | UAE"
-    },
-    "phone": {
-      "title": "Teléfono",
-      "number": "+376 824 991"
-    },
-    "email": {
-      "title": "Email",
-      "address": "info@emindsetlaw.com"
-    },
-    "hours": {
-      "title": "Horario",
-      "schedule": "Lunes a Viernes: 9:00 - 18:00"
-    },
-    "form": {
-      "title": "Envíanos un mensaje",
-      "name": "Nombre completo",
-      "email": "Email",
-      "phone": "Teléfono",
-      "service": "Servicio de interés",
-      "message": "Mensaje",
-      "select": "Selecciona un servicio",
-      "other": "Otro",
-      "privacy": "Acepto la política de privacidad y el tratamiento de mis datos",
-      "submit": "ENVIAR MENSAJE",
-      "success": "Su mensaje ha sido enviado correctamente. Nos pondremos en contacto con usted lo antes posible."
-    }
   },
   "awards": {
     "title": "Reconocimientos",

@@ -81,8 +81,8 @@ const Services = () => {
               <div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center mb-4 group-hover:bg-primary transition-colors duration-300">
                 <FontAwesomeIcon icon={faLightbulb} className="service-icon text-2xl text-primary group-hover:text-white" />
               </div>
-              <h3 className="text-lg font-bold text-gray-800 mb-2">{t('services.tech.title')}</h3>
-              <p className="text-gray-600 w-[300px] text-sm mb-4 line-clamp-2">{t('services.tech.shortDescription') || t('services.tech.description')}</p>
+              <h3 className="text-lg font-bold text-gray-800 mb-2">{t('services.nuevasTecnologias.title')}</h3>
+              <p className="text-gray-600 w-[300px] text-sm mb-4 line-clamp-2">{t('services.nuevasTecnologias.shortDescription') || t('services.nuevasTecnologias.description')}</p>
               <a href="/servicios" className="inline-flex items-center text-primary font-medium group-hover:text-primary-dark transition-colors duration-300">
                 {t('common.readMore')} <FontAwesomeIcon icon={faChevronRight} className="ml-2 transition-transform duration-300 group-hover:translate-x-1" />
               </a>
@@ -93,9 +93,9 @@ const Services = () => {
               <div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center mb-4 group-hover:bg-primary transition-colors duration-300">
                 <FontAwesomeIcon icon={faMicrochip} className="service-icon text-2xl text-primary group-hover:text-white" />
               </div>
-              <h3 className="text-lg font-bold text-gray-800 mb-2">{t('services.startups.title')}</h3>
-              <p className="text-gray-600 w-[300px] text-sm mb-4 line-clamp-2">{t('services.startups.shortDescription') || t('services.startups.description')}</p>
-              <a href="/servicios" className="inline-flex items-center text-primary font-medium group-hover:text-primary-dark transition-colors duration-300">
+              <h3 className="text-lg font-bold text-gray-800 mb-2">{t('services.startupsInnovacion.title')}</h3>
+              <p className="text-gray-600 w-[300px] text-sm mb-4 line-clamp-2">{t('services.startupsInnovacion.shortDescription') || t('services.startupsInnovacion.description')}</p>
+              <a href="/servicios/startups-innovacion" className="inline-flex items-center text-primary font-medium group-hover:text-primary-dark transition-colors duration-300">
                 {t('common.readMore')} <FontAwesomeIcon icon={faChevronRight} className="ml-2 transition-transform duration-300 group-hover:translate-x-1" />
               </a>
             </div>
@@ -117,8 +117,8 @@ const Services = () => {
               <div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center mb-4 group-hover:bg-primary transition-colors duration-300">
                 <FontAwesomeIcon icon={faShield} className="service-icon text-2xl text-primary group-hover:text-white" />
               </div>
-              <h3 className="text-lg font-bold text-gray-800 mb-2">{t('services.data.title')}</h3>
-              <p className="text-gray-600 w-[300px] text-sm mb-4 line-clamp-2">{t('services.data.shortDescription') || t('services.data.description')}</p>
+              <h3 className="text-lg font-bold text-gray-800 mb-2">{t('services.proteccionDatos.title')}</h3>
+              <p className="text-gray-600 w-[300px] text-sm mb-4 line-clamp-2">{t('services.proteccionDatos.shortDescription') || t('services.proteccionDatos.description')}</p>
               <a href="/servicios" className="inline-flex items-center text-primary font-medium group-hover:text-primary-dark transition-colors duration-300">
                 {t('common.readMore')} <FontAwesomeIcon icon={faChevronRight} className="ml-2 transition-transform duration-300 group-hover:translate-x-1" />
               </a>
@@ -129,8 +129,8 @@ const Services = () => {
               <div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center mb-4 group-hover:bg-primary transition-colors duration-300">
                 <FontAwesomeIcon icon={faChartLine} className="service-icon text-2xl text-primary group-hover:text-white" />
               </div>
-              <h3 className="text-lg font-bold text-gray-800 mb-2">{t('services.tax.title')}</h3>
-              <p className="text-gray-600 w-[300px] text-sm mb-4 line-clamp-2">{t('services.tax.shortDescription') || t('services.tax.description')}</p>
+              <h3 className="text-lg font-bold text-gray-800 mb-2">{t('services.fiscalidad.title')}</h3>
+              <p className="text-gray-600 w-[300px] text-sm mb-4 line-clamp-2">{t('services.fiscalidad.shortDescription') || t('services.fiscalidad.description')}</p>
               <a href="/servicios" className="inline-flex items-center text-primary font-medium group-hover:text-primary-dark transition-colors duration-300">
                 {t('common.readMore')} <FontAwesomeIcon icon={faChevronRight} className="ml-2 transition-transform duration-300 group-hover:translate-x-1" />
               </a>

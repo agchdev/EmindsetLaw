@@ -27,19 +27,19 @@ const Servicios = () => {
       delay: 0
     },
     {
-      id: 'tech',
+      id: 'nuevasTecnologias',
       icon: faLightbulb,
-      title: 'services.tech.title',
-      description: 'services.tech.description',
+      title: 'services.nuevasTecnologias.title',
+      description: 'services.nuevasTecnologias.description',
       color: 'bg-primary/10',
       textColor: 'text-primary',
       delay: 100
     },
     {
-      id: 'startups',
+      id: 'startupsInnovacion',
       icon: faMicrochip,
-      title: 'services.startups.title',
-      description: 'services.startups.description',
+      title: 'services.startupsInnovacion.title',
+      description: 'services.startupsInnovacion.description',
       color: 'bg-primary/10',
       textColor: 'text-primary',
       delay: 200
@@ -54,22 +54,31 @@ const Servicios = () => {
       delay: 300
     },
     {
-      id: 'data',
+      id: 'proteccionDatos',
       icon: faShield,
-      title: 'services.data.title',
-      description: 'services.data.description',
+      title: 'services.proteccionDatos.title',
+      description: 'services.proteccionDatos.description',
       color: 'bg-primary/10',
       textColor: 'text-primary',
       delay: 400
     },
     {
-      id: 'tax',
+      id: 'fiscalidad',
       icon: faChartLine,
-      title: 'services.tax.title',
-      description: 'services.tax.description',
+      title: 'services.fiscalidad.title',
+      description: 'services.fiscalidad.description',
       color: 'bg-primary/10',
       textColor: 'text-primary',
       delay: 500
+    },
+    {
+      id: 'realestate',
+      icon: faGlobe,
+      title: 'services.realestate.title',
+      description: 'services.realestate.description',
+      color: 'bg-primary/10',
+      textColor: 'text-primary',
+      delay: 600
     }
   ];
 

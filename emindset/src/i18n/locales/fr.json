@@ -64,85 +64,106 @@
     "copyright": "Tous droits réservés."
   },
   "contact_section": {
-    "title": "Contactez-nous",
-    "subtitle": "Nous sommes là pour vous aider",
-    "description": "Notre équipe d'avocats spécialisés est prête à vous aider dans vos besoins juridiques. Contactez-nous dès aujourd'hui pour une consultation personnalisée.",
-    "offices": {
-      "subtitle": "NOS BUREAUX",
-      "title": "Où nous trouver",
-      "description": "Nous disposons de bureaux dans trois emplacements stratégiques pour répondre à vos besoins juridiques."
-    },
-    "now": "Contacter maintenant",
-    "help": "Besoin d'aide immédiate?",
-    "language": "Sélectionner la langue",
-    "address": {
-      "title": "Andorre",
-      "line1": "Av. Prat de la Creu 59-65, AD500"
-    },
-    "phone": {
-      "title": "Téléphone",
-      "number": "+376 824 991"
-    },
-    "email": {
-      "title": "Email",
-      "address": "info@emindsetlaw.com"
-    },
-    "hours": {
-      "title": "Horaires",
-      "schedule": "Lundi à Vendredi: 9:00 - 19:00"
-    },
-    "form": {
-      "title": "Prenez contact",
-      "description": "Remplissez le formulaire et nous vous contacterons dès que possible pour vous aider avec vos besoins juridiques.",
-      "name": "Nom",
-      "company": "Entreprise",
-      "email": "Email",
-      "phone": "Téléphone",
-      "subject": "Sujet",
-      "message": "Message",
-      "optional": "optionnel",
-      "sending": "Envoi...",
-      "submit": "Envoyer le message",
-      "service": "Service d'intérêt",
-      "select": "Sélectionnez un service",
-      "other": "Autre",
-      "send": "Envoyer le message",
-      "privacy": "J'accepte la politique de confidentialité et le traitement de mes données",
-      "success": "Votre message a été envoyé avec succès. Nous vous contacterons dès que possible."
-    }
+  "title": "Contactez-nous",
+  "subtitle": "Nous sommes là pour vous aider",
+  "button": "Demandez un devis",
+  "description": "Notre équipe d’avocats spécialisés est prête à vous conseiller selon vos besoins juridiques. Contactez-nous dès aujourd’hui pour une consultation personnalisée.",
+  "offices": {
+    "subtitle": "NOS BUREAUX",
+    "title": "Où nous trouver",
+    "description": "Nous avons des bureaux situés à trois emplacements stratégiques pour répondre à vos besoins juridiques."
   },
+  "now": "Contacter maintenant",
+  "help": "Besoin d’aide immédiate ?",
+  "language": "Choisir la langue",
+  "address": {
+    "title": "Andorre",
+    "line1": "Av. Prat de la Creu 59-65, AD500"
+  },
+  "dubai": {
+    "title": "Dubaï",
+    "line1": "Suite 1704-1705 | South Tower, Emirates Financial Towers,",
+    "line2": "DIFC | P.O. Box 482025 | Dubaï | É.A.U."
+  },
+  "phone": {
+    "title": "Téléphone",
+    "number": "+376 824 991"
+  },
+  "email": {
+    "title": "Email",
+    "address": "info@emindsetlaw.com"
+  },
+  "hours": {
+    "title": "Horaires",
+    "schedule": "Lundi à Vendredi : 9h00 - 18h00"
+  },
+  "form": {
+    "title": "Contactez-nous",
+    "description": "Remplissez le formulaire et nous vous contacterons dans les plus brefs délais pour vous aider avec vos besoins juridiques.",
+    "name": "Nom",
+    "company": "Entreprise",
+    "email": "Adresse email",
+    "phone": "Téléphone",
+    "subject": "Objet",
+    "message": "Message",
+    "optional": "optionnel",
+    "sending": "Envoi en cours...",
+    "submit": "Envoyer le message",
+    "service": "Service d’intérêt",
+    "select": "Sélectionnez un service",
+    "other": "Autre",
+    "send": "Envoyer le message",
+    "privacy": "J’accepte la politique de confidentialité et le traitement de mes données",
+    "success": "Votre message a bien été envoyé. Nous vous contacterons dès que possible."
+  }
+}
+,
   "services": {
-    "title": "Nos services",
+    "title": "NOS SERVICES",
     "subtitle": "Solutions Juridiques",
+    "features": "Services inclus",
+    "contactCta": "Demander conseil",
     "corporate": {
-      "title": "Droit des Affaires",
+      "title": "Droit Commercial & Sociétaire",
       "shortDescription": "Conseil juridique intégral pour les entreprises à toutes les phases de développement.",
-      "description": "Conseil complet sur les opérations sociétaires et commerciales"
+      "description": "Nous offrons un conseil juridique intégral pour les particuliers et les entreprises à toutes les phases de développement, de la constitution aux processus de fusion, acquisition ou liquidation. Nous optimisons la structure sociétaire pour assurer la protection patrimoniale et l'efficacité fiscale.",
+      "features": {
+        "title": "Services commerciaux et sociétaires",
+        "f1": "Constitution de sociétés et restructurations",
+        "f2": "Pactes d'actionnaires et gouvernance d'entreprise",
+        "f3": "Due diligence et audits juridiques",
+        "f4": "Contrats commerciaux et négociations",
+        "f5": "Opérations de M&A et joint ventures",
+        "f6": "Secrétariat juridique et conformité réglementaire"
+      }
     },
-    "realestate": {
-      "title": "Immobilier",
-      "shortDescription": "Conseil juridique pour les transactions immobilières et l'urbanisme.",
-      "description": "Gestion des opérations immobilières nationales et internationales"
-    },
-    "tech": {
+    "nuevasTecnologias": {
       "title": "Nouvelles Technologies",
       "shortDescription": "Conseil spécialisé en droit numérique, blockchain et tokenisation d'actifs.",
-      "description": "Solutions juridiques pour les entreprises technologiques et les startups"
+      "description": "Nous aidons les entreprises innovantes à naviguer dans le cadre réglementaire complexe des nouvelles technologies. Notre conseil couvre la blockchain, la tokenisation d'actifs, les contrats intelligents, la FinTech et les technologies émergentes dans le cadre juridique en vigueur.",
+      "features": {
+        "title": "Services en droit technologique",
+        "f1": "Cadre juridique de la blockchain et des crypto-actifs",
+        "f2": "Tokenisation d'actifs et émission de NFTs",
+        "f3": "Conformité réglementaire pour la FinTech",
+        "f4": "Contrats intelligents et DAOs",
+        "f5": "Conseil en Web3 et Métavers",
+        "f6": "Défense devant les organismes régulateurs"
+      }
     },
-    "tax": {
-      "title": "Fiscalité",
-      "shortDescription": "Optimisation fiscale légale pour les personnes physiques et morales au niveau national et international.",
-      "description": "Optimisation fiscale et planification patrimoniale internationale"
-    },
-    "data": {
-      "title": "Protection des Données",
-      "shortDescription": "Mise en oeuvre de mesures de conformité en protection des données et confidentialité.",
-      "description": "Nous mettons en oeuvre des mesures de conformité en protection des données adaptées à votre entreprise. Nous réalisons des audits, élaborons des politiques de confidentialité, des contrats de sous-traitant et vous conseillons en cas de violation de données."
-    },
-    "startups": {
-      "title": "Startups, Innovation et Technologie",
-      "shortDescription": "Accompagnement juridique pour les entrepreneurs et les startups à toutes les étapes.",
-      "description": "Soutien juridique spécialisé pour les startups, les levées de fonds, la propriété intellectuelle et les accords de collaboration technologique."
+    "startupsInnovacion": {
+      "title": "Startups et Innovation",
+      "shortDescription": "Accompagnement juridique pour les entrepreneurs et startups à toutes les étapes.",
+      "description": "Nous accompagnons les entrepreneurs de l'idée aux tours de financement. Notre conseil comprend la structuration sociétaire, les pactes d'actionnaires, la propriété intellectuelle, la protection du savoir-faire et les négociations avec les investisseurs.",
+      "features": {
+        "title": "Services pour startups",
+        "f1": "Constitution et structuration juridique",
+        "f2": "Pactes de fondateurs et d'investisseurs",
+        "f3": "Protection de la PI et des secrets commerciaux",
+        "f4": "Conseil en tours de financement",
+        "f5": "Optimisation fiscale pour la croissance",
+        "f6": "Plan d'incitation pour les employés"
+      }
     },
     "fiscal": {
       "title": "Résidence Fiscale et Investissement",
@@ -156,6 +177,48 @@
         "f4": "Autorisations d'investissement étranger",
         "f5": "Planification patrimoniale internationale",
         "f6": "Relocalisation personnelle et d'entreprise"
+      }
+    },
+    "proteccionDatos": {
+      "title": "Protection des Données",
+      "shortDescription": "Mise en œuvre de mesures de conformité en protection des données et confidentialité.",
+      "description": "Nous mettons en œuvre des mesures de conformité en protection des données adaptées à votre entreprise. Nous réalisons des audits, élaborons des politiques de confidentialité, des contrats de sous-traitance et vous conseillons en cas de violation de données.",
+      "features": {
+        "title": "Services en protection des données",
+        "f1": "Adaptation au RGPD et à la réglementation locale",
+        "f2": "Audits de conformité",
+        "f3": "Externalisation DPO",
+        "f4": "Politiques de confidentialité et cookies",
+        "f5": "Gestion des violations de données",
+        "f6": "Transferts internationaux de données"
+      }
+    },
+    "fiscalidad": {
+      "title": "Fiscalité",
+      "shortDescription": "Optimisation fiscale légale pour les personnes physiques et morales aux niveaux national et international.",
+      "description": "Nous optimisons la fiscalité des personnes physiques et morales dans le cadre juridique en vigueur. Nous conseillons sur la fiscalité nationale et internationale, les prix de transfert, la planification patrimoniale et la représentation lors d'inspections fiscales.",
+      "features": {
+        "title": "Services fiscaux",
+        "f1": "Planification fiscale d'entreprise",
+        "f2": "Conseil en fiscalité internationale",
+        "f3": "Structuration de groupes d'entreprises",
+        "f4": "Prix de transfert",
+        "f5": "Due diligence fiscale",
+        "f6": "Défense lors d'inspections fiscales"
+      }
+    },
+    "realestate": {
+      "title": "Immobilier",
+      "shortDescription": "Conseil juridique en transactions immobilières et urbanisme.",
+      "description": "Nous fournissons un conseil juridique complet à toutes les étapes des opérations immobilières, de l'acquisition à la vente de propriétés. Nous gérons les procédures d'urbanisme, les contrats de location, les due diligence immobilières et conseillons sur les projets de développement et de construction.",
+      "features": {
+        "title": "Services immobiliers",
+        "f1": "Achat et vente de biens résidentiels et commerciaux",
+        "f2": "Contrats de location et gestion",
+        "f3": "Due diligence immobilière",
+        "f4": "Licences et permis d'urbanisme",
+        "f5": "Structuration d'investissements immobiliers",
+        "f6": "Résolution de litiges immobiliers"
       }
     }
   },
@@ -200,10 +263,10 @@
     "subtitle": "Mission et Valeurs",
     "description": "Notre engagement est de résoudre vos défis juridiques avec une approche moderne et efficace.",
     "quote": "Notre mission est d'aider et de servir les autres",
-    "statement1": "Quand vous jouez quelque chose d'important, vous n'êtes pas tranquille. Vous savez qu'un faux pas peut coûter cher.",
-    "statement2": "Chez Emindset Law, nous vous comprenons. Nous savons ce que vous ressentez. C'est pourquoi nous arrivons avec des solutions avant que le problème n'apparaisse. Parce que le pire conflit est celui qui aurait pu être évité.",
-    "statement3": "Et mieux vaut un bon accord que mille batailles. Parce que vous n'êtes pas là pour en perdre une seule.",
-    "statement4": "Nous n'éteignons pas les incendies, nous les évitons. Prévenir, aider et protéger : c'est notre véritable travail. Nous prenons soin de vous comme si votre entreprise était la nôtre. Parce qu'il ne s'agit pas de lois. Il s'agit de vous. Et de protéger ce qui vous a coûté tant à construire.",
+    "statement1": "Quand l’enjeu est important, il est difficile de rester serein. Vous savez qu’un faux pas peut vous coûter cher.",
+    "statement2": "Chez Emindset Law, nous vous comprenons. Nous savons ce que cela signifie. C’est pourquoi nous apportons des solutions avant même que les problèmes n’apparaissent. Car le pire des conflits est celui qu’on aurait pu éviter. ",
+    "statement3": "Mieux vaut un bon accord que mille batailles. Parce que vous ne pouvez pas là pour en perdre une seule.",
+    "statement4": "Nous n’éteignons pas les incendies, nous les évitons. Prévenir, accompagner, protéger : voilà notre véritable métier. Nous prenons soin de vous comme si votre entreprise était la nôtre. Parce qu’il ne s’agit pas de lois. Il s’agit de vous. Et de protéger ce que vous avez mis tant de temps à bâtir.",
     "viewMission": "Voir la mission {{number}}",
     "cta": "DÉCOUVREZ NOS VALEURS"
   },

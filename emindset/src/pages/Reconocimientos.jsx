@@ -273,16 +273,16 @@ const Reconocimientos = () => {
             <div className="absolute top-0 left-0 w-16 h-16 border-l-2 border-t-2 border-[#00b1ed]/10"></div>
             <div className="absolute bottom-0 right-0 w-16 h-16 border-r-2 border-b-2 border-[#00b1ed]/10"></div>
             
-            <h2 className="text-2xl font-bold text-gray-800 mb-6">{t('contact.title')}</h2>
+            <h2 className="text-2xl font-bold text-gray-800 mb-6">{t('contact_section.title')}</h2>
             <p className="text-gray-600 max-w-2xl mx-auto mb-10">
-              {t('contact.description')}
+              {t('contact_section.description')}
             </p>
             <div className="flex flex-wrap justify-center gap-6">
               <a 
                 href="/contacto" 
                 className="btn-hover inline-flex items-center justify-center bg-[#00b1ed] text-white font-medium px-7 py-3 rounded-full hover:bg-[#003673] transition-all duration-300 shadow-sm hover:shadow-md"
               >
-                {t('contact.button')}
+                {t('contact_section.button')}
               </a>
               <a 
                 href="/servicios" 

@@ -66,6 +66,7 @@
   "contact_section": {
     "title": "Contacta amb nosaltres",
     "subtitle": "Estem aquí per ajudar-te",
+    "button": "Demana un pressupost",
     "description": "El nostre equip d'advocats especialitzats està preparat per assessorar-te en les teves necessitats legals. Contacta amb nosaltres avui mateix per a una consulta personalitzada.",
     "offices": {
       "subtitle": "LES NOSTRES OFICINES",
@@ -117,37 +118,51 @@
     }
   },
   "services": {
-    "title": "Els nostres serveis",
+    "title": "ELS NOSTRES SERVEIS",
     "subtitle": "Solucions Legals",
+    "features": "Serveis inclosos",
+    "contactCta": "Sol·licitar assessorament",
     "corporate": {
-      "title": "Dret Corporatiu",
-      "shortDescription": "Assessorament legal integral per a empreses en totes les fases de desenvolupament.",
-      "description": "Assessorament integral en operacions societàries i mercantils"
+      "title": "Mercantil & Societari",
+      "shortDescription": "Assessorament legal integral per a empreses en totes les seves fases de desenvolupament.",
+      "description": "Oferim un assessorament legal integral per a particulars i empreses en totes les seves fases de desenvolupament, des de la constitució fins a processos de fusió, adquisició o liquidació. Optimitzem l'estructura societària per assegurar la protecció patrimonial i l'eficiència fiscal.",
+      "features": {
+        "title": "Serveis mercantils i societaris",
+        "f1": "Constitució de societats i reestructuracions",
+        "f2": "Pactes de socis i govern corporatiu",
+        "f3": "Due diligence i auditories legals",
+        "f4": "Contractes mercantils i negociacions",
+        "f5": "Operacions de M&A i joint ventures",
+        "f6": "Secretaria legal i compliment normatiu"
+      }
     },
-    "realestate": {
-      "title": "Real Estate",
-      "shortDescription": "Assessorament legal en transaccions immobiliàries i urbanisme.",
-      "description": "Gestió d'operacions immobiliàries nacionals i internacionals"
-    },
-    "tech": {
+    "nuevasTecnologias": {
       "title": "Noves Tecnologies",
       "shortDescription": "Assessorament especialitzat en dret digital, blockchain i tokenització d'actius.",
-      "description": "Solucions legals per a empreses tecnològiques i startups"
+      "description": "Ajudem a empreses innovadores a navegar el complex marc regulatori de les noves tecnologies. El nostre assessorament inclou blockchain, tokenització d'actius, contractes intel·ligents, FinTech i tecnologies emergents en el marc legal vigent.",
+      "features": {
+        "title": "Serveis en dret tecnològic",
+        "f1": "Marc legal de blockchain i criptoactius",
+        "f2": "Tokenització d'actius i emissió de NFTs",
+        "f3": "Regulatory compliance per a FinTech",
+        "f4": "Contractes intel·ligents i DAOs",
+        "f5": "Assessorament en Web3 i Metavers",
+        "f6": "Defensa davant d'organismes reguladors"
+      }
     },
-    "tax": {
-      "title": "Fiscalitat",
-      "shortDescription": "Optimització fiscal legal per a persones físiques i jurídiques a nivell nacional i internacional.",
-      "description": "Optimització fiscal i planificació patrimonial internacional"
-    },
-    "data": {
-      "title": "Protecció de Dades",
-      "shortDescription": "Implementació de mesures de compliment en protecció de dades i privacitat.",
-      "description": "Implementem mesures de compliment en protecció de dades adaptades al teu negoci. Realitzem auditories, elaborem polítiques de privacitat, contractes d'encarregat de tractament i assessorem davant possibles bretxes de seguretat."
-    },
-    "startups": {
-      "title": "Startups, Innovació i Tecnologia",
+    "startupsInnovacion": {
+      "title": "Startups i Innovació",
       "shortDescription": "Acompanyament legal per a emprenedors i startups en totes les seves etapes.",
-      "description": "Suport legal especialitzat per a startups, rondes de finançament, propietat intel·lectual i acords de col·laboració tecnològica."
+      "description": "Acompanyem els emprenedors des de la idea fins a les rondes de finançament. El nostre assessorament comprèn estructuració societària, pactes de socis, propietat intel·lectual, protecció de know-how i negociacions amb inversors.",
+      "features": {
+        "title": "Serveis per a startups",
+        "f1": "Constitució i estructuració legal",
+        "f2": "Pactes de fundadors i inversors",
+        "f3": "Protecció IP i secrets comercials",
+        "f4": "Assessorament en rondes de finançament",
+        "f5": "Optimització fiscal per al creixement",
+        "f6": "Pla d'incentius per a empleats"
+      }
     },
     "fiscal": {
       "title": "Residència Fiscal i Inversió",
@@ -161,6 +176,48 @@
         "f4": "Autoritzacions d'inversió estrangera",
         "f5": "Planificació patrimonial internacional",
         "f6": "Relocalització personal i empresarial"
+      }
+    },
+    "proteccionDatos": {
+      "title": "Protecció de Dades",
+      "shortDescription": "Implementació de mesures de compliment en protecció de dades i privacitat.",
+      "description": "Implementem mesures de compliment en protecció de dades adaptades al teu negoci. Realitzem auditories, elaborem polítiques de privacitat, contractes d'encarregat de tractament i assessorem davant possibles bretxes de seguretat.",
+      "features": {
+        "title": "Serveis en protecció de dades",
+        "f1": "Adaptació al RGPD i normativa local",
+        "f2": "Auditories de compliment",
+        "f3": "DPO Outsourcing",
+        "f4": "Polítiques de privacitat i cookies",
+        "f5": "Gestió de bretxes de seguretat",
+        "f6": "Transferències internacionals de dades"
+      }
+    },
+    "fiscalidad": {
+      "title": "Fiscalitat",
+      "shortDescription": "Optimització fiscal legal per a persones físiques i jurídiques a nivell nacional i internacional.",
+      "description": "Optimitzem la fiscalitat de persones físiques i jurídiques dins del marc legal vigent. Assessorem en fiscalitat nacional i internacional, preus de transferència, planificació patrimonial i representació davant inspeccions tributàries.",
+      "features": {
+        "title": "Serveis fiscals",
+        "f1": "Planificació fiscal corporativa",
+        "f2": "Assessorament en fiscalitat internacional",
+        "f3": "Estructuració de grups empresarials",
+        "f4": "Preus de transferència",
+        "f5": "Due diligence fiscal",
+        "f6": "Defensa davant inspeccions tributàries"
+      }
+    },
+    "realestate": {
+      "title": "Real Estate",
+      "shortDescription": "Assessorament legal en transaccions immobiliàries i urbanisme.",
+      "description": "Proporcionem assessorament legal complet en totes les etapes d'operacions immobiliàries, des de l'adquisició fins a la venda de propietats. Gestionem tràmits urbanístics, contractes d'arrendament, due diligence immobiliària i assessorem en projectes de desenvolupament i construcció.",
+      "features": {
+        "title": "Serveis immobiliaris",
+        "f1": "Compravenda d'immobles residencials i comercials",
+        "f2": "Contractes d'arrendament i gestió",
+        "f3": "Due diligence immobiliària",
+        "f4": "Llicències i permisos urbanístics",
+        "f5": "Estructuració d'inversions immobiliàries",
+        "f6": "Resolució de conflictes immobiliaris"
       }
     }
   },

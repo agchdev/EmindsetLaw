@@ -66,6 +66,7 @@
   "contact_section": {
     "title": "Contact us",
     "subtitle": "We're here to help",
+    "button": "Request a quote",
     "description": "Our team of specialized lawyers is ready to assist you with your legal needs. Contact us today for a personalized consultation.",
     "offices": {
       "subtitle": "OUR OFFICES",
@@ -117,34 +118,67 @@
     }
   },
   "services": {
-    "title": "Our services",
+    "title": "OUR SERVICES",
     "subtitle": "Legal Solutions",
+    "features": "Included services",
+    "contactCta": "Request advice",
     "corporate": {
-      "title": "Corporate & Business",
-      "shortDescription": "Comprehensive legal solutions for business development.",
-      "description": "Comprehensive legal solutions for all stages of business development"
+      "title": "Corporate & Business Law",
+      "shortDescription": "Comprehensive legal advice for companies at all stages of development.",
+      "description": "We offer comprehensive legal advice for individuals and companies at all stages of development, from formation to merger, acquisition, or liquidation processes. We optimize corporate structure to ensure asset protection and tax efficiency.",
+      "features": {
+        "title": "Corporate and business services",
+        "f1": "Company formation and restructuring",
+        "f2": "Shareholder agreements and corporate governance",
+        "f3": "Due diligence and legal audits",
+        "f4": "Commercial contracts and negotiations",
+        "f5": "M&A operations and joint ventures",
+        "f6": "Company secretarial and regulatory compliance"
+      }
     },
-    "realestate": {
-      "title": "Real Estate",
-      "shortDescription": "Expert advice on property and real estate operations.",
-      "description": "Management of national and international real estate operations"
-    },
-    "tech": {
+    "nuevasTecnologias": {
       "title": "New Technologies",
-      "shortDescription": "Legal solutions for technology companies and startups.",
-      "description": "Legal solutions for technology companies and startups"
+      "shortDescription": "Specialized advice on digital law, blockchain and asset tokenization.",
+      "description": "We help innovative companies navigate the complex regulatory framework of new technologies. Our advice covers blockchain, asset tokenization, smart contracts, FinTech, and emerging technologies within the current legal framework.",
+      "features": {
+        "title": "Technology law services",
+        "f1": "Legal framework for blockchain and crypto assets",
+        "f2": "Asset tokenization and NFT issuance",
+        "f3": "Regulatory compliance for FinTech",
+        "f4": "Smart contracts and DAOs",
+        "f5": "Web3 and Metaverse advisory",
+        "f6": "Defense before regulatory bodies"
+      }
     },
-    "tax": {
-      "title": "Taxation",
-      "shortDescription": "Tax optimization and international wealth planning.",
-      "description": "Tax optimization and international wealth planning"
+    "startupsInnovacion": {
+      "title": "Startups and Innovation",
+      "shortDescription": "Legal guidance for entrepreneurs and startups at all stages.",
+      "description": "We accompany entrepreneurs from the idea to funding rounds. Our advisory services include corporate structuring, shareholder agreements, intellectual property, know-how protection, and investor negotiations.",
+      "features": {
+        "title": "Startup services",
+        "f1": "Legal formation and structuring",
+        "f2": "Founder and investor agreements",
+        "f3": "IP protection and trade secrets",
+        "f4": "Funding round advisory",
+        "f5": "Tax optimization for growth",
+        "f6": "Employee incentive plans"
+      }
     },
-    "startups": {
-      "title": "Startups, Innovation and Technology",
-      "shortDescription": "Specialized legal support for innovative businesses.",
-      "description": "Specialized legal support for startups, funding rounds, intellectual property and technological collaboration agreements."
+    "fiscal": {
+      "title": "Tax Residency and Investment",
+      "shortDescription": "Specialized advice on international tax residency and strategic investments.",
+      "description": "We are specialists in international tax residency and investment processes. We offer comprehensive advice on tax optimization, foreign investment, relocation, and regulatory compliance across different jurisdictions.",
+      "features": {
+        "title": "Tax Residency and Investment Services",
+        "f1": "Obtaining international tax residency",
+        "f2": "Company formation in strategic jurisdictions",
+        "f3": "International tax and accounting management",
+        "f4": "Foreign investment authorizations",
+        "f5": "International asset planning",
+        "f6": "Personal and business relocation"
+      }
     },
-    "data": {
+    "proteccionDatos": {
       "title": "Data Protection",
       "shortDescription": "Implementation of compliance measures in data protection and privacy.",
       "description": "We implement data protection compliance measures tailored to your business. We conduct audits, develop privacy policies, data processing agreements, and advise on possible security breaches.",
@@ -158,18 +192,32 @@
         "f6": "International data transfers"
       }
     },
-    "fiscal": {
-      "title": "Tax Residency and Investment",
-      "shortDescription": "Specialized advice on international tax residency and investments.",
-      "description": "We are specialists in international tax residency and investment processes. We offer comprehensive advice on tax optimization, foreign investment, relocation, and regulatory compliance across different jurisdictions.",
+    "fiscalidad": {
+      "title": "Taxation",
+      "shortDescription": "Legal tax optimization for individuals and legal entities at national and international levels.",
+      "description": "We optimize taxation for individuals and legal entities within the current legal framework. We advise on national and international taxation, transfer pricing, asset planning, and representation in tax inspections.",
       "features": {
-        "title": "Tax Residency and Investment Services",
-        "f1": "Obtaining international tax residency",
-        "f2": "Company formation in strategic jurisdictions",
-        "f3": "International tax and accounting management",
-        "f4": "Foreign investment authorizations",
-        "f5": "International asset planning",
-        "f6": "Personal and business relocation"
+        "title": "Tax services",
+        "f1": "Corporate tax planning",
+        "f2": "International tax advisory",
+        "f3": "Business group structuring",
+        "f4": "Transfer pricing",
+        "f5": "Tax due diligence",
+        "f6": "Defense in tax inspections"
+      }
+    },
+    "realestate": {
+      "title": "Real Estate",
+      "shortDescription": "Legal advice on real estate transactions and urban planning.",
+      "description": "We provide comprehensive legal advice at all stages of real estate operations, from property acquisition to sale. We manage urban planning procedures, lease agreements, real estate due diligence, and advise on development and construction projects.",
+      "features": {
+        "title": "Real estate services",
+        "f1": "Purchase and sale of residential and commercial properties",
+        "f2": "Lease agreements and management",
+        "f3": "Real estate due diligence",
+        "f4": "Urban planning licenses and permits",
+        "f5": "Real estate investment structuring",
+        "f6": "Resolution of real estate disputes"
       }
     }
   },
@@ -229,6 +277,7 @@
     "button": "GET A QUOTE",
     "call": "CALL US"
   },
+  
   "awards": {
     "title": "Recognitions",
     "subtitle": "Awards and Distinctions",
