@@ -229,7 +229,9 @@
     "en": "English"
   },
   "common": {
-    "logo_alt": "Logo Emindset Law"
+    "logo_alt": "Logo d'Emindset Law",
+    "readMore": "Lire plus",
+    "welcome": "Bienvenue"
   },
   "testimonials": {
     "title": "Témoignages",

@@ -228,7 +228,9 @@
     "en": "English"
   },
   "common": {
-    "logo_alt": "Emindset Law Logo"
+    "logo_alt": "Emindset Law Logo",
+    "readMore": "Llegir més",
+    "welcome": "Benvingut"
   },
   "testimonials": {
     "title": "Testimonis",

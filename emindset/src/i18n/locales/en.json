@@ -229,7 +229,8 @@
   },
   "common": {
     "logo_alt": "Emindset Law Logo",
-    "readMore": "Read more"
+    "readMore": "Read more",
+    "welcome": "Welcome"
   },
   "testimonials": {
     "title": "Testimonials",
