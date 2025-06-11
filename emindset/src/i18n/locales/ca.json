@@ -247,6 +247,18 @@
     "ca": "Català",
     "en": "English"
   },
+  "newsletter": {
+    "title": "Mantén-te informat",
+    "description": "Subscriu-te per rebre les últimes notícies i actualitzacions legals directament al teu correu electrònic!",
+    "email_label": "Correu electrònic",
+    "email_placeholder": "La teva adreça d'email",
+    "subscribe": "Subscriure's",
+    "error_email": "Si us plau, introdueix una adreça d'email vàlida",
+    "error_submit": "Hi ha hagut un error en processar la teva subscripció. Si us plau, torna-ho a provar.",
+    "success_title": "Gràcies per subscriure't!",
+    "success_message": "Et mantindrem informat sobre les últimes actualitzacions",
+    "privacy_notice": "En subscriure't, acceptes la nostra"
+  },
   "common": {
     "logo_alt": "Emindset Law Logo",
     "readMore": "Llegir més",

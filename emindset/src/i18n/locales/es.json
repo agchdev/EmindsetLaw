@@ -250,6 +250,7 @@
   "newsletter": {
     "title": "Mantente informado",
     "description": "¡Suscríbete para recibir las últimas noticias y actualizaciones legales directamente en tu correo electrónico!",
+    "email_label": "Correo electrónico",
     "email_placeholder": "Tu dirección de email",
     "subscribe": "Suscribirse",
     "error_email": "Por favor, introduce una dirección de email válida",

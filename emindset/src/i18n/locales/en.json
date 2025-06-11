@@ -247,6 +247,18 @@
     "ca": "Català",
     "en": "English"
   },
+  "newsletter": {
+    "title": "Stay informed",
+    "description": "Subscribe to receive the latest legal news and updates directly in your email!",
+    "email_label": "Email",
+    "email_placeholder": "Your email address",
+    "subscribe": "Subscribe",
+    "error_email": "Please enter a valid email address",
+    "error_submit": "An error occurred while processing your subscription. Please try again.",
+    "success_title": "Thank you for subscribing!",
+    "success_message": "We'll keep you informed about the latest updates",
+    "privacy_notice": "By subscribing, you accept our"
+  },
   "common": {
     "logo_alt": "Emindset Law Logo",
     "readMore": "Read more",
