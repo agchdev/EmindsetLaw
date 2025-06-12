@@ -89,13 +89,26 @@
     "line1": "Suite 1704-1705 | South Tower, Emirates Financial Towers,",
     "line2": "DIFC | P.O. Box 482025 | Dubaï | É.A.U."
   },
+  
+  "Barcelona": {
+    "title": "Barcelone",
+    "line1": "Rambla Cataluña 88, 08008",
+    "line2": ""
+  },
+  
+  "Toulouse": {
+    "title": "Toulouse",
+    "line1": "63 rue du Colombier, 31670 Labege",
+    "line2": ""
+  },
+  
   "phone": {
     "title": "Téléphone",
     "number": "+376 824 991"
   },
   "email": {
     "title": "Email",
-    "address": "info@emindsetlaw.com"
+    "address": "contacto@emindsetlaw.com"
   },
   "hours": {
     "title": "Horaires",
