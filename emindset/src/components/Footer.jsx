@@ -73,18 +73,18 @@ const Footer = () => {
             <div className="space-y-3">
               <div>
                 <p className="font-medium">{t('footer.offices.andorra')}</p>
-                <p className="text-sm">Av. Prat de la Creu 59-65, AD500</p>
-                <p className="text-sm">+376 678 882</p>
+                <p className="text-sm">Carrer Prat de la Creu 59-65, Edificio Prat de la Creu, Bloc A, 4 1ª, AD500 Andorra la Vella</p>
+                <p className="text-sm">+376 728882 o +376 678882 (whatsapp)</p>
               </div>
               <div>
                 <p className="font-medium">{t('footer.offices.barcelona')}</p>
                 <p className="text-sm">Rambla Cataluña 88, 08008</p>
-                <p className="text-sm">+34 932 123 456</p>
+                <p className="text-sm">+376 728882 o +376 678882 (whatsapp)</p>
               </div>
               <div>
                 <p className="font-medium">{t('footer.offices.toulouse')}</p>
                 <p className="text-sm">63 rue du Colombier, 31670 Labege</p>
-                <p className="text-sm">+33 534 123 456</p>
+                <p className="text-sm">+376 728882 o +376 678882 (whatsapp)</p>
               </div>
               <div>
                 <p className="font-medium">{t('footer.offices.dubai')}</p>

@@ -82,16 +82,24 @@
     "language": "Select language",
     "address": {
       "title": "Andorra",
-      "line1": "Av. Prat de la Creu 59-65, AD500"
+      "line1": "Carrer Prat de la Creu 59-65, Edificio Prat de la Creu, Bloc A, 4 1ª, AD500 Andorra la Vella"
     },
     "dubai": {
       "title": "Dubai",
       "line1": "Suite 1704-1705 | South Tower, Emirates Financial Towers,",
       "line2": "DIFC | P.O. Box 482025 | Dubai | UAE"
     },
+    "Barcelona": {
+      "title": "Barcelona",
+      "line1": "Rambla Catalunya 88, 08008"
+    },
+    "Toulouse": {
+      "title": "Toulouse",
+      "line1": "63 rue du Colombier, 31670 Labege"
+    },
     "phone": {
       "title": "Phone",
-      "number": "+376 824 991"
+      "number": "+376 728882 or +376 678882 (whatsapp)"
     },
     "email": {
       "title": "Email",
@@ -99,7 +107,7 @@
     },
     "hours": {
       "title": "Hours",
-      "schedule": "Monday to Friday: 9:00 - 18:00"
+      "schedule": "Monday to Thursday: 9:00 - 17:00, Friday: 9:00 - 15:00"
     },
     "form": {
       "title": "Get in touch",
@@ -471,7 +479,7 @@
     "title": "Legal Notice",
     "section1_title": "1.- INFORMATION AND ACCEPTANCE",
     "section1_p1": "These provisions regulate the use of the service of www.emindsetlaw.com (hereinafter, the \"Website\"), which EMINDSET LAW FIRM, S.L. (hereinafter, \"Emindset Law\" or the \"Firm\") makes available to Internet users.",
-    "section1_p2": "Emindset Law, with registered office in Andorra la Vella, C/ Prat de la Creu 59-65, Ed. Prat de la Creu, Staircase A, Floor 4, Office 1A (AD500) ANDORRA and N.R.T. L711141C, is registered in the Andorra Company Registry with number 16035 and Commerce Registry with number 927360-J. Phone: +376728882. Email: contact@emindsetlaw.com",
+    "section1_p2": "Emindset Law, with registered office in Andorra la Vella, Carrer Prat de la Creu 59-65, Edificio Prat de la Creu, Bloc A, 4 1ª, AD500 Andorra la Vella, ANDORRA and N.R.T. L711141C, is registered in the Andorra Company Registry with number 16035 and Commerce Registry with number 927360-J. Phone: +376 728882 or +376 678882 (whatsapp). Email: contact@emindsetlaw.com",
     "section1_p3": "Access to the Website is free except for the cost of the connection through the telecommunications network supplied by the access provider contracted by users. Certain services are exclusive to our clients and their access is restricted. The legal or tax services provided by the Firm have the price indicated in the corresponding professional services proposal and in no case are offered or provided through the Website service.",
     "section1_p4": "The use of the Website attributes the status of user of the Website (hereinafter, the \"User\") and implies acceptance of all the conditions included in this legal notice which regulate the conditions of use (hereinafter, the \"Conditions of Use\"). The provision of the Website service has a duration limited to the moment in which the User is connected to the Website or to any of the services that are provided through it. Therefore, the User must carefully read this Legal Notice on each of the occasions when they intend to use the Website, as it and its Conditions of Use may undergo modifications.",
     "section1_p5": "Some services of the Website accessible to Internet users or exclusive to Emindset Law clients may be subject to particular conditions, regulations, and instructions which, where applicable, replace, complete and/or modify this Legal Notice and must be accepted by the User before the provision of the corresponding services begins.",

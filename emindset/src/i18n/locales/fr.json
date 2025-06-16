@@ -82,29 +82,28 @@
   "language": "Choisir la langue",
   "address": {
     "title": "Andorre",
-    "line1": "Av. Prat de la Creu 59-65, AD500"
-  },
-  "dubai": {
-    "title": "Dubaï",
-    "line1": "Suite 1704-1705 | South Tower, Emirates Financial Towers,",
-    "line2": "DIFC | P.O. Box 482025 | Dubaï | É.A.U."
-  },
-  
-  "Barcelona": {
-    "title": "Barcelone",
-    "line1": "Rambla Cataluña 88, 08008",
+    "line1": "Carrer Prat de la Creu 59-65, Edificio Prat de la Creu, Bloc A, 4 1ª, AD500 Andorra la Vella",
     "line2": ""
   },
-  
+  "Barcelona": {
+    "title": "Barcelone",
+    "line1": "Rambla Catalunya 88, 08008",
+    "line2": ""
+  },
   "Toulouse": {
     "title": "Toulouse",
     "line1": "63 rue du Colombier, 31670 Labege",
     "line2": ""
   },
+  "dubai": {
+    "title": "Dubaï",
+    "line1": "Suite 1704-1705 | South Tower, Emirates Financial Towers,",
+    "line2": "DIFC | P.O. Box 482025 | Dubaï | EAU"
+  },
   
   "phone": {
     "title": "Téléphone",
-    "number": "+376 824 991"
+    "number": "+376 728882 ou +376 678882 (whatsapp)"
   },
   "email": {
     "title": "Email",
@@ -112,7 +111,7 @@
   },
   "hours": {
     "title": "Horaires",
-    "schedule": "Lundi à Vendredi : 9h00 - 18h00"
+    "schedule": "Lundi à Jeudi : 9h00 - 17h00, Vendredi : 9h00 - 15h00"
   },
   "form": {
     "title": "Contactez-nous",
@@ -479,7 +478,7 @@
     "title": "Mentions Légales",
     "section1_title": "1.- INFORMATION ET ACCEPTATION",
     "section1_p1": "Les présentes dispositions régissent l'utilisation du service de www.emindsetlaw.com (ci-après, le \"Site Web\"), que EMINDSET LAW FIRM, S.L. (ci-après, \"Emindset Law\" ou la \"Société\") met à la disposition des utilisateurs d'Internet.",
-    "section1_p2": "Emindset Law, dont le siège social est situé à Andorre-la-Vieille, C/ Prat de la Creu 59-65, Ed. Prat de la Creu, Escalier A, Étage 4, Bureau 1A (AD500) ANDORRE et N.R.T. L711141C, est inscrite au Registre des Sociétés d'Andorre sous le numéro 16035 et au Registre du Commerce sous le numéro 927360-J. Téléphone : +376728882. Email : contact@emindsetlaw.com",
+    "section1_p2": "Emindset Law, dont le siège social est situé à Andorre-la-Vieille, Carrer Prat de la Creu 59-65, Edificio Prat de la Creu, Bloc A, 4 1ª, AD500 Andorra la Vella, ANDORRE et N.R.T. L711141C, est inscrite au Registre des Sociétés d'Andorre sous le numéro 16035 et au Registre du Commerce sous le numéro 927360-J. Téléphone : +376 728882 ou +376 678882 (whatsapp). Email : contact@emindsetlaw.com",
     "section1_p3": "L'accès au Site Web est gratuit, hormis le coût de la connexion via le réseau de télécommunications fourni par le fournisseur d'accès contracté par les utilisateurs. Certains services sont exclusifs à nos clients et leur accès est restreint. Les services juridiques ou fiscaux fournis par la Société ont généralement le prix indiqué dans la proposition de services professionnels correspondante et ne sont en aucun cas offerts ou fournis via le service du Site Web.",
     "section1_p4": "L'utilisation du Site Web confère le statut d'utilisateur du Site Web (ci-après, l'\"Utilisateur\") et implique l'acceptation de toutes les conditions incluses dans cette notice légale qui régissent les conditions d'utilisation (ci-après, les \"Conditions d'Utilisation\"). La prestation du service du Site Web a une durée limitée au moment où l'Utilisateur est connecté au Site Web ou à l'un des services qui sont fournis par son intermédiaire. Par conséquent, l'Utilisateur doit lire attentivement le présent Avis Légal chaque fois qu'il se propose d'utiliser le Site Web, car celui-ci et ses Conditions d'Utilisation peuvent subir des modifications.",
     "section1_p5": "Certains services du Site Web accessibles aux utilisateurs d'Internet ou exclusifs aux clients d'Emindset Law peuvent être soumis à des conditions particulières, des règlements et des instructions qui, le cas échéant, remplacent, complètent et/ou modifient le présent Avis Légal et qui doivent être acceptés par l'Utilisateur avant de commencer la prestation du service correspondant.",
