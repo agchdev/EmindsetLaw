@@ -111,19 +111,19 @@ const Contacto = () => {
     {
       ciudad: 'Andorra',
       direccion: 'Av. Prat de la Creu 59-65, edf. Prat de la Creu, Escala A, Planta 4- 1A, AD500',
-      telefono: '+376 123 456',
+      telefono: '+376 728882 o +376 678882 (whatsapp)',
       email: 'andorra@emindsetlaw.com'
     },
     {
       ciudad: 'Barcelona',
       direccion: 'Rambla Cataluña 88, 1ª planta, 08008 Barcelona',
-      telefono: '+34 932 123 456',
+      telefono: '+376 728882 o +376 678882 (whatsapp)',
       email: 'barcelona@emindsetlaw.com'
     },
     {
       ciudad: 'Toulouse',
       direccion: '63 rue du Colombier, 31670 Labege, Francia',
-      telefono: '+33 534 123 456',
+      telefono: '+376 728882 o +376 678882 (whatsapp)',
       email: 'toulouse@emindsetlaw.com'
     }
   ];
@@ -175,12 +175,6 @@ const Contacto = () => {
                     <p className="text-gray-600">
                       {oficina.telefono}
                     </p>
-                  </div>
-                  <div className="flex items-center">
-                    <FontAwesomeIcon icon={faEnvelope} className="text-[#00b1ed] mr-3" />
-                    <a href={`mailto:${oficina.email}`} className="text-[#00b1ed] hover:underline">
-                      {oficina.email}
-                    </a>
                   </div>
                 </div>
               </div>
@@ -287,11 +281,11 @@ const Contacto = () => {
                         className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:border-[#00b1ed]"
                         required
                       >
-                        <option value="">{t('contact_section.form.select_service')}</option>
-                        <option value="consulta">{t('contact_section.form.services.consultation')}</option>
-                        <option value="juridico">{t('contact_section.form.services.legal')}</option>
-                        <option value="fiscal">{t('contact_section.form.services.tax')}</option>
-                        <option value="otro">{t('contact_section.form.services.other')}</option>
+                        <option value="">{t('contact_section.form.select')}</option>
+                        <option value="mercantil">{t('services.corporate.title')}</option>
+                        <option value="real-estate">{t('services.realestate.title')}</option>
+                        <option value="tech">{t('services.tech.title')}</option>
+                        <option value="other">{t('contact_section.form.other')}</option>
                       </select>
                     </div>
                     
@@ -318,7 +312,7 @@ const Contacto = () => {
                           className="mr-2 h-5 w-5 text-[#00b1ed]"
                           required
                         />
-                        <span className="text-gray-700">{t('contact_section.form.privacy_accept')} <a href="/politica-privacidad" className="text-[#00b1ed] hover:underline">{t('contact_section.form.privacy_policy')}</a>.</span>
+                        <span className="text-gray-700">{t('contact_section.form.privacy')} <a href="/politica-privacidad" className="text-[#00b1ed] hover:underline">*</a>.</span>
                       </label>
                     </div>
                     
